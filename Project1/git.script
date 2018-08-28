@@ -1,0 +1,178 @@
+Script started on Mon 27 Aug 2018 08:12:11 PM CDT
+]0;carmella@carmella-Inspiron-N5110: ~/Documents[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents[00m$ git clone https://github.com/NoahN edz/OperatingSystems.git
+Cloning into 'OperatingSystems'...
+remote: Counting objects: 26, done.[K
+remote: Compressing objects:   5% (1/19)   [Kremote: Compressing objects:  10% (2/19)   [Kremote: Compressing objects:  15% (3/19)   [Kremote: Compressing objects:  21% (4/19)   [Kremote: Compressing objects:  26% (5/19)   [Kremote: Compressing objects:  31% (6/19)   [Kremote: Compressing objects:  36% (7/19)   [Kremote: Compressing objects:  42% (8/19)   [Kremote: Compressing objects:  47% (9/19)   [Kremote: Compressing objects:  52% (10/19)   [Kremote: Compressing objects:  57% (11/19)   [Kremote: Compressing objects:  63% (12/19)   [Kremote: Compressing objects:  68% (13/19)   [Kremote: Compressing objects:  73% (14/19)   [Kremote: Compressing objects:  78% (15/19)   [Kremote: Compressing objects:  84% (16/19)   [Kremote: Compressing objects:  89% (17/19)   [Kremote: Compressing objects:  94% (18/19)   [Kremote: Compressing objects: 100% (19/19)   [Kremote: Compressing objects: 100% (19/19), done.[K
+remote: Total 26 (delta 7), reused 22 (delta 5), pack-reused 0[K
+Unpacking objects:   3% (1/26)   Unpacking objects:   7% (2/26)   Unpacking objects:  11% (3/26)   Unpacking objects:  15% (4/26)   Unpacking objects:  19% (5/26)   Unpacking objects:  23% (6/26)   Unpacking objects:  26% (7/26)   Unpacking objects:  30% (8/26)   Unpacking objects:  34% (9/26)   Unpacking objects:  38% (10/26)   Unpacking objects:  42% (11/26)   Unpacking objects:  46% (12/26)   Unpacking objects:  50% (13/26)   Unpacking objects:  53% (14/26)   Unpacking objects:  57% (15/26)   Unpacking objects:  61% (16/26)   Unpacking objects:  65% (17/26)   Unpacking objects:  69% (18/26)   Unpacking objects:  73% (19/26)   Unpacking objects:  76% (20/26)   Unpacking objects:  80% (21/26)   Unpacking objects:  84% (22/26)   Unpacking objects:  88% (23/26)   Unpacking objects:  92% (24/26)   Unpacking objects:  96% (25/26)   Unpacking objects: 100% (26/26)   Unpacking objects: 100% (26/26), done.
+Checking connectivity... done.
+]0;carmella@carmella-Inspiron-N5110: ~/Documents[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents[00m$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+]0;carmella@carmella-Inspiron-N5110: ~/Documents[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents[00m$ ls OperatingSystems/
+[0m[01;34mProject1[0m  simple.c
+]0;carmella@carmella-Inspiron-N5110: ~/Documents[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents[00m$ cd OperatingSystems/
+]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems[00m$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems[00m$ git add Rea[K[KeA[K[KEAS[KDME.tx t
+fatal: pathspec 'README.txt' did not match any files
+]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems[00m$ touch README>[K.txt
+]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems[00m$ git add Rea[K[K[KE[KREADME,tx t[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kc[Kvim README.txt 
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"README.txt" 0L, 0C[>c[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[27m[23m[m[H[2J[?25l[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll"README.txt" 0L, 0C[1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[24;1H[97m[41mE353: Nothing in register "[m[24;63H[K[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;4H[97m[41m: No previous regular expression[m[24;63H[K[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[1mrecording @q[m[24;13H[K[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[1m--c INSERT --[m [1mrecording @q[m[24;63H[K[24;63H0,1[11CAll[1;1H[?12l[?25h[?25ld[24;63H1,2[1;2H[?12l[?25h[?25ls[24;65H3[1;3H[?12l[?25h[?25ld[24;65H4[1;4H[?12l[?25h[?25la[24;65H5[1;5H[?12l[?25h[?25ld[24;65H6[1;6H[?12l[?25h[?25ls[24;65H7[1;7H[?12l[?25h[?25la[24;65H8[1;8H[?12l[?25h[?25l[1;7H[K[24;65H7[1;7H[?12l[?25h[?25l[1;6H[K[24;65H6[1;6H[?12l[?25h[?25l[1;5H[K[24;65H5[1;5H[?12l[?25h[?25l[1;4H[K[24;65H4[1;4H[?12l[?25h[?25l[1;3H[K[24;65H3[1;3H[?12l[?25h[?25l[1;2H[K[24;65H2[1;2H[?12l[?25h[?25l[1;1H[K[24;65H1[1;1H[?12l[?25h[?25lP[24;65H2[1;2H[?12l[?25h[?25lR[24;65H3[1;3H[?12l[?25h[?25lO[24;65H4[1;4H[?12l[?25h[?25lJ[24;65H5[1;5H[?12l[?25h[?25lE[24;65H6[1;6H[?12l[?25h[?25lC[24;65H7[1;7H[?12l[?25h[?25lT[24;65H8[1;8H[?12l[?25h[?25l[24;65H9[1;9H[?12l[?25h[?25l1[24;65H10[1;10H[?12l[?25h[?25l[24;66H1[1;11H[?12l[?25h[?25lR[24;66H2[1;12H[?12l[?25h[?25lE[24;66H3[1;13H[?12l[?25h[?25lA[24;66H4[1;14H[?12l[?25h[?25lD[24;66H5[1;15H[?12l[?25h[?25l[24;66H6[1;16H[?12l[?25h[?25lM[24;66H7[1;17H[?12l[?25h[?25lE[24;66H8[1;18H[?12l[?25h[?25l[2;1H[K[24;63H2,1 [2;1H[?12l[?25h[?25lA[24;65H2[2;2H[?12l[?25h[?25lU[24;65H3[2;3H[?12l[?25h[?25lT[24;65H4[2;4H[?12l[?25h[?25lH[24;65H5[2;5H[?12l[?25h[?25lO[24;65H6[2;6H[?12l[?25h[?25lR[24;65H7[2;7H[?12l[?25h[?25l[24;65H8[2;8H[?12l[?25h[?25l[24;65H7[2;7H[?12l[?25h[?25l:[24;65H8[2;8H[?12l[?25h[?25l[24;65H9[2;9H[?12l[?25h[?25lN[24;65H10[2;10H[?12l[?25h[?25lN[24;66H1[2;11H[?12l[?25h[?25lO[24;66H2[2;12H[?12l[?25h[?25lA[24;66H3[2;13H[?12l[?25h[?25lH[24;66H4[2;14H[?12l[?25h[?25l[2;13H[K[24;66H3[2;13H[?12l[?25h[?25l[2;12H[K[24;66H2[2;12H[?12l[?25h[?25l[2;11H[K[24;66H1[2;11H[?12l[?25h[?25l[2;10H[K[24;66H0[2;10H[?12l[?25h[?25lO[24;66H1[2;11H[?12l[?25h[?25lA[24;66H2[2;12H[?12l[?25h[?25lH[24;66H3[2;13H[?12l[?25h[?25l[24;66H4[2;14H[?12l[?25h[?25lN[24;66H5[2;15H[?12l[?25h[?25lI[24;66H6[2;16H[?12l[?25h[?25lE[24;66H7[2;17H[?12l[?25h[?25lD[24;66H8[2;18H[?12l[?25h[?25lZ[24;66H9[2;19H[?12l[?25h[?25lW[24;65H20[2;20H[?12l[?25h[?25lI[24;66H1[2;21H[?12l[?25h[?25lE[24;66H2[2;22H[?12l[?25h[?25lC[24;66H3[2;23H[?12l[?25h[?25lK[24;66H4[2;24H[?12l[?25h[?25lI[24;66H5[2;25H[?12l[?25h[?25l[3;1H[K[24;63H3,1 [3;1H[?12l[?25h[?25lq[24;65H2[3;2H[?12l[?25h[?25l[3;1H[K[24;65H1[3;1H[?12l[?25h[24;1H[1mrecording @qr[m[24;13H[K[3;1H[?25l[24;63H3,0-1[9CAll[3;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hw[?25l[?12l[?25h[?25l"README.txt" 3L, 44C written[1mrecording @q[m[24;14H[K[24;63H3,0-1[9CAll"README.txt" 3L, 44C written[24;63H[K[24;63H3,0-1[9CAll[3;1H[?12l[?25h[?25l[24;1H[K[24;63H3,0-1[9CAll[3;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h~[?25l[?12l[?25h[?25l[24;3H[K[24;3H[?12l[?25h![?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems[00m$ git add README.txtt 
+]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems[00m$ git tou[K[K[K[K[K[K[Ktouch CONTRIBUTIN G.t[Kmd
+]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems[00m$ vim Con[K[KONTRIBUTING.mmd [K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit add Con[K[KONTRIBUTIING.md 
+]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems[00m$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   CONTRIBUTING.md[m
+	[32mnew file:   README.txt[m
+
+]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems[00m$ git diff
+[?1h=[K[?1l>]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems[00m$ git
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Forward-port local commits to the updated upstream head
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems[00m$ git diff
+[?1h=[K[?1l>]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems[00m$ git commit "added  git if[K[Kfiles'[K"
+error: pathspec 'added git files' did not match any file(s) known to git.
+]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems[00m$ git commit
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ][3d(B[m[22;32H(B[0;7m[ Read 10 lines[13d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3 File: ...uments/OperatingSystems/.git/COMMIT_EDITMSG           [4;1H(B[m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d# On branch master[7d# Your branch is up-to-date with 'origin/master'.[8d#[9d# Changes to be committed:[10d#[9Gnew file:   CONTRIBUTING.md[11d#[9Gnew file:   README.txt[12d#[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[1;71H(B[0;7mModified[3d(B[madding readme      README[22d[K[3;15Hand CONTRIBUTING[?25lMain nano help text[K[4d[K[5d The nano editor is designed to emulate the functionality and ease-of-use[6d of the UW Pico text editor.  There are four main sections of the editor.[7d The top line shows the program version, the current filename being[8d edited, and whether or not the file has been modified.  Next is the main[9d editor window showing the file being edited.  The status line is the[10d third line from the bottom and shows important messages.  The bottom two[11d lines show the most commonly used shortcuts in the editor.[12d[K[13d The notation for shortcuts is as follows: Control-key sequences are[14d notated with a caret (^) symbol and can be entered either by using the[15d Control (Ctrl) key or pressing the Escape (Esc) key twice.  Escape-key[16d sequences are notated with the Meta (M-) symbol and can be entered using[17d either the Esc, Alt, or Meta key depending on your keyboard setup.  Also,[18d pressing Esc twice and then typing a three-digit decimal number from 000[19d to 255 will enter the character with the corresponding value.  The[20d following keystrokes are available in the main editor window.[21d Alternative keys are shown in parentheses:[23;2H(B[0;7mX(B[m Exit             (B[0;7m^P(B[m Prev Line        (B[0;7m^Y(B[m Prev Page        (B[0;7mM-\(B[m First Line[K[24;2H(B[0;7mL(B[m Refresh          (B[0;7m^N(B[m Next Line        (B[0;7m^V(B[m Next Page        (B[0;7mM-/(B[m Last Line[K[21;44H[?12l[?25h[3dadding README and CONTRIBUTING[4d# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[K[6d# On branch master[K[7d# Your branch is up-to-date with 'origin/master'.[K[8d#[K[9d# Changes to be committed:[K[10d#       new file:   CONTRIBUTING.md[K[11d#       new file:   README.txt[K[12d#[13d[K[14d[K[15d[K[16d[K[17d[K[18d[K[19d[K[20d[K[21d[K[23;2H(B[0;7mG(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3;31H[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write:$SG                                      [23d^G(B[m Get Help     (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G(B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[22;23H(B[0;7ms(B[m(B[0;7md(B[m(B[0;7ms(B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m /home/carmella/Documents/OperatingSystems/.git/COMMIT_EDIT(B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m[?25l[22;33H[1K (B[0;7m[ Cancelled ](B[m[K[3;31H[?12l[?25h[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3;31H[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write:$SG                                      [23d^G(B[m Get Help     (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G(B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[22;23H(B[0;7m (B[m(B[0;7m (B[m(B[0;7m /home/carmella/Documents/OperatingSystems/.git/COMMIT_EDIT(B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m[?25l[22;33H[1K (B[0;7m[ Cancelled ](B[m[K[3;31H[?12l[?25h[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3;31H[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H[J[24;80H[24;1H[?1049l[?1l>Aborting commit due to empty commit message.
+]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems[00m$ git commit -m "R[KaA [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[KAd ded Read[K[K[KEADN[KME"
+[master fb8a082] Added README
+ 2 files changed, 3 insertions(+)
+ create mode 100644 CONTRIBUTING.md
+ create mode 100644 README.txt
+]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems[00m$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': NoahNi edz
+Password for 'https://NoahNedz@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 431 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/NoahNedz/OperatingSystems.git
+   4843d14..fb8a082  master -> master
+]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems[00m$ git log
+[?1h=[33mcommit fb8a08203ec1115d8f2c2eda369924cb2af00c19[m[m
+Author: Noah Nedz <noahnedz@live.com>[m
+Date:   Mon Aug 27 20:22:27 2018 -0500[m
+[m
+    Added README[m
+[m
+[33mcommit 4843d14e9041cb9d33f50d7941ad6fde676fb18c[m[m
+Author: Noah Nedz <noahnedz@live.com>[m
+Date:   Mon Aug 27 19:41:48 2018 -0500[m
+[m
+    Delete complie.script[m
+[m
+[33mcommit 7979f574c42e90f11921cf59ccd01c2b50ca4ac0[m[m
+Author: Noah Nedz <nmn0005@auburn.edu>[m
+Date:   Sun Aug 26 22:28:06 2018 -0500[m
+[m
+    changes to simple.c[m
+[m
+[33mcommit 5d7734a81904eee06d0d58a7651242a3cfd446dd[m[m
+Author: Noah Nedz <nmn0005@auburn.edu>[m
+Date:   Sun Aug 26 22:25:58 2018 -0500[m
+[m
+    clean2[m
+:[K[K[m
+:[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[24;1H[K[K:[K[K:[K[K[33mcommit 3f20700daf054a276d94e53161899afb49adc6e9[m[m
+:[K[KAuthor: Noah Nedz <nmn0005@auburn.edu>[m
+:[K[K [K^X^X[K^?^?[K:[K[K:[K[K[?1l>
+]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems[00m$ git log
+[?1h=[33mcommit fb8a08203ec1115d8f2c2eda369924cb2af00c19[m[m
+Author: Noah Nedz <noahnedz@live.com>[m
+Date:   Mon Aug 27 20:22:27 2018 -0500[m
+[m
+    Added README[m
+[m
+[33mcommit 4843d14e9041cb9d33f50d7941ad6fde676fb18c[m[m
+Author: Noah Nedz <noahnedz@live.com>[m
+Date:   Mon Aug 27 19:41:48 2018 -0500[m
+[m
+    Delete complie.script[m
+[m
+[33mcommit 7979f574c42e90f11921cf59ccd01c2b50ca4ac0[m[m
+Author: Noah Nedz <nmn0005@auburn.edu>[m
+Date:   Sun Aug 26 22:28:06 2018 -0500[m
+[m
+    changes to simple.c[m
+[m
+[33mcommit 5d7734a81904eee06d0d58a7651242a3cfd446dd[m[m
+Author: Noah Nedz <nmn0005@auburn.edu>[m
+Date:   Sun Aug 26 22:25:58 2018 -0500[m
+[m
+    clean2[m
+:[K[K[m
+:[K[K:[K[K:[K[K[?1l>]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems[00m$ exit
+exit
+
+Script done on Mon 27 Aug 2018 08:23:30 PM CDT
