@@ -1,5 +1,5 @@
-Script started on Sun 26 Aug 2018 10:14:35 PM CDT
-]0;carmella@carmella-Inspiron-N5110: ~/Documents/Proj1[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/Proj1[00m$ gcc -v
+Script started on Tue 28 Aug 2018 08:31:25 PM CDT
+]0;carmella@carmella-Inspiron-N5110: ~/Documents[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents[00m$ gcc -v
 Using built-in specs.
 COLLECT_GCC=gcc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper
@@ -7,9 +7,11 @@ Target: x86_64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.4-2ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
 gcc version 4.9.4 (Ubuntu 4.9.4-2ubuntu1~16.04) 
-]0;carmella@carmella-Inspiron-N5110: ~/Documents/Proj1[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/Proj1[00m$ gcc -g -o -[Ksimple si mple.c -lm
-]0;carmella@carmella-Inspiron-N5110: ~/Documents/Proj1[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/Proj1[00m$ man ldd
-[?1049h[?1h=LDD(1)                Linux Programmer's Manual                LDD(1)[m
+]0;carmella@carmella-Inspiron-N5110: ~/Documents[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents[00m$ gcc[K[K[Kcd OperatingSystems/
+]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems[00m$ cd Project1/
+]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems/Project1[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems/Project1[00m$ gcc -g - o simple simple.c -lm
+]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems/Project1[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems/Project1[00m$ man ldd
+[?1049h[?1h=LDD(1)                     Linux Programmer's Manual                    LDD(1)[m
 [m
 [1mNAME[0m[m
        ldd - print shared object dependencies[m
@@ -18,43 +20,37 @@ gcc version 4.9.4 (Ubuntu 4.9.4-2ubuntu1~16.04)
        [1mldd[0m [[4moption[24m]... [4mfile[24m...[m
 [m
 [1mDESCRIPTION[0m[m
-       [1mldd[0m  prints  the shared objects (shared libraries) required by[m
-       each program or shared object specified on the command line.[m
+       [1mldd[0m  prints the shared objects (shared libraries) required by each pro‐[m
+       gram or shared object specified on the command line.[m
 [m
    [1mSecurity[0m[m
-       In the usual case, [1mldd[0m invokes  the  standard  dynamic  linker[m
-       (see  [1mld.so[0m(8))  with  the [1mLD_TRACE_LOADED_OBJECTS[0m environment[m
-       variable set to 1, which causes  the  linker  to  display  the[m
-       library dependencies.  Be aware, however, that in some circum‐[m
-       stances, some versions of [1mldd[0m may attempt to obtain the depen‐[m
-       dency  information  by  directly executing the program.  Thus,[m
-       you should [4mnever[24m employ [1mldd[0m on an untrusted executable,  since[m
-       this  may  result in the execution of arbitrary code.  A safer[m
+       In the usual  case,  [1mldd[0m  invokes  the  standard  dynamic  linker  (see[m
+       [1mld.so[0m(8))  with the [1mLD_TRACE_LOADED_OBJECTS[0m environment variable set to[m
+       1, which causes the linker to display  the  library  dependencies.   Be[m
+       aware,  however,  that  in some circumstances, some versions of [1mldd[0m may[m
+       attempt to obtain the dependency information by directly executing  the[m
+       program.  Thus, you should [4mnever[24m employ [1mldd[0m on an untrusted executable,[m
+       since this may result in the execution  of  arbitrary  code.   A  safer[m
        alternative when dealing with untrusted executables is:[m
 [m
            $ objdump -p /path/to/program | grep NEEDED[m
-[m
-[1mOPTIONS[0m[m
-       [1m--version[0m[m
-              Print the version number of [1mldd[0m.[m
-[m
-       [1m-v[0m, [1m--verbose[0m[m
-              Print all information, including, for  example,  symbol[m
-              versioning information.[m
-[m
-       [1m-u[0m, [1m--unused[0m[m
-              Print unused direct dependencies.  (Since glibc 2.3.4.)[m
-[m
-       [1m-d[0m, [1m--data-relocs[0m[m
-              Perform relocations and report any missing objects (ELF[m
-              only).[m
-[m
-[7m Manual page ldd(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;carmella@carmella-Inspiron-N5110: ~/Documents/Proj1[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/Proj1[00m$ ldd simple
-	linux-vdso.so.1 =>  (0x00007ffd2d360000)
-	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f88dae61000)
-	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f88daa97000)
-	/lib64/ld-linux-x86-64.so.2 (0x00007f88db16a000)
-]0;carmella@carmella-Inspiron-N5110: ~/Documents/Proj1[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/Proj1[00m$ gdb simple
+[7m Manual page ldd(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems/Project1[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems/Project1[00m$ ldd simp le
+	linux-vdso.so.1 =>  (0x00007ffd8eee4000)
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007fa6cda5c000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007fa6cd692000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007fa6cdd65000)
+]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems/Project1[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems/Project1[00m$ ls
+commands.script  cpuinfo.txt     LICENSE.txt  README.txt
+compile.script   git.script      meminfo.txt  [0m[01;32msimple[0m
+CONTRIBUTING.md  interrupts.txt  [01;34mmylibgit[0m     simple.c
+]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems/Project1[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems/Project1[00m$ touch .g db[K[Kdbinit
+]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems/Project1[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems/Project1[00m$ nano ,g[K[K.gdbbinit 
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ][3d(B[m[22;39H(B[0;7m 4 lines[7d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3              File: .gdbinit                                    [3;1H(B[mfile simple[4dbreak main[5dbreak sqrt[6dinfo registers[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[22d[J[24;80H[24;1H[?1049l[?1l>]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems/Project1[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems/Project1[00m$ cat .dg[K[Kgdbiinit 
+file simple
+break main
+break sqrt
+info registers
+]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems/Project1[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems/Project1[00m$ gdb
 GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
 Copyright (C) 2016 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
@@ -68,22 +64,29 @@ For bug reporting instructions, please see:
 Find the GDB manual and other documentation resources online at:
 <http://www.gnu.org/software/gdb/documentation/>.
 For help, type "help".
-Type "apropos word" to search for commands related to "word"...
-Reading symbols from simple...done.
-warning: File "/home/carmella/Documents/Proj1/.gdbinit" auto-loading has been declined by your `auto-load safe-path' set to "$debugdir:$datadir/auto-load".
+Type "apropos word" to search for commands related to "word".
+warning: File "/home/carmella/Documents/OperatingSystems/Project1/.gdbinit" auto-loading has been declined by your `auto-load safe-path' set to "$debugdir:$datadir/auto-load".
 To enable execution of this file add
-	add-auto-load-safe-path /home/carmella/Documents/Proj1/.gdbinit
+	add-auto-load-safe-path /home/carmella/Documents/OperatingSystems/Project1/.gdbinit
 line to your configuration file "/home/carmella/.gdbinit".
 To completely disable this security protection add
 	set auto-load safe-path /
 line to your configuration file "/home/carmella/.gdbinit".
 For more information about this security protection see the
 "Auto-loading safe path" section in the GDB manual.  E.g., run from the shell:
+---Type <return> to continue, or q <return> to quit---file simple
 	info "(gdb)Auto-loading safe path"
 (gdb) break main
+No symbol table is loaded.  Use the "file" command.
+Make breakpoint pending on future shared library load? (y or [n]) n
+(gdb) file simple
+Reading symbols from simple...done.
+(gdb) break main
 Breakpoint 1 at 0x40069e: file simple.c, line 7.
+(gdb) break sqrt
+Breakpoint 2 at 0x400580
 (gdb) r
-Starting program: /home/carmella/Documents/Proj1/simple 
+Starting program: /home/carmella/Documents/OperatingSystems/Project1/simple 
 
 Breakpoint 1, main () at simple.c:7
 7	int main(void){
@@ -93,10 +96,42 @@ Breakpoint 1, main () at simple.c:7
 10	  double average = 0;
 (gdb) c
 Continuing.
-71.050934 
-[Inferior 1 (process 16407) exited normally]
+
+Breakpoint 2, __sqrt (x=10) at w_sqrt.c:27
+27	w_sqrt.c: No such file or directory.
+(gdb) info registers
+rax            0x4024000000000000	4621819117588971520
+rbx            0x0	0
+rcx            0x0	0
+rdx            0x7fffffffddf8	140737488346616
+rsi            0x7fffffffdde8	140737488346600
+rdi            0x1	1
+rbp            0x7fffffffdd00	0x7fffffffdd00
+rsp            0x7fffffffdc78	0x7fffffffdc78
+r8             0x400860	4196448
+r9             0x7ffff7de7ab0	140737351940784
+r10            0x17c	380
+r11            0x7ffff7af0250	140737348829776
+r12            0x4005a0	4195744
+r13            0x7fffffffdde0	140737488346592
+r14            0x0	0
+r15            0x0	0
+rip            0x7ffff7af0250	0x7ffff7af0250 <__sqrt>
+eflags         0x206	[ PF IF ]
+cs             0x33	51
+ss             0x2b	43
+ds             0x0	0
+es             0x0	0
+fs             0x0	0
+---Type <return> to continue, or q <return> to quit---q
+Quit
 (gdb) q
-]0;carmella@carmella-Inspiron-N5110: ~/Documents/Proj1[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/Proj1[00m$ exit
+A debugging session is active.
+
+	Inferior 1 [process 3306] will be killed.
+
+Quit anyway? (y or n) y
+]0;carmella@carmella-Inspiron-N5110: ~/Documents/OperatingSystems/Project1[01;32mcarmella@carmella-Inspiron-N5110[00m:[01;34m~/Documents/OperatingSystems/Project1[00m$ exit
 exit
 
-Script done on Sun 26 Aug 2018 10:15:39 PM CDT
+Script done on Tue 28 Aug 2018 08:35:26 PM CDT

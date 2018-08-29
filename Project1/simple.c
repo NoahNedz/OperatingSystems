@@ -11,7 +11,7 @@ int main(void){
   int i = 0;
   int b = 0;
 
-  
+
   while ( i < 10 ){
     numbers[i] = sqrt(numbers[i]);
     i++;
@@ -21,6 +21,6 @@ int main(void){
     average += (numbers[b]);
     b++;
   }
-  printf("%lf \n", average);
+  printf("%lf \n", average/10);
   return 0;
 }
