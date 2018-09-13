@@ -70,18 +70,18 @@ program_transform_name := s,^,mips-linux-,;
 # -----------------------------
 
 # Directory where sources are, from where we are.
-srcdir = /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc
-docdir = /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/doc
+srcdir = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc
+docdir = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/doc
 
 # Directory where sources are, absolute.
-abs_srcdir = /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc
-abs_docdir = /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/doc
+abs_srcdir = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc
+abs_docdir = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/doc
 
 # Top build directory for this package, relative to here.
 top_builddir = .
 # objdir is set by configure.
 # It's normally the absolute path to the current directory.
-objdir = /home/noah/cs161/cs161-gcc-1.5/gcc
+objdir = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/gcc
 
 host_subdir=.
 build_subdir=build-x86_64-unknown-linux-gnu
@@ -97,7 +97,7 @@ endif
 # --------
 
 # Directory where sources are, from where we are.
-VPATH = /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc
+VPATH = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc
 
 # We define a vpath for the sources of the .texi files here because they
 # are split between multiple directories and we would rather use one implicit
@@ -227,9 +227,9 @@ T_CPPFLAGS =
 
 AWK = mawk
 CC = gcc -fgnu89-inline
-BISON = /home/noah/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing bison
+BISON = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing bison
 BISONFLAGS =
-FLEX = /home/noah/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing flex
+FLEX = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing flex
 FLEXFLAGS =
 AR = ar
 AR_FLAGS = rc
@@ -259,7 +259,7 @@ LN_S=ln -s
 INSTALL_PROGRAM = /usr/bin/install -c
 INSTALL_DATA = /usr/bin/install -c -m 644
 INSTALL_SCRIPT = /usr/bin/install -c
-MAKEINFO = /bin/sh /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/../missing makeinfo
+MAKEINFO = /bin/sh /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/../missing makeinfo
 MAKEINFOFLAGS = --no-split
 TEXI2DVI = texi2dvi
 TEXI2HTML = $(MAKEINFO) --html
@@ -2795,7 +2795,7 @@ GTFILES = $(srcdir)/input.h $(srcdir)/coretypes.h \
 GTFILES_FILES_LANGS =  c  c  c  c  c  c  c  c 
 GTFILES_FILES_FILES =  $(srcdir)/c-lang.c  $(srcdir)/c-tree.h  $(srcdir)/c-decl.c  $(srcdir)/c-common.c  $(srcdir)/c-common.h  $(srcdir)/c-pragma.c  $(srcdir)/c-objc-common.c  $(srcdir)/c-parser.c 
 GTFILES_LANG_DIR_NAMES = 
-GTFILES_SRCDIR = /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc
+GTFILES_SRCDIR = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc
 
 gt-cgraph.h gt-coverage.h gtype-desc.h gtype-desc.c gt-except.h \
 gt-function.h gt-integrate.h gt-tree.h gt-varasm.h \

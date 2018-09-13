@@ -47,7 +47,7 @@ available_tags=
 # objext="" exeext="" reload_flag=" -r" \
 # deplibs_check_method="pass_all" \
 # file_magic_cmd="\$MAGIC_CMD" \
-#   /home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/../ltconfig --cache-file=./config.cache --with-gcc --with-gnu-ld --no-verify --build=x86_64-unknown-linux-gnu /home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/../ltmain.sh x86_64-unknown-linux-gnu
+#   /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/../ltconfig --cache-file=./config.cache --with-gcc --with-gnu-ld --no-verify --build=x86_64-unknown-linux-gnu /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/../ltmain.sh x86_64-unknown-linux-gnu
 #
 # Compiler and other test output produced by ltconfig, useful for
 # debugging ltconfig, is in ./config.log if it exists.

@@ -13,9 +13,9 @@ VERSION = 2.17
 SHELL = /bin/sh
 
 
-srcdir = /home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/bfd/po
-top_srcdir = /home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/bfd
-VPATH = /home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/bfd/po
+srcdir = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/bfd/po
+top_srcdir = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/bfd
+VPATH = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/bfd/po
 
 prefix = /home/noah/cs161/tools
 exec_prefix = ${prefix}

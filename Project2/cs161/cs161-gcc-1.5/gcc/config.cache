@@ -19,7 +19,7 @@ ac_cv_c_inline=${ac_cv_c_inline='inline'}
 ac_cv_env_CC_set='set'
 ac_cv_env_CC_value='gcc -fgnu89-inline'
 ac_cv_env_CFLAGS_set='set'
-ac_cv_env_CFLAGS_value=''
+ac_cv_env_CFLAGS_value='-g -O2 '
 ac_cv_env_CPPFLAGS_set=''
 ac_cv_env_CPPFLAGS_value=''
 ac_cv_env_CPP_set=''
@@ -118,11 +118,11 @@ ac_cv_path_gcc_cv_nm=${ac_cv_path_gcc_cv_nm='/home/noah/cs161/tools/bin/mips-lin
 ac_cv_path_gcc_cv_objdump=${ac_cv_path_gcc_cv_objdump='/home/noah/cs161/tools/bin/mips-linux-objdump'}
 ac_cv_prog_AR=${ac_cv_prog_AR='ar'}
 ac_cv_prog_AWK=${ac_cv_prog_AWK='mawk'}
-ac_cv_prog_BISON=${ac_cv_prog_BISON='/home/noah/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing bison'}
+ac_cv_prog_BISON=${ac_cv_prog_BISON='/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing bison'}
 ac_cv_prog_CC=${ac_cv_prog_CC='gcc -fgnu89-inline'}
 ac_cv_prog_CPP=${ac_cv_prog_CPP='gcc -fgnu89-inline -E'}
-ac_cv_prog_FLEX=${ac_cv_prog_FLEX='/home/noah/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing flex'}
-ac_cv_prog_MAKEINFO=${ac_cv_prog_MAKEINFO='/home/noah/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing makeinfo --split-size=5000000'}
+ac_cv_prog_FLEX=${ac_cv_prog_FLEX='/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing flex'}
+ac_cv_prog_MAKEINFO=${ac_cv_prog_MAKEINFO='/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing makeinfo --split-size=5000000'}
 ac_cv_prog_NM=${ac_cv_prog_NM='nm'}
 ac_cv_prog_RANLIB=${ac_cv_prog_RANLIB='ranlib'}
 ac_cv_prog_cc_g=${ac_cv_prog_cc_g='yes'}
@@ -179,7 +179,7 @@ gcc_cv_as_comdat_group_percent=${gcc_cv_as_comdat_group_percent='no'}
 gcc_cv_as_dwarf2_debug_line=${gcc_cv_as_dwarf2_debug_line='yes'}
 gcc_cv_as_dwarf2_file_buggy=${gcc_cv_as_dwarf2_file_buggy='no'}
 gcc_cv_as_eh_frame=${gcc_cv_as_eh_frame='no'}
-gcc_cv_as_gas_srcdir=${gcc_cv_as_gas_srcdir='/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gas'}
+gcc_cv_as_gas_srcdir=${gcc_cv_as_gas_srcdir='/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gas'}
 gcc_cv_as_gdwarf2_flag=${gcc_cv_as_gdwarf2_flag='yes'}
 gcc_cv_as_gstabs_flag=${gcc_cv_as_gstabs_flag='yes'}
 gcc_cv_as_hidden=${gcc_cv_as_hidden='yes'}
@@ -192,7 +192,7 @@ gcc_cv_as_subsection_m1=${gcc_cv_as_subsection_m1='yes'}
 gcc_cv_as_tls=${gcc_cv_as_tls='yes'}
 gcc_cv_as_weak=${gcc_cv_as_weak='yes'}
 gcc_cv_as_weakref=${gcc_cv_as_weakref='yes'}
-gcc_cv_binutils_srcdir=${gcc_cv_binutils_srcdir='/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/binutils'}
+gcc_cv_binutils_srcdir=${gcc_cv_binutils_srcdir='/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/binutils'}
 gcc_cv_collect2_libs=${gcc_cv_collect2_libs='none required'}
 gcc_cv_decl_char_bit=${gcc_cv_decl_char_bit='yes'}
 gcc_cv_decl_map_anon=${gcc_cv_decl_map_anon='yes'}
@@ -254,9 +254,9 @@ gcc_cv_header_string=${gcc_cv_header_string='yes'}
 gcc_cv_initfini_array=${gcc_cv_initfini_array='yes'}
 gcc_cv_ld=${gcc_cv_ld='/home/noah/cs161/tools/bin/mips-linux-ld'}
 gcc_cv_ld_as_needed=${gcc_cv_ld_as_needed='yes'}
-gcc_cv_ld_bfd_srcdir=${gcc_cv_ld_bfd_srcdir='/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/bfd'}
+gcc_cv_ld_bfd_srcdir=${gcc_cv_ld_bfd_srcdir='/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/bfd'}
 gcc_cv_ld_eh_frame_hdr=${gcc_cv_ld_eh_frame_hdr='yes'}
-gcc_cv_ld_gld_srcdir=${gcc_cv_ld_gld_srcdir='/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/ld'}
+gcc_cv_ld_gld_srcdir=${gcc_cv_ld_gld_srcdir='/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/ld'}
 gcc_cv_ld_hidden=${gcc_cv_ld_hidden='yes'}
 gcc_cv_ld_pie=${gcc_cv_ld_pie='yes'}
 gcc_cv_ld_ro_rw_mix=${gcc_cv_ld_ro_rw_mix='read-write'}

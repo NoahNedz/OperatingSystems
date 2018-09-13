@@ -1,5 +1,5 @@
 /* Generated automatically by the program 'build/genpreds'
-   from the machine description file '/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md'.  */
+   from the machine description file '/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md'.  */
 
 #ifndef GCC_TM_PREDS_H
 #define GCC_TM_PREDS_H

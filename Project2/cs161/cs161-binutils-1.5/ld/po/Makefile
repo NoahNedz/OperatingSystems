@@ -13,9 +13,9 @@ VERSION = 2.17
 SHELL = /bin/sh
 
 
-srcdir = /home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/po
-top_srcdir = /home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld
-VPATH = /home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/po
+srcdir = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/po
+top_srcdir = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld
+VPATH = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/po
 
 prefix = /home/noah/cs161/tools
 exec_prefix = ${prefix}
@@ -53,36 +53,36 @@ DISTFILES = ChangeLog Makefile.in.in POTFILES.in $(PACKAGE).pot \
 stamp-cat-id $(POFILES) $(GMOFILES) $(SOURCES)
 
 POTFILES = \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/deffile.h \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/elf-hints-local.h \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/emultempl/armcoff.em \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/emultempl/pe.em \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldcref.c \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldctor.c \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldctor.h \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldemul.c \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldemul.h \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldexp.c \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldexp.h \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldfile.c \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldfile.h \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ld.h \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldlang.c \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldlang.h \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldlex.h \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldmain.c \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldmain.h \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldmisc.c \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldmisc.h \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldver.c \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldver.h \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldwrite.c \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldwrite.h \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/lexsup.c \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/mri.c \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/mri.h \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/pe-dll.c \
-	/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/ld/pe-dll.h
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/deffile.h \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/elf-hints-local.h \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/emultempl/armcoff.em \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/emultempl/pe.em \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldcref.c \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldctor.c \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldctor.h \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldemul.c \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldemul.h \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldexp.c \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldexp.h \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldfile.c \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldfile.h \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ld.h \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldlang.c \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldlang.h \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldlex.h \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldmain.c \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldmain.h \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldmisc.c \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldmisc.h \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldver.c \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldver.h \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldwrite.c \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/ldwrite.h \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/lexsup.c \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/mri.c \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/mri.h \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/pe-dll.c \
+	/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/ld/pe-dll.h
 
 CATALOGS =  fr.gmo sv.gmo tr.gmo es.gmo da.gmo vi.gmo zh_CN.gmo
 CATOBJEXT = .gmo

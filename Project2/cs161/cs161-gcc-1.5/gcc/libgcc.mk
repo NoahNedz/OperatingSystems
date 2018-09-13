@@ -1,5 +1,5 @@
-srcdir = /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc
-VPATH = /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc
+srcdir = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc
+VPATH = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc
 EQ = =
 objects = $(filter %.o,$^)
 
@@ -399,20 +399,20 @@ libgcc/./_df_to_usi.o: dp-bit.c stmp-dirs config.status tsystem.h
 libgcc/./_usi_to_df.o: dp-bit.c stmp-dirs config.status tsystem.h
 	$(GCC_FOR_TARGET) $(LIBGCC2_CFLAGS) $(INCLUDES) -DFINE_GRAINED_LIBRARIES -DL_usi_to_df -c dp-bit.c -o libgcc/./_usi_to_df.o
 ./libgcc.a: libgcc/./_usi_to_df.o
-libgcc/./unwind-dw2.o: stmp-dirs /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/unwind-dw2.c unwind.inc unwind-dw2-fde.h unwind-dw2-fde.c $(CONFIG_H) coretypes.h $(TM_H) $(MACHMODE_H) longlong.h config.status stmp-int-hdrs tsystem.h
-	$(GCC_FOR_TARGET) $(LIBGCC2_CFLAGS) $(INCLUDES) $(vis_hide) -fexceptions -c /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/unwind-dw2.c -o libgcc/./unwind-dw2.o
+libgcc/./unwind-dw2.o: stmp-dirs /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/unwind-dw2.c unwind.inc unwind-dw2-fde.h unwind-dw2-fde.c $(CONFIG_H) coretypes.h $(TM_H) $(MACHMODE_H) longlong.h config.status stmp-int-hdrs tsystem.h
+	$(GCC_FOR_TARGET) $(LIBGCC2_CFLAGS) $(INCLUDES) $(vis_hide) -fexceptions -c /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/unwind-dw2.c -o libgcc/./unwind-dw2.o
 ./libgcc.a: libgcc/./unwind-dw2.o
-libgcc/./unwind-dw2-fde-glibc.o: stmp-dirs /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/unwind-dw2-fde-glibc.c unwind.inc unwind-dw2-fde.h unwind-dw2-fde.c $(CONFIG_H) coretypes.h $(TM_H) $(MACHMODE_H) longlong.h config.status stmp-int-hdrs tsystem.h
-	$(GCC_FOR_TARGET) $(LIBGCC2_CFLAGS) $(INCLUDES) $(vis_hide) -fexceptions -c /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/unwind-dw2-fde-glibc.c -o libgcc/./unwind-dw2-fde-glibc.o
+libgcc/./unwind-dw2-fde-glibc.o: stmp-dirs /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/unwind-dw2-fde-glibc.c unwind.inc unwind-dw2-fde.h unwind-dw2-fde.c $(CONFIG_H) coretypes.h $(TM_H) $(MACHMODE_H) longlong.h config.status stmp-int-hdrs tsystem.h
+	$(GCC_FOR_TARGET) $(LIBGCC2_CFLAGS) $(INCLUDES) $(vis_hide) -fexceptions -c /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/unwind-dw2-fde-glibc.c -o libgcc/./unwind-dw2-fde-glibc.o
 ./libgcc.a: libgcc/./unwind-dw2-fde-glibc.o
-libgcc/./unwind-sjlj.o: stmp-dirs /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/unwind-sjlj.c unwind.inc unwind-dw2-fde.h unwind-dw2-fde.c $(CONFIG_H) coretypes.h $(TM_H) $(MACHMODE_H) longlong.h config.status stmp-int-hdrs tsystem.h
-	$(GCC_FOR_TARGET) $(LIBGCC2_CFLAGS) $(INCLUDES) $(vis_hide) -fexceptions -c /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/unwind-sjlj.c -o libgcc/./unwind-sjlj.o
+libgcc/./unwind-sjlj.o: stmp-dirs /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/unwind-sjlj.c unwind.inc unwind-dw2-fde.h unwind-dw2-fde.c $(CONFIG_H) coretypes.h $(TM_H) $(MACHMODE_H) longlong.h config.status stmp-int-hdrs tsystem.h
+	$(GCC_FOR_TARGET) $(LIBGCC2_CFLAGS) $(INCLUDES) $(vis_hide) -fexceptions -c /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/unwind-sjlj.c -o libgcc/./unwind-sjlj.o
 ./libgcc.a: libgcc/./unwind-sjlj.o
-libgcc/./gthr-gnat.o: stmp-dirs /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/gthr-gnat.c unwind.inc unwind-dw2-fde.h unwind-dw2-fde.c $(CONFIG_H) coretypes.h $(TM_H) $(MACHMODE_H) longlong.h config.status stmp-int-hdrs tsystem.h
-	$(GCC_FOR_TARGET) $(LIBGCC2_CFLAGS) $(INCLUDES) $(vis_hide) -fexceptions -c /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/gthr-gnat.c -o libgcc/./gthr-gnat.o
+libgcc/./gthr-gnat.o: stmp-dirs /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/gthr-gnat.c unwind.inc unwind-dw2-fde.h unwind-dw2-fde.c $(CONFIG_H) coretypes.h $(TM_H) $(MACHMODE_H) longlong.h config.status stmp-int-hdrs tsystem.h
+	$(GCC_FOR_TARGET) $(LIBGCC2_CFLAGS) $(INCLUDES) $(vis_hide) -fexceptions -c /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/gthr-gnat.c -o libgcc/./gthr-gnat.o
 ./libgcc.a: libgcc/./gthr-gnat.o
-libgcc/./unwind-c.o: stmp-dirs /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/unwind-c.c unwind.inc unwind-dw2-fde.h unwind-dw2-fde.c $(CONFIG_H) coretypes.h $(TM_H) $(MACHMODE_H) longlong.h config.status stmp-int-hdrs tsystem.h
-	$(GCC_FOR_TARGET) $(LIBGCC2_CFLAGS) $(INCLUDES) $(vis_hide) -fexceptions -c /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/unwind-c.c -o libgcc/./unwind-c.o
+libgcc/./unwind-c.o: stmp-dirs /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/unwind-c.c unwind.inc unwind-dw2-fde.h unwind-dw2-fde.c $(CONFIG_H) coretypes.h $(TM_H) $(MACHMODE_H) longlong.h config.status stmp-int-hdrs tsystem.h
+	$(GCC_FOR_TARGET) $(LIBGCC2_CFLAGS) $(INCLUDES) $(vis_hide) -fexceptions -c /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/unwind-c.c -o libgcc/./unwind-c.o
 ./libgcc.a: libgcc/./unwind-c.o
 libgcc/./_gcov.o: stmp-dirs $(srcdir)/libgcov.c $(srcdir)/gcov-io.h $(srcdir)/gcov-io.c gcov-iov.h $(CONFIG_H) coretypes.h $(TM_H) $(MACHMODE_H) longlong.h config.status stmp-int-hdrs tsystem.h
 	$(GCC_FOR_TARGET) $(LIBGCC2_CFLAGS) $(INCLUDES)  -DL_gcov -c $(srcdir)/libgcov.c -o libgcc/./_gcov.o
@@ -472,7 +472,7 @@ all: ./libgcov.a
 libgcc-stage-start:
 	for dir in $(dirs); do \
 	  if [ -d $(stage)/$$dir ]; then :; \
-	  else /bin/sh /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/../mkinstalldirs $(stage)/$$dir; fi; \
+	  else /bin/sh /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/../mkinstalldirs $(stage)/$$dir; fi; \
 	done
 	-for dir in $(dirs); do \
 	  mv $$dir/*.o $(stage)/$$dir; \
@@ -483,7 +483,7 @@ libgcc-stage-start:
 
 stmp-dirs:
 	for d in $(dirs); do \
-	  if [ -d $$d ]; then true; else /bin/sh /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/../mkinstalldirs $$d; fi; \
+	  if [ -d $$d ]; then true; else /bin/sh /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/../mkinstalldirs $$d; fi; \
 	done
 	if [ -f stmp-dirs ]; then true; else touch stmp-dirs; fi
 

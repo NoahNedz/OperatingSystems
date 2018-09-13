@@ -26,13 +26,13 @@
 # Makefile for libiberty/testsuite directory
 #
 
-srcdir = /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libiberty/testsuite
-VPATH = /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libiberty/testsuite
+srcdir = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libiberty/testsuite
+VPATH = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libiberty/testsuite
 
 SHELL = /bin/sh
 
 CC = gcc -fgnu89-inline
-CFLAGS = 
+CFLAGS = -g -O2 
 LIBCFLAGS = $(CFLAGS)
 
 # Multilib support variables.

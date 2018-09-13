@@ -24,7 +24,7 @@
 # -------------------------------
 # Standard Autoconf-set variables
 # -------------------------------
-VPATH=/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17
+VPATH=/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17
 
 build_alias=x86_64-unknown-linux-gnu
 build=x86_64-unknown-linux-gnu
@@ -38,7 +38,7 @@ program_transform_name = s,^,mips-linux-,;
 prefix = /home/noah/cs161/tools
 exec_prefix = ${prefix}
 
-srcdir = /home/noah/cs161/cs161-binutils-1.5/./binutils-2.17
+srcdir = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17
 
 bindir = ${exec_prefix}/bin
 sbindir = ${exec_prefix}/sbin
@@ -77,7 +77,7 @@ LN_S = ln -s
 # -------------------------------------------------
 
 # The gcc driver likes to know the arguments it was configured with.
-TOPLEVEL_CONFIGURE_ARGUMENTS=/home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/configure --target=mips-linux --nfp --prefix=/home/noah/cs161/tools
+TOPLEVEL_CONFIGURE_ARGUMENTS=/home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/configure --target=mips-linux --nfp --prefix=/home/noah/cs161/tools
 
 tooldir = ${exec_prefix}/mips-linux
 build_tooldir = ${exec_prefix}/mips-linux
@@ -250,12 +250,12 @@ BUILD_PREFIX_1 = @BUILD_PREFIX_1@
 BOOT_CFLAGS= -g -O2
 BOOT_LDFLAGS=
 
-BISON = /home/noah/cs161/cs161-binutils-1.5/binutils-2.17/missing bison
-YACC = /home/noah/cs161/cs161-binutils-1.5/binutils-2.17/missing bison -y
-FLEX = /home/noah/cs161/cs161-binutils-1.5/binutils-2.17/missing flex
-LEX = /home/noah/cs161/cs161-binutils-1.5/binutils-2.17/missing flex
+BISON = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/binutils-2.17/missing bison
+YACC = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/binutils-2.17/missing bison -y
+FLEX = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/binutils-2.17/missing flex
+LEX = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/binutils-2.17/missing flex
 M4 = m4
-MAKEINFO = /home/noah/cs161/cs161-binutils-1.5/binutils-2.17/missing makeinfo
+MAKEINFO = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/binutils-2.17/missing makeinfo
 EXPECT = expect
 RUNTEST = runtest
 

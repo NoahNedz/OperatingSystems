@@ -7,8 +7,8 @@ DESTDIR		=
 prefix 		= /home/noah/cs161/tools
 exec_prefix 	= ${prefix}
 
-srcdir  = /home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/etc
-VPATH	= /home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/etc
+srcdir  = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/etc
+VPATH	= /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/etc
 
 bindir  = ${exec_prefix}/bin
 libdir  = ${exec_prefix}/lib

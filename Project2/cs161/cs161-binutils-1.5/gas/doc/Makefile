@@ -13,9 +13,9 @@
 # PARTICULAR PURPOSE.
 
 
-srcdir = /home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/gas/doc
-top_srcdir = /home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/gas
-VPATH = /home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/gas/doc
+srcdir = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/gas/doc
+top_srcdir = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/gas
+VPATH = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/gas/doc
 pkgdatadir = $(datadir)/gas
 pkglibdir = $(libdir)/gas
 pkgincludedir = $(includedir)/gas
@@ -66,15 +66,15 @@ man1dir = $(mandir)/man1
 am__installdirs = "$(DESTDIR)$(man1dir)"
 NROFF = nroff
 MANS = $(man_MANS)
-ACLOCAL = ${SHELL} /home/noah/cs161/cs161-binutils-1.5/binutils-2.17/missing --run aclocal-1.9
+ACLOCAL = ${SHELL} /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/binutils-2.17/missing --run aclocal-1.9
 ALLOCA = 
 ALL_OBJ_DEPS =  ../bfd/bfd.h $(INCDIR)/symcat.h
 AMDEP_FALSE = #
 AMDEP_TRUE = 
-AMTAR = ${SHELL} /home/noah/cs161/cs161-binutils-1.5/binutils-2.17/missing --run tar
-AUTOCONF = ${SHELL} /home/noah/cs161/cs161-binutils-1.5/binutils-2.17/missing --run autoconf
-AUTOHEADER = ${SHELL} /home/noah/cs161/cs161-binutils-1.5/binutils-2.17/missing --run autoheader
-AUTOMAKE = ${SHELL} /home/noah/cs161/cs161-binutils-1.5/binutils-2.17/missing --run automake-1.9
+AMTAR = ${SHELL} /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/binutils-2.17/missing --run tar
+AUTOCONF = ${SHELL} /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/binutils-2.17/missing --run autoconf
+AUTOHEADER = ${SHELL} /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/binutils-2.17/missing --run autoheader
+AUTOMAKE = ${SHELL} /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/binutils-2.17/missing --run automake-1.9
 AWK = mawk
 BFDLIB = ../bfd/libbfd.la
 BFDVER_H = ../bfd/bfdver.h
@@ -121,7 +121,7 @@ LTLIBOBJS =
 MAINT = #
 MAINTAINER_MODE_FALSE = 
 MAINTAINER_MODE_TRUE = #
-MAKEINFO = /home/noah/cs161/cs161-binutils-1.5/binutils-2.17/missing makeinfo --split-size=5000000
+MAKEINFO = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/binutils-2.17/missing makeinfo --split-size=5000000
 MKINSTALLDIRS = $(srcdir)/../../mkinstalldirs
 MSGFMT = /usr/bin/msgfmt
 NO_WERROR = -Wno-error
@@ -177,7 +177,7 @@ host_vendor = unknown
 htmldir = /home/noah/cs161/tools/share/doc
 includedir = ${prefix}/include
 infodir = ${prefix}/info
-install_sh = /home/noah/cs161/cs161-binutils-1.5/binutils-2.17/install-sh
+install_sh = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/binutils-2.17/install-sh
 install_tooldir = install-exec-tooldir
 l = 
 libdir = ${exec_prefix}/lib

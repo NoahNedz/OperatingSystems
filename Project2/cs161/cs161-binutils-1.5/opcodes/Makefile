@@ -17,9 +17,9 @@
 
 SOURCES = libopcodes.c $(libopcodes_la_SOURCES)
 
-srcdir = /home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/opcodes
-top_srcdir = /home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/opcodes
-VPATH = /home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/opcodes
+srcdir = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/opcodes
+top_srcdir = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/opcodes
+VPATH = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/opcodes
 pkgdatadir = $(datadir)/opcodes
 pkglibdir = $(libdir)/opcodes
 pkgincludedir = $(includedir)/opcodes
@@ -99,15 +99,15 @@ RECURSIVE_TARGETS = all-recursive check-recursive dvi-recursive \
 ETAGS = etags
 CTAGS = ctags
 DIST_SUBDIRS = $(SUBDIRS)
-ACLOCAL = ${SHELL} /home/noah/cs161/cs161-binutils-1.5/binutils-2.17/missing --run aclocal-1.9
+ACLOCAL = ${SHELL} /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/binutils-2.17/missing --run aclocal-1.9
 ALLOCA = 
 AMDEP_FALSE = #
 AMDEP_TRUE = 
-AMTAR = ${SHELL} /home/noah/cs161/cs161-binutils-1.5/binutils-2.17/missing --run tar
+AMTAR = ${SHELL} /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/binutils-2.17/missing --run tar
 AR = ar
-AUTOCONF = ${SHELL} /home/noah/cs161/cs161-binutils-1.5/binutils-2.17/missing --run autoconf
-AUTOHEADER = ${SHELL} /home/noah/cs161/cs161-binutils-1.5/binutils-2.17/missing --run autoheader
-AUTOMAKE = ${SHELL} /home/noah/cs161/cs161-binutils-1.5/binutils-2.17/missing --run automake-1.9
+AUTOCONF = ${SHELL} /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/binutils-2.17/missing --run autoconf
+AUTOHEADER = ${SHELL} /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/binutils-2.17/missing --run autoheader
+AUTOMAKE = ${SHELL} /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/binutils-2.17/missing --run automake-1.9
 AWK = mawk
 BFD_MACHINES =  mips-dis.lo mips-opc.lo mips16-opc.lo
 CATALOGS =  fr.gmo sv.gmo tr.gmo es.gmo da.gmo de.gmo id.gmo pt_BR.gmo ro.gmo nl.gmo fi.gmo vi.gmo ga.gmo zh_CN.gmo
@@ -155,7 +155,7 @@ LTLIBOBJS =
 MAINT = #
 MAINTAINER_MODE_FALSE = 
 MAINTAINER_MODE_TRUE = #
-MAKEINFO = /home/noah/cs161/cs161-binutils-1.5/binutils-2.17/missing makeinfo --split-size=5000000
+MAKEINFO = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/binutils-2.17/missing makeinfo --split-size=5000000
 MKINSTALLDIRS = $(srcdir)/../../mkinstalldirs
 MSGFMT = /usr/bin/msgfmt
 NO_WERROR = -Wno-error
@@ -211,7 +211,7 @@ host_os = linux-gnu
 host_vendor = unknown
 includedir = ${prefix}/include
 infodir = ${prefix}/info
-install_sh = /home/noah/cs161/cs161-binutils-1.5/binutils-2.17/install-sh
+install_sh = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/binutils-2.17/install-sh
 l = 
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec

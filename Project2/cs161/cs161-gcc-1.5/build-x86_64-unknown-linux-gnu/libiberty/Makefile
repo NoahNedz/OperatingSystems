@@ -26,8 +26,8 @@
 # Makefile for libiberty directory
 #
 
-libiberty_topdir = /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libiberty/..
-srcdir = /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libiberty
+libiberty_topdir = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libiberty/..
+srcdir = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libiberty
 
 prefix = /home/noah/cs161/tools
 
@@ -59,10 +59,10 @@ AR = ar
 AR_FLAGS = rc
 
 CC = gcc -fgnu89-inline
-CFLAGS = 
+CFLAGS = -g -O2 
 LIBCFLAGS = $(CFLAGS)
 RANLIB = ranlib
-MAKEINFO = /home/noah/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing makeinfo --split-size=5000000
+MAKEINFO = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing makeinfo --split-size=5000000
 PERL = perl
 
 PICFLAG =

@@ -21,10 +21,10 @@ VERSION = @VERSION@
 
 SHELL = /bin/sh
 
-srcdir = /home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/intl
-top_srcdir = /home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/intl
+srcdir = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/intl
+top_srcdir = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/intl
 top_builddir = ..
-VPATH = /home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/intl
+VPATH = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/intl
 
 prefix = /home/noah/cs161/tools
 exec_prefix = ${prefix}

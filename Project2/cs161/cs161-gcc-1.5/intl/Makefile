@@ -23,7 +23,7 @@
 
 SHELL = /bin/sh
 
-srcdir = /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/intl
+srcdir = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/intl
 VPATH = $(srcdir)
 
 prefix = /home/noah/cs161/tools
@@ -44,7 +44,7 @@ RANLIB = ranlib
 YACC = : -y -d
 YFLAGS = --name-prefix=__gettext
 CPPFLAGS = 
-CFLAGS = 
+CFLAGS = -g -O2 
 LDFLAGS = 
 LIBS = 
 DEFS = -DHAVE_CONFIG_H

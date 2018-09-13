@@ -22,9 +22,9 @@
 
 
 
-srcdir = /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp
+srcdir = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp
 top_builddir = .
-VPATH = /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp
+VPATH = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp
 INSTALL = /usr/bin/install -c
 AR = ar
 ARFLAGS = cru
@@ -33,7 +33,7 @@ AUTOCONF = autoconf
 AUTOHEADER = autoheader
 CATALOGS =  po/be.gmo po/ca.gmo po/da.gmo po/de.gmo po/el.gmo po/es.gmo po/fr.gmo po/ja.gmo po/nl.gmo po/rw.gmo po/sv.gmo po/tr.gmo po/vi.gmo po/zh_CN.gmo po/zh_TW.gmo po/be.gmo po/ca.gmo po/da.gmo po/de.gmo po/el.gmo po/es.gmo po/fr.gmo po/ja.gmo po/nl.gmo po/rw.gmo po/sv.gmo po/tr.gmo po/vi.gmo po/zh_CN.gmo po/zh_TW.gmo
 CC = gcc -fgnu89-inline
-CFLAGS = 
+CFLAGS = -g -O2 
 WARN_CFLAGS = -W -Wall -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wold-style-definition -Wmissing-format-attribute -pedantic -Wno-long-long 
 CPP = gcc -fgnu89-inline -E
 CPPFLAGS = 

@@ -21,7 +21,7 @@ ac_cv_c_stack_direction=${ac_cv_c_stack_direction='-1'}
 ac_cv_env_CC_set='set'
 ac_cv_env_CC_value='gcc -fgnu89-inline'
 ac_cv_env_CFLAGS_set='set'
-ac_cv_env_CFLAGS_value=''
+ac_cv_env_CFLAGS_value='-g -O2 '
 ac_cv_env_CPPFLAGS_set=''
 ac_cv_env_CPPFLAGS_value=''
 ac_cv_env_CPP_set=''
@@ -196,7 +196,7 @@ ac_cv_objext=${ac_cv_objext='o'}
 ac_cv_os_cray=${ac_cv_os_cray='no'}
 ac_cv_prog_CC=${ac_cv_prog_CC='gcc -fgnu89-inline'}
 ac_cv_prog_CPP=${ac_cv_prog_CPP='gcc -fgnu89-inline -E'}
-ac_cv_prog_MAKEINFO=${ac_cv_prog_MAKEINFO='/home/noah/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing makeinfo --split-size=5000000'}
+ac_cv_prog_MAKEINFO=${ac_cv_prog_MAKEINFO='/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing makeinfo --split-size=5000000'}
 ac_cv_prog_PERL=${ac_cv_prog_PERL='perl'}
 ac_cv_prog_ac_ct_AR=${ac_cv_prog_ac_ct_AR='ar'}
 ac_cv_prog_ac_ct_RANLIB=${ac_cv_prog_ac_ct_RANLIB='ranlib'}

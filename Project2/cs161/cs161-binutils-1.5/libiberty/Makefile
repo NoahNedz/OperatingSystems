@@ -26,8 +26,8 @@
 # Makefile for libiberty directory
 #
 
-libiberty_topdir = /home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/libiberty/..
-srcdir = /home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/libiberty
+libiberty_topdir = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/libiberty/..
+srcdir = /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/libiberty
 
 prefix = /home/noah/cs161/tools
 

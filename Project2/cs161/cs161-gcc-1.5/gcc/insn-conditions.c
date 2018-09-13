@@ -55,68 +55,68 @@ extern rtx operands[];
    cannot be calculated at compile time. */
 
 const struct c_test insn_conditions[] = {
-#line 3989 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3989 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "!TARGET_MIPS16 && !TARGET_MEMCPY",
     __builtin_constant_p 
-#line 3989 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3989 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16 && !TARGET_MEMCPY)
     ? (int) 
-#line 3989 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3989 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16 && !TARGET_MEMCPY)
     : -1 },
   { "((ISA_HAS_CONDMOVE) && (TARGET_HARD_FLOAT)) && (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)",
     __builtin_constant_p ((
-#line 5324 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5324 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 410 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 410 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)) && 
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     ? (int) ((
-#line 5324 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5324 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 410 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 410 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)) && 
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     : -1 },
-#line 3200 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3200 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "!TARGET_64BIT && !TARGET_MIPS16\n\
    && (register_operand (operands[0], DImode)\n\
        || reg_or_0_operand (operands[1], DImode))",
     __builtin_constant_p 
-#line 3200 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3200 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT && !TARGET_MIPS16
    && (register_operand (operands[0], DImode)
        || reg_or_0_operand (operands[1], DImode)))
     ? (int) 
-#line 3200 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3200 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT && !TARGET_MIPS16
    && (register_operand (operands[0], DImode)
        || reg_or_0_operand (operands[1], DImode)))
     : -1 },
   { "(TARGET_FIX_R4000) && (TARGET_64BIT)",
     __builtin_constant_p (
-#line 1099 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1099 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_FIX_R4000) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     ? (int) (
-#line 1099 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1099 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_FIX_R4000) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     : -1 },
-#line 3053 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3053 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_EXPLICIT_RELOCS && ABI_HAS_64BIT_SYMBOLS && cse_not_expected",
     __builtin_constant_p 
-#line 3053 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3053 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && ABI_HAS_64BIT_SYMBOLS && cse_not_expected)
     ? (int) 
-#line 3053 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3053 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && ABI_HAS_64BIT_SYMBOLS && cse_not_expected)
     : -1 },
-#line 821 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 821 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_MIPS16 && TARGET_64BIT && reload_completed && !TARGET_DEBUG_D_MODE\n\
    && REG_P (operands[0])\n\
    && M16_REG_P (REGNO (operands[0]))\n\
@@ -129,7 +129,7 @@ const struct c_test insn_conditions[] = {
        || (INTVAL (operands[2]) < - 0x8\n\
 	   && INTVAL (operands[2]) >= - 0x8 - 0x10))",
     __builtin_constant_p 
-#line 821 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 821 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && TARGET_64BIT && reload_completed && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
    && M16_REG_P (REGNO (operands[0]))
@@ -142,7 +142,7 @@ const struct c_test insn_conditions[] = {
        || (INTVAL (operands[2]) < - 0x8
 	   && INTVAL (operands[2]) >= - 0x8 - 0x10)))
     ? (int) 
-#line 821 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 821 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && TARGET_64BIT && reload_completed && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
    && M16_REG_P (REGNO (operands[0]))
@@ -155,7 +155,7 @@ const struct c_test insn_conditions[] = {
        || (INTVAL (operands[2]) < - 0x8
 	   && INTVAL (operands[2]) >= - 0x8 - 0x10)))
     : -1 },
-#line 760 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 760 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE\n\
    && REG_P (operands[0])\n\
    && M16_REG_P (REGNO (operands[0]))\n\
@@ -168,7 +168,7 @@ const struct c_test insn_conditions[] = {
        || (INTVAL (operands[2]) < - 0x8\n\
 	   && INTVAL (operands[2]) >= - 0x8 - 0x80))",
     __builtin_constant_p 
-#line 760 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 760 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
    && M16_REG_P (REGNO (operands[0]))
@@ -181,7 +181,7 @@ const struct c_test insn_conditions[] = {
        || (INTVAL (operands[2]) < - 0x8
 	   && INTVAL (operands[2]) >= - 0x8 - 0x80)))
     ? (int) 
-#line 760 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 760 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
    && M16_REG_P (REGNO (operands[0]))
@@ -194,122 +194,122 @@ const struct c_test insn_conditions[] = {
        || (INTVAL (operands[2]) < - 0x8
 	   && INTVAL (operands[2]) >= - 0x8 - 0x80)))
     : -1 },
-#line 1156 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1156 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "(TARGET_MIPS3900\n\
    || ISA_HAS_MADD_MSUB)\n\
    && !TARGET_MIPS16",
     __builtin_constant_p 
-#line 1156 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1156 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ((TARGET_MIPS3900
    || ISA_HAS_MADD_MSUB)
    && !TARGET_MIPS16)
     ? (int) 
-#line 1156 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1156 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ((TARGET_MIPS3900
    || ISA_HAS_MADD_MSUB)
    && !TARGET_MIPS16)
     : -1 },
-#line 1199 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1199 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "reload_completed && !TARGET_DEBUG_D_MODE\n\
    && GP_REG_P (true_regnum (operands[0]))\n\
    && true_regnum (operands[3]) == LO_REGNUM",
     __builtin_constant_p 
-#line 1199 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1199 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && !TARGET_DEBUG_D_MODE
    && GP_REG_P (true_regnum (operands[0]))
    && true_regnum (operands[3]) == LO_REGNUM)
     ? (int) 
-#line 1199 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1199 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && !TARGET_DEBUG_D_MODE
    && GP_REG_P (true_regnum (operands[0]))
    && true_regnum (operands[3]) == LO_REGNUM)
     : -1 },
   { "(TARGET_EXPLICIT_RELOCS) && (Pmode == DImode)",
     __builtin_constant_p (
-#line 3120 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3120 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode))
     ? (int) (
-#line 3120 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3120 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode))
     : -1 },
   { "((ISA_HAS_CONDMOVE) && (TARGET_HARD_FLOAT)) && (TARGET_HARD_FLOAT)",
     __builtin_constant_p ((
-#line 5324 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5324 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 410 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 410 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)) && 
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     ? (int) ((
-#line 5324 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5324 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 410 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 410 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)) && 
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     : -1 },
   { "(!TARGET_FIX_R4000) && (TARGET_64BIT)",
     __builtin_constant_p (
-#line 1088 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1088 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_FIX_R4000) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     ? (int) (
-#line 1088 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1088 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_FIX_R4000) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     : -1 },
   { "(ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD\n\
    && !HONOR_SIGNED_ZEROS (DFmode)) && (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)",
     __builtin_constant_p (
-#line 1799 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1799 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD
    && !HONOR_SIGNED_ZEROS (DFmode)) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     ? (int) (
-#line 1799 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1799 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD
    && !HONOR_SIGNED_ZEROS (DFmode)) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     : -1 },
   { "(TARGET_EXPLICIT_RELOCS && TARGET_XGOT) && (Pmode == SImode)",
     __builtin_constant_p (
-#line 3089 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3089 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode))
     ? (int) (
-#line 3089 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3089 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode))
     : -1 },
-#line 432 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 432 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
   { "TARGET_MIPS3D",
     __builtin_constant_p 
-#line 432 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 432 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D)
     ? (int) 
-#line 432 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 432 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D)
     : -1 },
-#line 5261 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5261 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "ISA_HAS_PREFETCH && TARGET_EXPLICIT_RELOCS",
     __builtin_constant_p 
-#line 5261 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5261 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_PREFETCH && TARGET_EXPLICIT_RELOCS)
     ? (int) 
-#line 5261 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5261 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_PREFETCH && TARGET_EXPLICIT_RELOCS)
     : -1 },
-#line 3398 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3398 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE\n\
    && REG_P (operands[0])\n\
    && M16_REG_P (REGNO (operands[0]))\n\
@@ -317,7 +317,7 @@ const struct c_test insn_conditions[] = {
    && INTVAL (operands[1]) >= 0x100\n\
    && INTVAL (operands[1]) <= 0xff + 0x7f",
     __builtin_constant_p 
-#line 3398 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3398 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
    && M16_REG_P (REGNO (operands[0]))
@@ -325,7 +325,7 @@ const struct c_test insn_conditions[] = {
    && INTVAL (operands[1]) >= 0x100
    && INTVAL (operands[1]) <= 0xff + 0x7f)
     ? (int) 
-#line 3398 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3398 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
    && M16_REG_P (REGNO (operands[0]))
@@ -333,256 +333,256 @@ const struct c_test insn_conditions[] = {
    && INTVAL (operands[1]) >= 0x100
    && INTVAL (operands[1]) <= 0xff + 0x7f)
     : -1 },
-#line 3318 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3318 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "!TARGET_MIPS16\n\
    && (register_operand (operands[0], SImode)\n\
        || reg_or_0_operand (operands[1], SImode))",
     __builtin_constant_p 
-#line 3318 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3318 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16
    && (register_operand (operands[0], SImode)
        || reg_or_0_operand (operands[1], SImode)))
     ? (int) 
-#line 3318 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3318 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16
    && (register_operand (operands[0], SImode)
        || reg_or_0_operand (operands[1], SImode)))
     : -1 },
   { "(TARGET_EXPLICIT_RELOCS) && (Pmode == SImode)",
     __builtin_constant_p (
-#line 3120 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3120 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode))
     ? (int) (
-#line 3120 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3120 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode))
     : -1 },
-#line 1721 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1721 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "(TARGET_MAD || ISA_HAS_MACC)\n\
    && !TARGET_64BIT",
     __builtin_constant_p 
-#line 1721 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1721 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ((TARGET_MAD || ISA_HAS_MACC)
    && !TARGET_64BIT)
     ? (int) 
-#line 1721 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1721 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ((TARGET_MAD || ISA_HAS_MACC)
    && !TARGET_64BIT)
     : -1 },
   { "(TARGET_64BIT) && ( reload_completed && register_operand (operands[1], VOIDmode))",
     __builtin_constant_p (
-#line 2430 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2430 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT) && 
-#line 2434 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2434 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed && register_operand (operands[1], VOIDmode)))
     ? (int) (
-#line 2430 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2430 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT) && 
-#line 2434 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2434 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed && register_operand (operands[1], VOIDmode)))
     : -1 },
-#line 5401 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5401 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "reload_completed",
     __builtin_constant_p 
-#line 5401 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5401 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed)
     ? (int) 
-#line 5401 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5401 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed)
     : -1 },
-#line 1710 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1710 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_MAD",
     __builtin_constant_p 
-#line 1710 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1710 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MAD)
     ? (int) 
-#line 1710 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1710 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MAD)
     : -1 },
-#line 1676 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1676 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "ISA_HAS_MULHI",
     __builtin_constant_p 
-#line 1676 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1676 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MULHI)
     ? (int) 
-#line 1676 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1676 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MULHI)
     : -1 },
-#line 2922 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2922 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "mips_use_ins_ext_p (operands[0], operands[1], operands[2])",
     __builtin_constant_p 
-#line 2922 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2922 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (mips_use_ins_ext_p (operands[0], operands[1], operands[2]))
     ? (int) 
-#line 2922 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2922 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (mips_use_ins_ext_p (operands[0], operands[1], operands[2]))
     : -1 },
-#line 4129 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4129 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_64BIT && TARGET_MIPS16",
     __builtin_constant_p 
-#line 4129 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4129 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && TARGET_MIPS16)
     ? (int) 
-#line 4129 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4129 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && TARGET_MIPS16)
     : -1 },
-#line 3833 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3833 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_PAIRED_SINGLE_FLOAT\n\
    && TARGET_64BIT\n\
    && (register_operand (operands[0], V2SFmode)\n\
        || reg_or_0_operand (operands[1], V2SFmode))",
     __builtin_constant_p 
-#line 3833 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3833 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT
    && TARGET_64BIT
    && (register_operand (operands[0], V2SFmode)
        || reg_or_0_operand (operands[1], V2SFmode)))
     ? (int) 
-#line 3833 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3833 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT
    && TARGET_64BIT
    && (register_operand (operands[0], V2SFmode)
        || reg_or_0_operand (operands[1], V2SFmode)))
     : -1 },
-#line 5067 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5067 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_SIBCALLS && SIBLING_CALL_P (insn)",
     __builtin_constant_p 
-#line 5067 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5067 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SIBCALLS && SIBLING_CALL_P (insn))
     ? (int) 
-#line 5067 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5067 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SIBCALLS && SIBLING_CALL_P (insn))
     : -1 },
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "Pmode == DImode",
     __builtin_constant_p 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)
     ? (int) 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)
     : -1 },
   { "(TARGET_SB1 && flag_unsafe_math_optimizations) && (TARGET_PAIRED_SINGLE_FLOAT)",
     __builtin_constant_p (
-#line 1947 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1947 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SB1 && flag_unsafe_math_optimizations) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     ? (int) (
-#line 1947 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1947 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SB1 && flag_unsafe_math_optimizations) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     : -1 },
   { "(TARGET_4300_MUL_FIX) && (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)",
     __builtin_constant_p (
-#line 945 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 945 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_4300_MUL_FIX) && 
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     ? (int) (
-#line 945 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 945 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_4300_MUL_FIX) && 
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     : -1 },
-#line 1054 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 1054 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
   { "TARGET_DSP",
     __builtin_constant_p 
-#line 1054 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 1054 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)
     ? (int) 
-#line 1054 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 1054 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)
     : -1 },
-#line 1580 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1580 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_64BIT && !TARGET_FIX_R4000",
     __builtin_constant_p 
-#line 1580 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1580 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_FIX_R4000)
     ? (int) 
-#line 1580 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1580 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_FIX_R4000)
     : -1 },
-#line 4902 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4902 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "mips_can_use_return_insn ()",
     __builtin_constant_p 
-#line 4902 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4902 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (mips_can_use_return_insn ())
     ? (int) 
-#line 4902 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4902 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (mips_can_use_return_insn ())
     : -1 },
-#line 222 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 222 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
   { "TARGET_PAIRED_SINGLE_FLOAT",
     __builtin_constant_p 
-#line 222 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 222 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_PAIRED_SINGLE_FLOAT)
     ? (int) 
-#line 222 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 222 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_PAIRED_SINGLE_FLOAT)
     : -1 },
-#line 3329 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3329 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_MIPS16\n\
    && (register_operand (operands[0], SImode)\n\
        || register_operand (operands[1], SImode))",
     __builtin_constant_p 
-#line 3329 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3329 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16
    && (register_operand (operands[0], SImode)
        || register_operand (operands[1], SImode)))
     ? (int) 
-#line 3329 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3329 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16
    && (register_operand (operands[0], SImode)
        || register_operand (operands[1], SImode)))
     : -1 },
   { "(ISA_HAS_CLZ_CLO) && (TARGET_64BIT)",
     __builtin_constant_p (
-#line 1990 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1990 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CLZ_CLO) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     ? (int) (
-#line 1990 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1990 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CLZ_CLO) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     : -1 },
   { "(!TARGET_FIX_VR4120) && (TARGET_64BIT)",
     __builtin_constant_p (
-#line 1881 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1881 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_FIX_VR4120) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     ? (int) (
-#line 1881 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1881 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_FIX_VR4120) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     : -1 },
-#line 1695 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1695 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_64BIT && !TARGET_FIX_R4000\n\
    && !(ZERO_EXTEND == ZERO_EXTEND && TARGET_FIX_VR4120)",
     __builtin_constant_p 
-#line 1695 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1695 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_FIX_R4000
    && !(ZERO_EXTEND == ZERO_EXTEND && TARGET_FIX_VR4120))
     ? (int) 
-#line 1695 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1695 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_FIX_R4000
    && !(ZERO_EXTEND == ZERO_EXTEND && TARGET_FIX_VR4120))
     : -1 },
-#line 4952 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4952 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "reload_completed && !TARGET_DEBUG_D_MODE",
     __builtin_constant_p 
-#line 4952 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4952 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && !TARGET_DEBUG_D_MODE)
     ? (int) 
-#line 4952 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4952 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && !TARGET_DEBUG_D_MODE)
     : -1 },
   { "(TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE\n\
@@ -590,339 +590,339 @@ const struct c_test insn_conditions[] = {
    && INTVAL (operands[2]) > 8\n\
    && INTVAL (operands[2]) <= 16) && (TARGET_64BIT)",
     __builtin_constant_p (
-#line 4150 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4150 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && GET_CODE (operands[2]) == CONST_INT
    && INTVAL (operands[2]) > 8
    && INTVAL (operands[2]) <= 16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     ? (int) (
-#line 4150 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4150 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && GET_CODE (operands[2]) == CONST_INT
    && INTVAL (operands[2]) > 8
    && INTVAL (operands[2]) <= 16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     : -1 },
-#line 2545 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2545 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT && !ISA_HAS_TRUNC_W",
     __builtin_constant_p 
-#line 2545 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2545 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT && !ISA_HAS_TRUNC_W)
     ? (int) 
-#line 2545 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2545 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT && !ISA_HAS_TRUNC_W)
     : -1 },
   { "(TARGET_64BIT && !TARGET_MIPS16) && ( reload_completed)",
     __builtin_constant_p (
-#line 2268 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2268 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_MIPS16) && 
-#line 2270 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2270 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed))
     ? (int) (
-#line 2268 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2268 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_MIPS16) && 
-#line 2270 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2270 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed))
     : -1 },
-#line 2583 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2583 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_HARD_FLOAT && !ISA_HAS_TRUNC_W",
     __builtin_constant_p 
-#line 2583 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2583 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && !ISA_HAS_TRUNC_W)
     ? (int) 
-#line 2583 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2583 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && !ISA_HAS_TRUNC_W)
     : -1 },
-#line 5043 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5043 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_SIBCALLS",
     __builtin_constant_p 
-#line 5043 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5043 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SIBCALLS)
     ? (int) 
-#line 5043 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5043 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SIBCALLS)
     : -1 },
   { "(ISA_HAS_MACCHI) && (TARGET_64BIT)",
     __builtin_constant_p (
-#line 3874 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3874 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MACCHI) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     ? (int) (
-#line 3874 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3874 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MACCHI) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     : -1 },
   { "(ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD\n\
    && HONOR_SIGNED_ZEROS (V2SFmode)) && (TARGET_PAIRED_SINGLE_FLOAT)",
     __builtin_constant_p (
-#line 1787 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1787 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD
    && HONOR_SIGNED_ZEROS (V2SFmode)) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     ? (int) (
-#line 1787 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1787 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD
    && HONOR_SIGNED_ZEROS (V2SFmode)) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     : -1 },
-#line 5339 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5339 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "ISA_HAS_CONDMOVE",
     __builtin_constant_p 
-#line 5339 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5339 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE)
     ? (int) 
-#line 5339 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5339 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE)
     : -1 },
   { "((TARGET_EXPLICIT_RELOCS && TARGET_XGOT) && (Pmode == DImode)) && ( reload_completed)",
     __builtin_constant_p ((
-#line 3089 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3089 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)) && 
-#line 3091 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3091 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed))
     ? (int) ((
-#line 3089 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3089 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)) && 
-#line 3091 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3091 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed))
     : -1 },
-#line 1075 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1075 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "GENERATE_MULT3_SI && peep2_reg_dead_p (2, operands[0])",
     __builtin_constant_p 
-#line 1075 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1075 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MULT3_SI && peep2_reg_dead_p (2, operands[0]))
     ? (int) 
-#line 1075 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1075 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MULT3_SI && peep2_reg_dead_p (2, operands[0]))
     : -1 },
-#line 4054 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4054 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_64BIT && !TARGET_MIPS16",
     __builtin_constant_p 
-#line 4054 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4054 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_MIPS16)
     ? (int) 
-#line 4054 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4054 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_MIPS16)
     : -1 },
-#line 3809 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3809 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_MIPS16 && reload_completed && INTVAL (operands[1]) < 0",
     __builtin_constant_p 
-#line 3809 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3809 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && INTVAL (operands[1]) < 0)
     ? (int) 
-#line 3809 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3809 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && INTVAL (operands[1]) < 0)
     : -1 },
-#line 5380 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5380 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_MIPS16",
     __builtin_constant_p 
-#line 5380 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5380 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16)
     ? (int) 
-#line 5380 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5380 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16)
     : -1 },
-#line 1517 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1517 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "!TARGET_64BIT && TARGET_FIX_R4000",
     __builtin_constant_p 
-#line 1517 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1517 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT && TARGET_FIX_R4000)
     ? (int) 
-#line 1517 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1517 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT && TARGET_FIX_R4000)
     : -1 },
-#line 1990 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1990 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "ISA_HAS_CLZ_CLO",
     __builtin_constant_p 
-#line 1990 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1990 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CLZ_CLO)
     ? (int) 
-#line 1990 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1990 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CLZ_CLO)
     : -1 },
-#line 3696 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3696 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_HARD_FLOAT\n\
    && (register_operand (operands[0], SFmode)\n\
        || reg_or_0_operand (operands[1], SFmode))",
     __builtin_constant_p 
-#line 3696 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3696 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT
    && (register_operand (operands[0], SFmode)
        || reg_or_0_operand (operands[1], SFmode)))
     ? (int) 
-#line 3696 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3696 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT
    && (register_operand (operands[0], SFmode)
        || reg_or_0_operand (operands[1], SFmode)))
     : -1 },
-#line 1289 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1289 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "ISA_HAS_MACC && reload_completed",
     __builtin_constant_p 
-#line 1289 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1289 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MACC && reload_completed)
     ? (int) 
-#line 1289 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1289 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MACC && reload_completed)
     : -1 },
   { "(TARGET_MIPS16) && (Pmode == SImode)",
     __builtin_constant_p (
-#line 3164 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3164 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode))
     ? (int) (
-#line 3164 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3164 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode))
     : -1 },
   { "(TARGET_MIPS16) && (TARGET_64BIT)",
     __builtin_constant_p (
-#line 4666 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4666 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     ? (int) (
-#line 4666 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4666 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     : -1 },
   { "(!ISA_HAS_SEB_SEH && !GENERATE_MIPS16E) && ( reload_completed && REG_P (operands[1]))",
     __builtin_constant_p (
-#line 2462 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2462 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_SEB_SEH && !GENERATE_MIPS16E) && 
-#line 2466 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2466 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed && REG_P (operands[1])))
     ? (int) (
-#line 2462 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2462 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_SEB_SEH && !GENERATE_MIPS16E) && 
-#line 2466 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2466 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed && REG_P (operands[1])))
     : -1 },
   { "(TARGET_64BIT && TARGET_MIPS16) && ( reload_completed)",
     __builtin_constant_p (
-#line 868 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 868 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && TARGET_MIPS16) && 
-#line 870 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 870 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed))
     ? (int) (
-#line 868 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 868 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && TARGET_MIPS16) && 
-#line 870 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 870 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed))
     : -1 },
-#line 1695 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1695 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_64BIT && !TARGET_FIX_R4000\n\
    && !(SIGN_EXTEND == ZERO_EXTEND && TARGET_FIX_VR4120)",
     __builtin_constant_p 
-#line 1695 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1695 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_FIX_R4000
    && !(SIGN_EXTEND == ZERO_EXTEND && TARGET_FIX_VR4120))
     ? (int) 
-#line 1695 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1695 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_FIX_R4000
    && !(SIGN_EXTEND == ZERO_EXTEND && TARGET_FIX_VR4120))
     : -1 },
-#line 3796 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3796 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "reload_completed && !TARGET_64BIT\n\
    && mips_split_64bit_move_p (operands[0], operands[1])",
     __builtin_constant_p 
-#line 3796 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3796 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && !TARGET_64BIT
    && mips_split_64bit_move_p (operands[0], operands[1]))
     ? (int) 
-#line 3796 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3796 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && !TARGET_64BIT
    && mips_split_64bit_move_p (operands[0], operands[1]))
     : -1 },
   { "(TARGET_64BIT && !TARGET_FIX_R4000) && ( reload_completed)",
     __builtin_constant_p (
-#line 1530 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1530 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_FIX_R4000) && 
-#line 1532 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1532 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed))
     ? (int) (
-#line 1530 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1530 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_FIX_R4000) && 
-#line 1532 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1532 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed))
     : -1 },
-#line 3763 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3763 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "(TARGET_SOFT_FLOAT || TARGET_SINGLE_FLOAT) && !TARGET_MIPS16\n\
    && (register_operand (operands[0], DFmode)\n\
        || reg_or_0_operand (operands[1], DFmode))",
     __builtin_constant_p 
-#line 3763 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3763 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ((TARGET_SOFT_FLOAT || TARGET_SINGLE_FLOAT) && !TARGET_MIPS16
    && (register_operand (operands[0], DFmode)
        || reg_or_0_operand (operands[1], DFmode)))
     ? (int) 
-#line 3763 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3763 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ((TARGET_SOFT_FLOAT || TARGET_SINGLE_FLOAT) && !TARGET_MIPS16
    && (register_operand (operands[0], DFmode)
        || reg_or_0_operand (operands[1], DFmode)))
     : -1 },
   { "(ISA_HAS_MACC && !ISA_HAS_MSAC) && ( reload_completed)",
     __builtin_constant_p (
-#line 1261 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1261 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MACC && !ISA_HAS_MSAC) && 
-#line 1263 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1263 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed))
     ? (int) (
-#line 1261 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1261 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MACC && !ISA_HAS_MSAC) && 
-#line 1263 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1263 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed))
     : -1 },
   { "(!TARGET_MIPS16) && (Pmode == SImode)",
     __builtin_constant_p (
-#line 3155 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3155 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode))
     ? (int) (
-#line 3155 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3155 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode))
     : -1 },
   { "(TARGET_ABICALLS) && (Pmode == SImode)",
     __builtin_constant_p (
-#line 5000 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5000 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_ABICALLS) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode))
     ? (int) (
-#line 5000 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5000 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_ABICALLS) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode))
     : -1 },
-#line 4150 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4150 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE\n\
    && GET_CODE (operands[2]) == CONST_INT\n\
    && INTVAL (operands[2]) > 8\n\
    && INTVAL (operands[2]) <= 16",
     __builtin_constant_p 
-#line 4150 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4150 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && GET_CODE (operands[2]) == CONST_INT
    && INTVAL (operands[2]) > 8
    && INTVAL (operands[2]) <= 16)
     ? (int) 
-#line 4150 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4150 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && GET_CODE (operands[2]) == CONST_INT
    && INTVAL (operands[2]) > 8
@@ -930,75 +930,75 @@ const struct c_test insn_conditions[] = {
     : -1 },
   { "(ISA_HAS_FP4 && flag_unsafe_math_optimizations) && (TARGET_HARD_FLOAT)",
     __builtin_constant_p (
-#line 1947 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1947 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4 && flag_unsafe_math_optimizations) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     ? (int) (
-#line 1947 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1947 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4 && flag_unsafe_math_optimizations) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     : -1 },
   { "(!TARGET_MIPS16) && (Pmode == DImode)",
     __builtin_constant_p (
-#line 3155 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3155 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode))
     ? (int) (
-#line 3155 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3155 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode))
     : -1 },
   { "((ISA_HAS_CONDMOVE) && (TARGET_64BIT)) && (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)",
     __builtin_constant_p ((
-#line 5324 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5324 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 410 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 410 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)) && 
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     ? (int) ((
-#line 5324 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5324 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 410 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 410 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)) && 
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     : -1 },
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_HARD_FLOAT",
     __builtin_constant_p 
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)
     ? (int) 
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)
     : -1 },
   { "(ISA_HAS_SEB_SEH) && (TARGET_64BIT)",
     __builtin_constant_p (
-#line 2482 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2482 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_SEB_SEH) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     ? (int) (
-#line 2482 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2482 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_SEB_SEH) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     : -1 },
-#line 966 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 966 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
   { "TARGET_DSP && !TARGET_64BIT",
     __builtin_constant_p 
-#line 966 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 966 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP && !TARGET_64BIT)
     ? (int) 
-#line 966 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 966 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP && !TARGET_64BIT)
     : -1 },
-#line 3262 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3262 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_64BIT && TARGET_MIPS16 && reload_completed\n\
    && !TARGET_DEBUG_D_MODE\n\
    && REG_P (operands[0])\n\
@@ -1012,7 +1012,7 @@ const struct c_test insn_conditions[] = {
 	   && INTVAL (operands[1]) < 32 * 8\n\
 	   && (INTVAL (operands[1]) & 7) != 0))",
     __builtin_constant_p 
-#line 3262 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3262 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && TARGET_MIPS16 && reload_completed
    && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
@@ -1026,7 +1026,7 @@ const struct c_test insn_conditions[] = {
 	   && INTVAL (operands[1]) < 32 * 8
 	   && (INTVAL (operands[1]) & 7) != 0)))
     ? (int) 
-#line 3262 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3262 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && TARGET_MIPS16 && reload_completed
    && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
@@ -1042,696 +1042,696 @@ const struct c_test insn_conditions[] = {
     : -1 },
   { "((ISA_HAS_FP4) && (Pmode == DImode)) && (TARGET_PAIRED_SINGLE_FLOAT)",
     __builtin_constant_p ((
-#line 3487 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3487 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     ? (int) ((
-#line 3487 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3487 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     : -1 },
-#line 3774 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3774 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_MIPS16\n\
    && (register_operand (operands[0], DFmode)\n\
        || register_operand (operands[1], DFmode))",
     __builtin_constant_p 
-#line 3774 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3774 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16
    && (register_operand (operands[0], DFmode)
        || register_operand (operands[1], DFmode)))
     ? (int) 
-#line 3774 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3774 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16
    && (register_operand (operands[0], DFmode)
        || register_operand (operands[1], DFmode)))
     : -1 },
-#line 3233 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3233 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_64BIT && TARGET_MIPS16\n\
    && (register_operand (operands[0], DImode)\n\
        || register_operand (operands[1], DImode))",
     __builtin_constant_p 
-#line 3233 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3233 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && TARGET_MIPS16
    && (register_operand (operands[0], DImode)
        || register_operand (operands[1], DImode)))
     ? (int) 
-#line 3233 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3233 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && TARGET_MIPS16
    && (register_operand (operands[0], DImode)
        || register_operand (operands[1], DImode)))
     : -1 },
-#line 2794 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2794 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_HARD_FLOAT && TARGET_64BIT && TARGET_DOUBLE_FLOAT",
     __builtin_constant_p 
-#line 2794 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2794 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_64BIT && TARGET_DOUBLE_FLOAT)
     ? (int) 
-#line 2794 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2794 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_64BIT && TARGET_DOUBLE_FLOAT)
     : -1 },
   { "(TARGET_PAIRED_SINGLE_FLOAT) && ( reload_completed)",
     __builtin_constant_p (
-#line 307 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 307 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_PAIRED_SINGLE_FLOAT) && 
-#line 309 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 309 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 ( reload_completed))
     ? (int) (
-#line 307 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 307 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_PAIRED_SINGLE_FLOAT) && 
-#line 309 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 309 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 ( reload_completed))
     : -1 },
-#line 3455 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3455 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "ISA_HAS_8CC && TARGET_HARD_FLOAT",
     __builtin_constant_p 
-#line 3455 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3455 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_8CC && TARGET_HARD_FLOAT)
     ? (int) 
-#line 3455 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3455 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_8CC && TARGET_HARD_FLOAT)
     : -1 },
   { "(TARGET_PAIRED_SINGLE_FLOAT) && (TARGET_64BIT)",
     __builtin_constant_p (
-#line 29 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 29 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_PAIRED_SINGLE_FLOAT) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     ? (int) (
-#line 29 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 29 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_PAIRED_SINGLE_FLOAT) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     : -1 },
-#line 3741 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3741 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT && TARGET_64BIT\n\
    && (register_operand (operands[0], DFmode)\n\
        || reg_or_0_operand (operands[1], DFmode))",
     __builtin_constant_p 
-#line 3741 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3741 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT && TARGET_64BIT
    && (register_operand (operands[0], DFmode)
        || reg_or_0_operand (operands[1], DFmode)))
     ? (int) 
-#line 3741 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3741 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT && TARGET_64BIT
    && (register_operand (operands[0], DFmode)
        || reg_or_0_operand (operands[1], DFmode)))
     : -1 },
   { "(ISA_HAS_FP4 && TARGET_FUSED_MADD) && (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)",
     __builtin_constant_p (
-#line 1752 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1752 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4 && TARGET_FUSED_MADD) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     ? (int) (
-#line 1752 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1752 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4 && TARGET_FUSED_MADD) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     : -1 },
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_64BIT",
     __builtin_constant_p 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)
     ? (int) 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)
     : -1 },
   { "(TARGET_EXPLICIT_RELOCS && !TARGET_XGOT) && (Pmode == SImode)",
     __builtin_constant_p (
-#line 3103 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3103 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && !TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode))
     ? (int) (
-#line 3103 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3103 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && !TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode))
     : -1 },
-#line 2955 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2955 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "!TARGET_MIPS16 && mips_mem_fits_mode_p (SImode, operands[1])",
     __builtin_constant_p 
-#line 2955 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2955 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16 && mips_mem_fits_mode_p (SImode, operands[1]))
     ? (int) 
-#line 2955 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2955 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16 && mips_mem_fits_mode_p (SImode, operands[1]))
     : -1 },
   { "(GENERATE_MIPS16E) && (TARGET_64BIT)",
     __builtin_constant_p (
-#line 2451 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2451 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MIPS16E) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     ? (int) (
-#line 2451 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2451 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MIPS16E) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     : -1 },
   { "((ISA_HAS_FP4) && (Pmode == DImode)) && (TARGET_HARD_FLOAT)",
     __builtin_constant_p ((
-#line 3487 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3487 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     ? (int) ((
-#line 3487 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3487 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     : -1 },
-#line 2482 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2482 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "ISA_HAS_SEB_SEH",
     __builtin_constant_p 
-#line 2482 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2482 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_SEB_SEH)
     ? (int) 
-#line 2482 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2482 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_SEB_SEH)
     : -1 },
   { "(TARGET_EXPLICIT_RELOCS && TARGET_XGOT) && (Pmode == DImode)",
     __builtin_constant_p (
-#line 3089 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3089 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode))
     ? (int) (
-#line 3089 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3089 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode))
     : -1 },
   { "(ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD\n\
    && !HONOR_SIGNED_ZEROS (SFmode)) && (TARGET_HARD_FLOAT)",
     __builtin_constant_p (
-#line 1799 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1799 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD
    && !HONOR_SIGNED_ZEROS (SFmode)) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     ? (int) (
-#line 1799 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1799 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD
    && !HONOR_SIGNED_ZEROS (SFmode)) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     : -1 },
-#line 1454 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1454 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "reload_completed && !TARGET_DEBUG_D_MODE\n\
    && GP_REG_P (true_regnum (operands[0]))\n\
    && true_regnum (operands[1]) == LO_REGNUM",
     __builtin_constant_p 
-#line 1454 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1454 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && !TARGET_DEBUG_D_MODE
    && GP_REG_P (true_regnum (operands[0]))
    && true_regnum (operands[1]) == LO_REGNUM)
     ? (int) 
-#line 1454 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1454 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && !TARGET_DEBUG_D_MODE
    && GP_REG_P (true_regnum (operands[0]))
    && true_regnum (operands[1]) == LO_REGNUM)
     : -1 },
   { "(!TARGET_4300_MUL_FIX) && (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)",
     __builtin_constant_p (
-#line 932 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 932 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_4300_MUL_FIX) && 
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     ? (int) (
-#line 932 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 932 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_4300_MUL_FIX) && 
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     : -1 },
   { "(ISA_HAS_FP4 && TARGET_FUSED_MADD) && (TARGET_PAIRED_SINGLE_FLOAT)",
     __builtin_constant_p (
-#line 1752 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1752 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4 && TARGET_FUSED_MADD) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     ? (int) (
-#line 1752 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1752 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4 && TARGET_FUSED_MADD) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     : -1 },
-#line 3637 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3637 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_MIPS16\n\
    && (register_operand (operands[0], QImode)\n\
        || register_operand (operands[1], QImode))",
     __builtin_constant_p 
-#line 3637 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3637 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16
    && (register_operand (operands[0], QImode)
        || register_operand (operands[1], QImode)))
     ? (int) 
-#line 3637 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3637 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16
    && (register_operand (operands[0], QImode)
        || register_operand (operands[1], QImode)))
     : -1 },
   { "(!ISA_HAS_MACCHI) && (TARGET_64BIT)",
     __builtin_constant_p (
-#line 3864 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3864 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_MACCHI) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     ? (int) (
-#line 3864 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3864 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_MACCHI) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     : -1 },
   { "(TARGET_MIPS3D) && ( reload_completed)",
     __builtin_constant_p (
-#line 336 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 336 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D) && 
-#line 338 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 338 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 ( reload_completed))
     ? (int) (
-#line 336 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 336 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D) && 
-#line 338 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 338 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 ( reload_completed))
     : -1 },
   { "(ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD\n\
    && HONOR_SIGNED_ZEROS (DFmode)) && (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)",
     __builtin_constant_p (
-#line 1787 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1787 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD
    && HONOR_SIGNED_ZEROS (DFmode)) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     ? (int) (
-#line 1787 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1787 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD
    && HONOR_SIGNED_ZEROS (DFmode)) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     : -1 },
   { "(!TARGET_MIPS16 && mips_mem_fits_mode_p (DImode, operands[0])) && (TARGET_64BIT)",
     __builtin_constant_p (
-#line 2976 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2976 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16 && mips_mem_fits_mode_p (DImode, operands[0])) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     ? (int) (
-#line 2976 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2976 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16 && mips_mem_fits_mode_p (DImode, operands[0])) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     : -1 },
-#line 2976 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2976 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "!TARGET_MIPS16 && mips_mem_fits_mode_p (SImode, operands[0])",
     __builtin_constant_p 
-#line 2976 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2976 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16 && mips_mem_fits_mode_p (SImode, operands[0]))
     ? (int) 
-#line 2976 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2976 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16 && mips_mem_fits_mode_p (SImode, operands[0]))
     : -1 },
   { "(ISA_HAS_PREFETCHX && TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT) && (Pmode == DImode)",
     __builtin_constant_p (
-#line 5273 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5273 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_PREFETCHX && TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode))
     ? (int) (
-#line 5273 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5273 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_PREFETCHX && TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode))
     : -1 },
-#line 1592 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1592 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "!TARGET_64BIT && ISA_HAS_MULS",
     __builtin_constant_p 
-#line 1592 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1592 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT && ISA_HAS_MULS)
     ? (int) 
-#line 1592 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1592 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT && ISA_HAS_MULS)
     : -1 },
-#line 4940 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4940 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "! TARGET_64BIT",
     __builtin_constant_p 
-#line 4940 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4940 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (! TARGET_64BIT)
     ? (int) 
-#line 4940 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4940 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (! TARGET_64BIT)
     : -1 },
-#line 3222 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3222 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_64BIT && !TARGET_MIPS16\n\
    && (register_operand (operands[0], DImode)\n\
        || reg_or_0_operand (operands[1], DImode))",
     __builtin_constant_p 
-#line 3222 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3222 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_MIPS16
    && (register_operand (operands[0], DImode)
        || reg_or_0_operand (operands[1], DImode)))
     ? (int) 
-#line 3222 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3222 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_MIPS16
    && (register_operand (operands[0], DImode)
        || reg_or_0_operand (operands[1], DImode)))
     : -1 },
   { "((TARGET_EXPLICIT_RELOCS && TARGET_XGOT) && (Pmode == SImode)) && ( reload_completed)",
     __builtin_constant_p ((
-#line 3089 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3089 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)) && 
-#line 3091 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3091 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed))
     ? (int) ((
-#line 3089 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3089 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)) && 
-#line 3091 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3091 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed))
     : -1 },
-#line 4185 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4185 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "ISA_HAS_ROTR_SI",
     __builtin_constant_p 
-#line 4185 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4185 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_ROTR_SI)
     ? (int) 
-#line 4185 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4185 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_ROTR_SI)
     : -1 },
-#line 3718 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3718 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_MIPS16\n\
    && (register_operand (operands[0], SFmode)\n\
        || register_operand (operands[1], SFmode))",
     __builtin_constant_p 
-#line 3718 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3718 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16
    && (register_operand (operands[0], SFmode)
        || register_operand (operands[1], SFmode)))
     ? (int) 
-#line 3718 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3718 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16
    && (register_operand (operands[0], SFmode)
        || register_operand (operands[1], SFmode)))
     : -1 },
   { "((TARGET_EXPLICIT_RELOCS) && (Pmode == DImode)) && ( reload_completed)",
     __builtin_constant_p ((
-#line 3120 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3120 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)) && 
-#line 3122 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3122 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed))
     ? (int) ((
-#line 3120 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3120 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)) && 
-#line 3122 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3122 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed))
     : -1 },
   { "((TARGET_EXPLICIT_RELOCS && !TARGET_XGOT) && (Pmode == SImode)) && ( reload_completed)",
     __builtin_constant_p ((
-#line 3103 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3103 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && !TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)) && 
-#line 3105 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3105 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed))
     ? (int) ((
-#line 3103 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3103 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && !TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)) && 
-#line 3105 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3105 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed))
     : -1 },
-#line 1028 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1028 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "GENERATE_MULT3_SI",
     __builtin_constant_p 
-#line 1028 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1028 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MULT3_SI)
     ? (int) 
-#line 1028 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1028 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MULT3_SI)
     : -1 },
-#line 3025 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3025 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_EXPLICIT_RELOCS && ABI_HAS_64BIT_SYMBOLS",
     __builtin_constant_p 
-#line 3025 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3025 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && ABI_HAS_64BIT_SYMBOLS)
     ? (int) 
-#line 3025 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3025 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && ABI_HAS_64BIT_SYMBOLS)
     : -1 },
   { "(!TARGET_MIPS16) && (TARGET_64BIT)",
     __builtin_constant_p (
-#line 4654 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4654 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     ? (int) (
-#line 4654 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4654 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     : -1 },
-#line 2654 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2654 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_HARD_FLOAT && TARGET_FLOAT64 && TARGET_DOUBLE_FLOAT",
     __builtin_constant_p 
-#line 2654 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2654 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_FLOAT64 && TARGET_DOUBLE_FLOAT)
     ? (int) 
-#line 2654 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2654 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_FLOAT64 && TARGET_DOUBLE_FLOAT)
     : -1 },
-#line 1881 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1881 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "!TARGET_FIX_VR4120",
     __builtin_constant_p 
-#line 1881 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1881 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_FIX_VR4120)
     ? (int) 
-#line 1881 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1881 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_FIX_VR4120)
     : -1 },
-#line 2451 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2451 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "GENERATE_MIPS16E",
     __builtin_constant_p 
-#line 2451 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2451 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MIPS16E)
     ? (int) 
-#line 2451 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2451 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MIPS16E)
     : -1 },
   { "(mips_use_ins_ext_p (operands[1], operands[2], operands[3])) && (TARGET_64BIT)",
     __builtin_constant_p (
-#line 2886 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2886 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (mips_use_ins_ext_p (operands[1], operands[2], operands[3])) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     ? (int) (
-#line 2886 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2886 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (mips_use_ins_ext_p (operands[1], operands[2], operands[3])) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     : -1 },
-#line 1396 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1396 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "GENERATE_MULT3_SI && peep2_reg_dead_p (3, operands[1])",
     __builtin_constant_p 
-#line 1396 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1396 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MULT3_SI && peep2_reg_dead_p (3, operands[1]))
     ? (int) 
-#line 1396 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1396 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MULT3_SI && peep2_reg_dead_p (3, operands[1]))
     : -1 },
-#line 1507 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1507 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "!TARGET_64BIT && !TARGET_FIX_R4000",
     __builtin_constant_p 
-#line 1507 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1507 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT && !TARGET_FIX_R4000)
     ? (int) 
-#line 1507 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1507 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT && !TARGET_FIX_R4000)
     : -1 },
   { "(TARGET_MIPS3D) && (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)",
     __builtin_constant_p (
-#line 474 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 474 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     ? (int) (
-#line 474 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 474 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     : -1 },
-#line 3874 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3874 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "ISA_HAS_MACCHI",
     __builtin_constant_p 
-#line 3874 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3874 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MACCHI)
     ? (int) 
-#line 3874 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3874 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MACCHI)
     : -1 },
-#line 1218 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1218 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "ISA_HAS_MACC",
     __builtin_constant_p 
-#line 1218 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1218 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MACC)
     ? (int) 
-#line 1218 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1218 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MACC)
     : -1 },
   { "(TARGET_MIPS16) && (Pmode == DImode)",
     __builtin_constant_p (
-#line 3164 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3164 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode))
     ? (int) (
-#line 3164 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3164 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode))
     : -1 },
   { "((ISA_HAS_FP4) && (Pmode == SImode)) && (TARGET_PAIRED_SINGLE_FLOAT)",
     __builtin_constant_p ((
-#line 3487 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3487 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     ? (int) ((
-#line 3487 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3487 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     : -1 },
   { "((!ISA_HAS_SEB_SEH && !GENERATE_MIPS16E) && (TARGET_64BIT)) && ( reload_completed && REG_P (operands[1]))",
     __builtin_constant_p ((
-#line 2462 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2462 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_SEB_SEH && !GENERATE_MIPS16E) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)) && 
-#line 2466 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2466 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed && REG_P (operands[1])))
     ? (int) ((
-#line 2462 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2462 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_SEB_SEH && !GENERATE_MIPS16E) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)) && 
-#line 2466 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2466 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed && REG_P (operands[1])))
     : -1 },
-#line 1052 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1052 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_64BIT && GENERATE_MULT3_DI",
     __builtin_constant_p 
-#line 1052 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1052 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && GENERATE_MULT3_DI)
     ? (int) 
-#line 1052 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1052 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && GENERATE_MULT3_DI)
     : -1 },
   { "(TARGET_4300_MUL_FIX) && (TARGET_HARD_FLOAT)",
     __builtin_constant_p (
-#line 945 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 945 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_4300_MUL_FIX) && 
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     ? (int) (
-#line 945 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 945 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_4300_MUL_FIX) && 
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     : -1 },
-#line 4455 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4455 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "!TARGET_MIPS16",
     __builtin_constant_p 
-#line 4455 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4455 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16)
     ? (int) 
-#line 4455 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4455 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16)
     : -1 },
-#line 1489 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1489 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "!TARGET_64BIT || !TARGET_FIX_R4000",
     __builtin_constant_p 
-#line 1489 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1489 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT || !TARGET_FIX_R4000)
     ? (int) 
-#line 1489 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1489 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT || !TARGET_FIX_R4000)
     : -1 },
-#line 1122 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1122 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "ISA_HAS_MACC && !GENERATE_MULT3_SI",
     __builtin_constant_p 
-#line 1122 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1122 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MACC && !GENERATE_MULT3_SI)
     ? (int) 
-#line 1122 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1122 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MACC && !GENERATE_MULT3_SI)
     : -1 },
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "Pmode == SImode",
     __builtin_constant_p 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)
     ? (int) 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)
     : -1 },
-#line 1623 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1623 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "ISA_HAS_MULHI || !TARGET_FIX_R4000",
     __builtin_constant_p 
-#line 1623 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1623 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MULHI || !TARGET_FIX_R4000)
     ? (int) 
-#line 1623 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1623 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MULHI || !TARGET_FIX_R4000)
     : -1 },
   { "(HAVE_AS_TLS && !TARGET_MIPS16) && (Pmode == DImode)",
     __builtin_constant_p (
-#line 5419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (HAVE_AS_TLS && !TARGET_MIPS16) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode))
     ? (int) (
-#line 5419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (HAVE_AS_TLS && !TARGET_MIPS16) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode))
     : -1 },
   { "(ISA_HAS_CONDMOVE) && (TARGET_HARD_FLOAT)",
     __builtin_constant_p (
-#line 5351 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5351 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     ? (int) (
-#line 5351 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5351 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     : -1 },
-#line 731 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 731 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE\n\
    && REG_P (operands[0])\n\
    && M16_REG_P (REGNO (operands[0]))\n\
@@ -1741,7 +1741,7 @@ const struct c_test insn_conditions[] = {
        || (INTVAL (operands[1]) < - 0x80\n\
 	   && INTVAL (operands[1]) >= - 0x80 - 0x80))",
     __builtin_constant_p 
-#line 731 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 731 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
    && M16_REG_P (REGNO (operands[0]))
@@ -1751,7 +1751,7 @@ const struct c_test insn_conditions[] = {
        || (INTVAL (operands[1]) < - 0x80
 	   && INTVAL (operands[1]) >= - 0x80 - 0x80)))
     ? (int) 
-#line 731 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 731 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
    && M16_REG_P (REGNO (operands[0]))
@@ -1761,166 +1761,166 @@ const struct c_test insn_conditions[] = {
        || (INTVAL (operands[1]) < - 0x80
 	   && INTVAL (operands[1]) >= - 0x80 - 0x80)))
     : -1 },
-#line 1180 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1180 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "reload_completed && !TARGET_DEBUG_D_MODE\n\
    && GP_REG_P (true_regnum (operands[0]))\n\
    && GP_REG_P (true_regnum (operands[3]))",
     __builtin_constant_p 
-#line 1180 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1180 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && !TARGET_DEBUG_D_MODE
    && GP_REG_P (true_regnum (operands[0]))
    && GP_REG_P (true_regnum (operands[3])))
     ? (int) 
-#line 1180 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1180 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && !TARGET_DEBUG_D_MODE
    && GP_REG_P (true_regnum (operands[0]))
    && GP_REG_P (true_regnum (operands[3])))
     : -1 },
-#line 3618 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3618 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "!TARGET_MIPS16\n\
    && (register_operand (operands[0], QImode)\n\
        || reg_or_0_operand (operands[1], QImode))",
     __builtin_constant_p 
-#line 3618 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3618 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16
    && (register_operand (operands[0], QImode)
        || reg_or_0_operand (operands[1], QImode)))
     ? (int) 
-#line 3618 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3618 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16
    && (register_operand (operands[0], QImode)
        || reg_or_0_operand (operands[1], QImode)))
     : -1 },
-#line 1417 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1417 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "ISA_HAS_MADD_MSUB",
     __builtin_constant_p 
-#line 1417 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1417 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MADD_MSUB)
     ? (int) 
-#line 1417 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1417 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MADD_MSUB)
     : -1 },
-#line 1604 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1604 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "!TARGET_64BIT && ISA_HAS_MSAC",
     __builtin_constant_p 
-#line 1604 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1604 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT && ISA_HAS_MSAC)
     ? (int) 
-#line 1604 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1604 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT && ISA_HAS_MSAC)
     : -1 },
   { "((TARGET_EXPLICIT_RELOCS && !TARGET_XGOT) && (Pmode == DImode)) && ( reload_completed)",
     __builtin_constant_p ((
-#line 3103 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3103 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && !TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)) && 
-#line 3105 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3105 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed))
     ? (int) ((
-#line 3103 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3103 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && !TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)) && 
-#line 3105 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3105 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed))
     : -1 },
   { "((ISA_HAS_FP4) && (Pmode == SImode)) && (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)",
     __builtin_constant_p ((
-#line 3487 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3487 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     ? (int) ((
-#line 3487 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3487 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     : -1 },
   { "(TARGET_ABICALLS && TARGET_OLDABI) && ( reload_completed)",
     __builtin_constant_p (
-#line 4962 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4962 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_ABICALLS && TARGET_OLDABI) && 
-#line 4964 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4964 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed))
     ? (int) (
-#line 4962 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4962 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_ABICALLS && TARGET_OLDABI) && 
-#line 4964 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4964 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed))
     : -1 },
-#line 2886 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2886 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "mips_use_ins_ext_p (operands[1], operands[2], operands[3])",
     __builtin_constant_p 
-#line 2886 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2886 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (mips_use_ins_ext_p (operands[1], operands[2], operands[3]))
     ? (int) 
-#line 2886 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2886 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (mips_use_ins_ext_p (operands[1], operands[2], operands[3]))
     : -1 },
   { "((ISA_HAS_CONDMOVE) && (TARGET_HARD_FLOAT)) && (TARGET_64BIT)",
     __builtin_constant_p ((
-#line 5309 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5309 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 410 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 410 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     ? (int) ((
-#line 5309 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5309 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 410 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 410 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     : -1 },
-#line 3922 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3922 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT && !TARGET_64BIT",
     __builtin_constant_p 
-#line 3922 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3922 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT && !TARGET_64BIT)
     ? (int) 
-#line 3922 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3922 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT && !TARGET_64BIT)
     : -1 },
   { "(TARGET_64BIT) && ( reload_completed && REG_P (operands[1]))",
     __builtin_constant_p (
-#line 2321 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2321 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT) && 
-#line 2325 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2325 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed && REG_P (operands[1])))
     ? (int) (
-#line 2321 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2321 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT) && 
-#line 2325 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2325 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed && REG_P (operands[1])))
     : -1 },
-#line 617 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 617 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "ISA_HAS_COND_TRAP",
     __builtin_constant_p 
-#line 617 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 617 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_COND_TRAP)
     ? (int) 
-#line 617 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 617 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_COND_TRAP)
     : -1 },
   { "(TARGET_MIPS3D) && (TARGET_HARD_FLOAT)",
     __builtin_constant_p (
-#line 474 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 474 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     ? (int) (
-#line 474 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 474 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     : -1 },
-#line 792 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 792 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_MIPS16 && TARGET_64BIT && reload_completed && !TARGET_DEBUG_D_MODE\n\
    && REG_P (operands[0])\n\
    && M16_REG_P (REGNO (operands[0]))\n\
@@ -1930,7 +1930,7 @@ const struct c_test insn_conditions[] = {
        || (INTVAL (operands[1]) < - 0x10\n\
 	   && INTVAL (operands[1]) >= - 0x10 - 0x10))",
     __builtin_constant_p 
-#line 792 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 792 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && TARGET_64BIT && reload_completed && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
    && M16_REG_P (REGNO (operands[0]))
@@ -1940,7 +1940,7 @@ const struct c_test insn_conditions[] = {
        || (INTVAL (operands[1]) < - 0x10
 	   && INTVAL (operands[1]) >= - 0x10 - 0x10)))
     ? (int) 
-#line 792 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 792 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && TARGET_64BIT && reload_completed && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
    && M16_REG_P (REGNO (operands[0]))
@@ -1950,197 +1950,197 @@ const struct c_test insn_conditions[] = {
        || (INTVAL (operands[1]) < - 0x10
 	   && INTVAL (operands[1]) >= - 0x10 - 0x10)))
     : -1 },
-#line 1472 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1472 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "ISA_HAS_MULS",
     __builtin_constant_p 
-#line 1472 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1472 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MULS)
     ? (int) 
-#line 1472 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1472 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MULS)
     : -1 },
   { "(TARGET_ABICALLS) && (Pmode == DImode)",
     __builtin_constant_p (
-#line 5000 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5000 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_ABICALLS) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode))
     ? (int) (
-#line 5000 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5000 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_ABICALLS) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode))
     : -1 },
-#line 2572 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2572 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_HARD_FLOAT && ISA_HAS_TRUNC_W",
     __builtin_constant_p 
-#line 2572 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2572 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && ISA_HAS_TRUNC_W)
     ? (int) 
-#line 2572 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2572 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && ISA_HAS_TRUNC_W)
     : -1 },
-#line 3211 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3211 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "!TARGET_64BIT && TARGET_MIPS16\n\
    && (register_operand (operands[0], DImode)\n\
        || register_operand (operands[1], DImode))",
     __builtin_constant_p 
-#line 3211 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3211 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT && TARGET_MIPS16
    && (register_operand (operands[0], DImode)
        || register_operand (operands[1], DImode)))
     ? (int) 
-#line 3211 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3211 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT && TARGET_MIPS16
    && (register_operand (operands[0], DImode)
        || register_operand (operands[1], DImode)))
     : -1 },
   { "(TARGET_EXPLICIT_RELOCS && ABI_HAS_64BIT_SYMBOLS && cse_not_expected) && ( reload_completed)",
     __builtin_constant_p (
-#line 3053 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3053 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && ABI_HAS_64BIT_SYMBOLS && cse_not_expected) && 
-#line 3055 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3055 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed))
     ? (int) (
-#line 3053 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3053 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && ABI_HAS_64BIT_SYMBOLS && cse_not_expected) && 
-#line 3055 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3055 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed))
     : -1 },
-#line 2231 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2231 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_64BIT && !TARGET_MIPS16 && INTVAL (operands[2]) >= 32",
     __builtin_constant_p 
-#line 2231 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2231 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_MIPS16 && INTVAL (operands[2]) >= 32)
     ? (int) 
-#line 2231 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2231 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_MIPS16 && INTVAL (operands[2]) >= 32)
     : -1 },
-#line 1099 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1099 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_FIX_R4000",
     __builtin_constant_p 
-#line 1099 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1099 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_FIX_R4000)
     ? (int) 
-#line 1099 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1099 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_FIX_R4000)
     : -1 },
   { "(!TARGET_FIX_SB1 || flag_unsafe_math_optimizations) && (TARGET_HARD_FLOAT)",
     __builtin_constant_p (
-#line 1817 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1817 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_FIX_SB1 || flag_unsafe_math_optimizations) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     ? (int) (
-#line 1817 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1817 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_FIX_SB1 || flag_unsafe_math_optimizations) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     : -1 },
-#line 4962 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4962 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_ABICALLS && TARGET_OLDABI",
     __builtin_constant_p 
-#line 4962 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4962 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_ABICALLS && TARGET_OLDABI)
     ? (int) 
-#line 4962 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4962 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_ABICALLS && TARGET_OLDABI)
     : -1 },
-#line 5221 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5221 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_SPLIT_CALLS",
     __builtin_constant_p 
-#line 5221 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5221 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SPLIT_CALLS)
     ? (int) 
-#line 5221 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5221 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SPLIT_CALLS)
     : -1 },
-#line 3864 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3864 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "!ISA_HAS_MACCHI",
     __builtin_constant_p 
-#line 3864 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3864 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_MACCHI)
     ? (int) 
-#line 3864 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3864 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_MACCHI)
     : -1 },
   { "((TARGET_EXPLICIT_RELOCS) && (Pmode == SImode)) && ( reload_completed)",
     __builtin_constant_p ((
-#line 3120 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3120 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)) && 
-#line 3122 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3122 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed))
     ? (int) ((
-#line 3120 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3120 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)) && 
-#line 3122 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3122 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed))
     : -1 },
   { "(!TARGET_MIPS16 && mips_mem_fits_mode_p (DImode, operands[1])) && (TARGET_64BIT)",
     __builtin_constant_p (
-#line 2955 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2955 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16 && mips_mem_fits_mode_p (DImode, operands[1])) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     ? (int) (
-#line 2955 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2955 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16 && mips_mem_fits_mode_p (DImode, operands[1])) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     : -1 },
   { "(ISA_HAS_ROTR_DI) && (TARGET_64BIT)",
     __builtin_constant_p (
-#line 4185 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4185 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_ROTR_DI) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     ? (int) (
-#line 4185 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4185 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_ROTR_DI) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     : -1 },
   { "(ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD\n\
    && !HONOR_SIGNED_ZEROS (V2SFmode)) && (TARGET_PAIRED_SINGLE_FLOAT)",
     __builtin_constant_p (
-#line 1799 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1799 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD
    && !HONOR_SIGNED_ZEROS (V2SFmode)) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     ? (int) (
-#line 1799 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1799 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD
    && !HONOR_SIGNED_ZEROS (V2SFmode)) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     : -1 },
   { "(!TARGET_4300_MUL_FIX) && (TARGET_HARD_FLOAT)",
     __builtin_constant_p (
-#line 932 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 932 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_4300_MUL_FIX) && 
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     ? (int) (
-#line 932 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 932 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_4300_MUL_FIX) && 
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     : -1 },
-#line 2462 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2462 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "!ISA_HAS_SEB_SEH && !GENERATE_MIPS16E",
     __builtin_constant_p 
-#line 2462 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2462 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_SEB_SEH && !GENERATE_MIPS16E)
     ? (int) 
-#line 2462 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2462 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_SEB_SEH && !GENERATE_MIPS16E)
     : -1 },
-#line 3660 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3660 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE\n\
    && REG_P (operands[0])\n\
    && M16_REG_P (REGNO (operands[0]))\n\
@@ -2150,7 +2150,7 @@ const struct c_test insn_conditions[] = {
        || (INTVAL (operands[1]) >= 32\n\
 	   && INTVAL (operands[1]) <= 31 + 0x7f))",
     __builtin_constant_p 
-#line 3660 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3660 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
    && M16_REG_P (REGNO (operands[0]))
@@ -2160,7 +2160,7 @@ const struct c_test insn_conditions[] = {
        || (INTVAL (operands[1]) >= 32
 	   && INTVAL (operands[1]) <= 31 + 0x7f)))
     ? (int) 
-#line 3660 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3660 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
    && M16_REG_P (REGNO (operands[0]))
@@ -2172,48 +2172,48 @@ const struct c_test insn_conditions[] = {
     : -1 },
   { "((ISA_HAS_CONDMOVE) && (TARGET_64BIT)) && (TARGET_64BIT)",
     __builtin_constant_p ((
-#line 5309 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5309 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 410 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 410 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     ? (int) ((
-#line 5309 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5309 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 410 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 410 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     : -1 },
-#line 1435 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1435 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "reload_completed && !TARGET_DEBUG_D_MODE\n\
    && GP_REG_P (true_regnum (operands[0]))\n\
    && GP_REG_P (true_regnum (operands[1]))",
     __builtin_constant_p 
-#line 1435 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1435 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && !TARGET_DEBUG_D_MODE
    && GP_REG_P (true_regnum (operands[0]))
    && GP_REG_P (true_regnum (operands[1])))
     ? (int) 
-#line 1435 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1435 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && !TARGET_DEBUG_D_MODE
    && GP_REG_P (true_regnum (operands[0]))
    && GP_REG_P (true_regnum (operands[1])))
     : -1 },
-#line 1357 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1357 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "GENERATE_MULT3_SI\n\
    && true_regnum (operands[1]) == LO_REGNUM\n\
    && peep2_reg_dead_p (2, operands[1])\n\
    && GP_REG_P (true_regnum (operands[3]))",
     __builtin_constant_p 
-#line 1357 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1357 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MULT3_SI
    && true_regnum (operands[1]) == LO_REGNUM
    && peep2_reg_dead_p (2, operands[1])
    && GP_REG_P (true_regnum (operands[3])))
     ? (int) 
-#line 1357 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1357 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MULT3_SI
    && true_regnum (operands[1]) == LO_REGNUM
    && peep2_reg_dead_p (2, operands[1])
@@ -2221,78 +2221,78 @@ const struct c_test insn_conditions[] = {
     : -1 },
   { "(TARGET_DSP) && (TARGET_DSP)",
     __builtin_constant_p (
-#line 785 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 785 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP) && 
-#line 16 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 16 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     ? (int) (
-#line 785 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 785 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP) && 
-#line 16 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 16 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     : -1 },
   { "(ISA_HAS_COND_TRAP) && (TARGET_64BIT)",
     __builtin_constant_p (
-#line 634 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 634 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_COND_TRAP) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     ? (int) (
-#line 634 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 634 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_COND_TRAP) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     : -1 },
   { "(TARGET_EXPLICIT_RELOCS && !TARGET_XGOT) && (Pmode == DImode)",
     __builtin_constant_p (
-#line 3103 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3103 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && !TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode))
     ? (int) (
-#line 3103 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3103 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && !TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode))
     : -1 },
   { "((ISA_HAS_FP4) && (Pmode == SImode)) && (TARGET_HARD_FLOAT)",
     __builtin_constant_p ((
-#line 3487 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3487 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     ? (int) ((
-#line 3487 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3487 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     : -1 },
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT",
     __builtin_constant_p 
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)
     ? (int) 
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)
     : -1 },
   { "(ISA_HAS_FP4 && flag_unsafe_math_optimizations) && (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)",
     __builtin_constant_p (
-#line 1947 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1947 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4 && flag_unsafe_math_optimizations) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     ? (int) (
-#line 1947 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1947 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4 && flag_unsafe_math_optimizations) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     : -1 },
-#line 3357 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3357 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE\n\
    && REG_P (operands[0])\n\
    && M16_REG_P (REGNO (operands[0]))\n\
@@ -2305,7 +2305,7 @@ const struct c_test insn_conditions[] = {
 	   && INTVAL (operands[1]) < 32 * 4\n\
 	   && (INTVAL (operands[1]) & 3) != 0))",
     __builtin_constant_p 
-#line 3357 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3357 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
    && M16_REG_P (REGNO (operands[0]))
@@ -2318,7 +2318,7 @@ const struct c_test insn_conditions[] = {
 	   && INTVAL (operands[1]) < 32 * 4
 	   && (INTVAL (operands[1]) & 3) != 0)))
     ? (int) 
-#line 3357 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3357 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
    && M16_REG_P (REGNO (operands[0]))
@@ -2333,295 +2333,295 @@ const struct c_test insn_conditions[] = {
     : -1 },
   { "(ISA_HAS_CONDMOVE) && (TARGET_64BIT)",
     __builtin_constant_p (
-#line 5339 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5339 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     ? (int) (
-#line 5339 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5339 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     : -1 },
   { "(ISA_HAS_CONDMOVE) && (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)",
     __builtin_constant_p (
-#line 5351 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5351 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     ? (int) (
-#line 5351 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5351 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     : -1 },
-#line 2534 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2534 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT && ISA_HAS_TRUNC_W",
     __builtin_constant_p 
-#line 2534 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2534 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT && ISA_HAS_TRUNC_W)
     ? (int) 
-#line 2534 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2534 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT && ISA_HAS_TRUNC_W)
     : -1 },
-#line 1088 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1088 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "!TARGET_FIX_R4000",
     __builtin_constant_p 
-#line 1088 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1088 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_FIX_R4000)
     ? (int) 
-#line 1088 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1088 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_FIX_R4000)
     : -1 },
   { "(mips_use_ins_ext_p (operands[0], operands[1], operands[2])) && (TARGET_64BIT)",
     __builtin_constant_p (
-#line 2922 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2922 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (mips_use_ins_ext_p (operands[0], operands[1], operands[2])) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     ? (int) (
-#line 2922 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2922 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (mips_use_ins_ext_p (operands[0], operands[1], operands[2])) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     : -1 },
-#line 5127 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5127 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "reload_completed && TARGET_SPLIT_CALLS && (operands[2] = insn)",
     __builtin_constant_p 
-#line 5127 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5127 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && TARGET_SPLIT_CALLS && (operands[2] = insn))
     ? (int) 
-#line 5127 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5127 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && TARGET_SPLIT_CALLS && (operands[2] = insn))
     : -1 },
-#line 3936 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3936 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_ABICALLS && TARGET_NEWABI",
     __builtin_constant_p 
-#line 3936 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3936 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_ABICALLS && TARGET_NEWABI)
     ? (int) 
-#line 3936 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3936 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_ABICALLS && TARGET_NEWABI)
     : -1 },
   { "(TARGET_SB1) && (TARGET_PAIRED_SINGLE_FLOAT)",
     __builtin_constant_p (
-#line 1911 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1911 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SB1) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     ? (int) (
-#line 1911 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1911 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SB1) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     : -1 },
-#line 3530 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3530 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_MIPS16\n\
    && (register_operand (operands[0], HImode)\n\
        || register_operand (operands[1], HImode))",
     __builtin_constant_p 
-#line 3530 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3530 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16
    && (register_operand (operands[0], HImode)
        || register_operand (operands[1], HImode)))
     ? (int) 
-#line 3530 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3530 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16
    && (register_operand (operands[0], HImode)
        || register_operand (operands[1], HImode)))
     : -1 },
-#line 5200 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5200 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "reload_completed && TARGET_SPLIT_CALLS && (operands[4] = insn)",
     __builtin_constant_p 
-#line 5200 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5200 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && TARGET_SPLIT_CALLS && (operands[4] = insn))
     ? (int) 
-#line 5200 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5200 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && TARGET_SPLIT_CALLS && (operands[4] = insn))
     : -1 },
-#line 3511 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3511 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "!TARGET_MIPS16\n\
    && (register_operand (operands[0], HImode)\n\
        || reg_or_0_operand (operands[1], HImode))",
     __builtin_constant_p 
-#line 3511 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3511 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16
    && (register_operand (operands[0], HImode)
        || reg_or_0_operand (operands[1], HImode)))
     ? (int) 
-#line 3511 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3511 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16
    && (register_operand (operands[0], HImode)
        || reg_or_0_operand (operands[1], HImode)))
     : -1 },
-#line 4826 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4826 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_ABICALLS",
     __builtin_constant_p 
-#line 4826 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4826 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_ABICALLS)
     ? (int) 
-#line 4826 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4826 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_ABICALLS)
     : -1 },
   { "((ISA_HAS_FP4) && (Pmode == DImode)) && (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)",
     __builtin_constant_p ((
-#line 3487 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3487 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     ? (int) ((
-#line 3487 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3487 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     : -1 },
   { "(!ISA_HAS_SEB_SEH && !GENERATE_MIPS16E) && (TARGET_64BIT)",
     __builtin_constant_p (
-#line 2462 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2462 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_SEB_SEH && !GENERATE_MIPS16E) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     ? (int) (
-#line 2462 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2462 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_SEB_SEH && !GENERATE_MIPS16E) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     : -1 },
   { "(TARGET_MIPS3D) && (TARGET_PAIRED_SINGLE_FLOAT)",
     __builtin_constant_p (
-#line 474 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 474 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     ? (int) (
-#line 474 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 474 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     : -1 },
-#line 1240 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1240 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "ISA_HAS_MSAC",
     __builtin_constant_p 
-#line 1240 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1240 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MSAC)
     ? (int) 
-#line 1240 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1240 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MSAC)
     : -1 },
-#line 3707 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3707 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_SOFT_FLOAT && !TARGET_MIPS16\n\
    && (register_operand (operands[0], SFmode)\n\
        || reg_or_0_operand (operands[1], SFmode))",
     __builtin_constant_p 
-#line 3707 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3707 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SOFT_FLOAT && !TARGET_MIPS16
    && (register_operand (operands[0], SFmode)
        || reg_or_0_operand (operands[1], SFmode)))
     ? (int) 
-#line 3707 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3707 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SOFT_FLOAT && !TARGET_MIPS16
    && (register_operand (operands[0], SFmode)
        || reg_or_0_operand (operands[1], SFmode)))
     : -1 },
   { "(!ISA_MIPS1) && (TARGET_HARD_FLOAT)",
     __builtin_constant_p (
-#line 1911 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1911 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_MIPS1) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     ? (int) (
-#line 1911 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1911 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_MIPS1) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     : -1 },
-#line 1304 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1304 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "ISA_HAS_MSAC && reload_completed",
     __builtin_constant_p 
-#line 1304 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1304 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MSAC && reload_completed)
     ? (int) 
-#line 1304 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1304 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MSAC && reload_completed)
     : -1 },
   { "(ISA_HAS_PREFETCHX && TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT) && (Pmode == SImode)",
     __builtin_constant_p (
-#line 5273 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5273 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_PREFETCHX && TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode))
     ? (int) (
-#line 5273 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5273 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_PREFETCHX && TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode))
     : -1 },
-#line 5167 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5167 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "reload_completed && TARGET_SPLIT_CALLS && (operands[3] = insn)",
     __builtin_constant_p 
-#line 5167 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5167 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && TARGET_SPLIT_CALLS && (operands[3] = insn))
     ? (int) 
-#line 5167 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5167 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && TARGET_SPLIT_CALLS && (operands[3] = insn))
     : -1 },
   { "(ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD\n\
    && HONOR_SIGNED_ZEROS (SFmode)) && (TARGET_HARD_FLOAT)",
     __builtin_constant_p (
-#line 1787 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1787 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD
    && HONOR_SIGNED_ZEROS (SFmode)) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     ? (int) (
-#line 1787 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1787 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD
    && HONOR_SIGNED_ZEROS (SFmode)) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     : -1 },
-#line 1261 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1261 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "ISA_HAS_MACC && !ISA_HAS_MSAC",
     __builtin_constant_p 
-#line 1261 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1261 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MACC && !ISA_HAS_MSAC)
     ? (int) 
-#line 1261 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1261 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MACC && !ISA_HAS_MSAC)
     : -1 },
   { "(TARGET_SB1 && (!TARGET_FIX_SB1 || flag_unsafe_math_optimizations)) && (TARGET_PAIRED_SINGLE_FLOAT)",
     __builtin_constant_p (
-#line 1817 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1817 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SB1 && (!TARGET_FIX_SB1 || flag_unsafe_math_optimizations)) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     ? (int) (
-#line 1817 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1817 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SB1 && (!TARGET_FIX_SB1 || flag_unsafe_math_optimizations)) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     : -1 },
   { "((ISA_HAS_CONDMOVE) && (TARGET_64BIT)) && (TARGET_HARD_FLOAT)",
     __builtin_constant_p ((
-#line 5324 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5324 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 410 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 410 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)) && 
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     ? (int) ((
-#line 5324 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5324 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 410 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 410 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)) && 
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     : -1 },
-#line 3565 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3565 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE\n\
    && REG_P (operands[0])\n\
    && M16_REG_P (REGNO (operands[0]))\n\
@@ -2634,7 +2634,7 @@ const struct c_test insn_conditions[] = {
 	   && INTVAL (operands[1]) < 32 * 2\n\
 	   && (INTVAL (operands[1]) & 1) != 0))",
     __builtin_constant_p 
-#line 3565 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3565 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
    && M16_REG_P (REGNO (operands[0]))
@@ -2647,7 +2647,7 @@ const struct c_test insn_conditions[] = {
 	   && INTVAL (operands[1]) < 32 * 2
 	   && (INTVAL (operands[1]) & 1) != 0)))
     ? (int) 
-#line 3565 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3565 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
    && M16_REG_P (REGNO (operands[0]))
@@ -2660,76 +2660,76 @@ const struct c_test insn_conditions[] = {
 	   && INTVAL (operands[1]) < 32 * 2
 	   && (INTVAL (operands[1]) & 1) != 0)))
     : -1 },
-#line 1643 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1643 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "!ISA_HAS_MULHI && !TARGET_FIX_R4000",
     __builtin_constant_p 
-#line 1643 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1643 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_MULHI && !TARGET_FIX_R4000)
     ? (int) 
-#line 1643 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1643 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_MULHI && !TARGET_FIX_R4000)
     : -1 },
   { "(!ISA_MIPS1) && (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)",
     __builtin_constant_p (
-#line 1911 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1911 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_MIPS1) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     ? (int) (
-#line 1911 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1911 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_MIPS1) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     : -1 },
   { "(TARGET_EXPLICIT_RELOCS && ABI_HAS_64BIT_SYMBOLS) && ( flow2_completed)",
     __builtin_constant_p (
-#line 2999 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2999 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && ABI_HAS_64BIT_SYMBOLS) && 
-#line 3001 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3001 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( flow2_completed))
     ? (int) (
-#line 2999 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2999 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && ABI_HAS_64BIT_SYMBOLS) && 
-#line 3001 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3001 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( flow2_completed))
     : -1 },
   { "(ISA_HAS_FP4 && TARGET_FUSED_MADD) && (TARGET_HARD_FLOAT)",
     __builtin_constant_p (
-#line 1752 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1752 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4 && TARGET_FUSED_MADD) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     ? (int) (
-#line 1752 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1752 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4 && TARGET_FUSED_MADD) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     : -1 },
-#line 3752 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3752 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
   { "TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT && !TARGET_64BIT\n\
    && (register_operand (operands[0], DFmode)\n\
        || reg_or_0_operand (operands[1], DFmode))",
     __builtin_constant_p 
-#line 3752 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3752 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT && !TARGET_64BIT
    && (register_operand (operands[0], DFmode)
        || reg_or_0_operand (operands[1], DFmode)))
     ? (int) 
-#line 3752 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3752 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT && !TARGET_64BIT
    && (register_operand (operands[0], DFmode)
        || reg_or_0_operand (operands[1], DFmode)))
     : -1 },
   { "(HAVE_AS_TLS && !TARGET_MIPS16) && (Pmode == SImode)",
     __builtin_constant_p (
-#line 5419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (HAVE_AS_TLS && !TARGET_MIPS16) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode))
     ? (int) (
-#line 5419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (HAVE_AS_TLS && !TARGET_MIPS16) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode))
     : -1 },
 };

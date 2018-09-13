@@ -44,8 +44,8 @@
 # GCC_FOR_TARGET
 
 # Make needs VPATH to be literal.
-echo 'srcdir = /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc'
-echo 'VPATH = /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc'
+echo 'srcdir = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc'
+echo 'VPATH = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc'
 echo 'EQ = ='
 echo 'objects = $(filter %'$objext',$^)'
 echo

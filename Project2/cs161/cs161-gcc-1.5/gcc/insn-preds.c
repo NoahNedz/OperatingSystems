@@ -1,5 +1,5 @@
 /* Generated automatically by the program 'build/genpreds'
-   from the machine description file '/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md'.  */
+   from the machine description file '/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md'.  */
 
 #include "config.h"
 #include "system.h"
@@ -24,7 +24,7 @@ int
 const_uns_arith_operand (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
 {
   return (GET_CODE (op) == CONST_INT) && (
-#line 23 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 23 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 (SMALL_OPERAND_UNSIGNED (INTVAL (op))));
 }
 
@@ -38,7 +38,7 @@ int
 const_arith_operand (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
 {
   return (GET_CODE (op) == CONST_INT) && (
-#line 31 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 31 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 (SMALL_OPERAND (INTVAL (op))));
 }
 
@@ -52,7 +52,7 @@ int
 const_uimm6_operand (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
 {
   return (GET_CODE (op) == CONST_INT) && (
-#line 39 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 39 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 (UIMM6_OPERAND (INTVAL (op))));
 }
 
@@ -60,7 +60,7 @@ int
 const_imm10_operand (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
 {
   return (GET_CODE (op) == CONST_INT) && (
-#line 43 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 43 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 (IMM10_OPERAND (INTVAL (op))));
 }
 
@@ -74,7 +74,7 @@ int
 sle_operand (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
 {
   return (GET_CODE (op) == CONST_INT) && (
-#line 51 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 51 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 (SMALL_OPERAND (INTVAL (op) + 1)));
 }
 
@@ -82,7 +82,7 @@ int
 sleu_operand (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
 {
   return (sle_operand (op, mode)) && (
-#line 55 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 55 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 (INTVAL (op) + 1 != 0));
 }
 
@@ -90,7 +90,7 @@ int
 const_0_operand (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
 {
   return (GET_CODE (op) == CONST_INT || GET_CODE (op) == CONST_DOUBLE || GET_CODE (op) == CONST_VECTOR) && (
-#line 59 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 59 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 (op == CONST0_RTX (GET_MODE (op))));
 }
 
@@ -98,7 +98,7 @@ int
 reg_or_0_operand (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
 {
   return ((const_0_operand (op, mode)) && (
-#line 63 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 63 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 (!TARGET_MIPS16))) || (register_operand (op, mode));
 }
 
@@ -106,7 +106,7 @@ int
 const_1_operand (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
 {
   return (GET_CODE (op) == CONST_INT || GET_CODE (op) == CONST_DOUBLE || GET_CODE (op) == CONST_VECTOR) && (
-#line 68 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 68 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 (op == CONST1_RTX (GET_MODE (op))));
 }
 
@@ -120,9 +120,9 @@ int
 const_0_or_1_operand (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
 {
   return (GET_CODE (op) == CONST_INT) && ((
-#line 77 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 77 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 (op == CONST0_RTX (GET_MODE (op)))) || (
-#line 78 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 78 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 (op == CONST1_RTX (GET_MODE (op)))));
 }
 
@@ -130,7 +130,7 @@ int
 fpr_operand (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
 {
   return ((GET_CODE (op) == REG) && (
-#line 82 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 82 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 (FP_REG_P (REGNO (op))))) && (
 (mode == VOIDmode || GET_MODE (op) == mode));
 }
@@ -139,7 +139,7 @@ int
 lo_operand (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
 {
   return ((GET_CODE (op) == REG) && (
-#line 86 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 86 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 (REGNO (op) == LO_REGNUM))) && (
 (mode == VOIDmode || GET_MODE (op) == mode));
 }
@@ -148,7 +148,7 @@ int
 fcc_reload_operand (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
 {
   return ((GET_CODE (op) == REG || GET_CODE (op) == SUBREG) && (
-#line 90 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 90 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 (ST_REG_P (true_regnum (op))))) && (
 (mode == VOIDmode || GET_MODE (op) == mode));
 }
@@ -161,7 +161,7 @@ pc_or_label_operand (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
 
 static inline int
 const_call_insn_operand_1 (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
-#line 97 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 97 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 {
   enum mips_symbol_type symbol_type;
 
@@ -205,7 +205,7 @@ call_insn_operand (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
 
 static inline int
 move_operand_1 (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
-#line 130 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 130 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 {
   switch (GET_CODE (op))
     {
@@ -245,14 +245,14 @@ int
 consttable_operand (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
 {
   return (
-#line 159 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 159 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 (CONSTANT_P (op))) && (
 (mode == VOIDmode || GET_MODE (op) == mode));
 }
 
 static inline int
 symbolic_operand_1 (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
-#line 163 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 163 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 {
   enum mips_symbol_type type;
   return mips_symbolic_constant_p (op, &type);
@@ -268,7 +268,7 @@ symbolic_operand (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
 
 static inline int
 general_symbolic_operand_1 (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
-#line 170 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 170 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 {
   enum mips_symbol_type type;
   return mips_symbolic_constant_p (op, &type) && type == SYMBOL_GENERAL;
@@ -284,7 +284,7 @@ general_symbolic_operand (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
 
 static inline int
 global_got_operand_1 (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
-#line 177 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 177 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 {
   enum mips_symbol_type type;
   return mips_symbolic_constant_p (op, &type) && type == SYMBOL_GOT_GLOBAL;
@@ -300,7 +300,7 @@ global_got_operand (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
 
 static inline int
 local_got_operand_1 (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
-#line 184 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 184 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 {
   enum mips_symbol_type type;
   return mips_symbolic_constant_p (op, &type) && type == SYMBOL_GOT_LOCAL;
@@ -318,14 +318,14 @@ int
 stack_operand (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
 {
   return ((GET_CODE (op) == MEM) && (
-#line 191 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 191 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 (mips_stack_address_p (XEXP (op, 0), GET_MODE (op))))) && (
 (mode == VOIDmode || GET_MODE (op) == mode));
 }
 
 static inline int
 macc_msac_operand_1 (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
-#line 196 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 196 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 {
   rtx mult = XEXP (op, GET_CODE (op) == PLUS ? 0 : 1);
   rtx accum = XEXP (op, GET_CODE (op) == PLUS ? 1 : 0);
@@ -339,9 +339,9 @@ int
 macc_msac_operand (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
 {
   return ((((GET_CODE (op) == PLUS) && (
-#line 194 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 194 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 (ISA_HAS_MACC))) || ((GET_CODE (op) == MINUS) && (
-#line 195 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 195 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 (ISA_HAS_MSAC)))) && (
 (macc_msac_operand_1 (op, mode)))) && (
 (mode == VOIDmode || GET_MODE (op) == mode));
@@ -372,7 +372,7 @@ int
 small_data_pattern (rtx op, enum machine_mode mode ATTRIBUTE_UNUSED)
 {
   return ((GET_CODE (op) == SET || GET_CODE (op) == PARALLEL || GET_CODE (op) == UNSPEC || GET_CODE (op) == UNSPEC_VOLATILE || GET_CODE (op) == PREFETCH) && (
-#line 218 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
+#line 218 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/predicates.md"
 (mips_small_data_pattern_p (op)))) && (
 (mode == VOIDmode || GET_MODE (op) == mode));
 }

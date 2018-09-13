@@ -1,6 +1,7 @@
-init.o: /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/init.c \
+init.o: \
+ /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/init.c \
  /usr/include/stdc-predef.h config.h \
- /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/system.h \
+ /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/system.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -18,6 +19,8 @@ init.o: /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/init.c \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
@@ -34,6 +37,7 @@ init.o: /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/init.c \
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
  /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
  /usr/include/x86_64-linux-gnu/bits/sysmacros.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
@@ -45,17 +49,22 @@ init.o: /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/init.c \
  /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h /usr/include/stdlib.h \
- /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/strings.h \
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+ /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -68,31 +77,32 @@ init.o: /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/init.c \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
- /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/stat.h \
+ /usr/include/x86_64-linux-gnu/bits/fcntl2.h /usr/include/locale.h \
  /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/langinfo.h \
  /usr/include/nl_types.h /usr/include/libintl.h \
  /usr/include/x86_64-linux-gnu/sys/stat.h \
- /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/filenames.h \
- /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/libiberty.h \
- /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/ansidecl.h \
- /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/safe-ctype.h \
- /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/cpplib.h \
- /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/symtab.h \
- /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/obstack.h \
- /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/line-map.h \
- /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/internal.h \
- /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/symtab.h \
- /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/cpp-id-data.h \
- /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/cpplib.h \
+ /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/filenames.h \
+ /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/libiberty.h \
+ /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/ansidecl.h \
+ /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/safe-ctype.h \
+ /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/cpplib.h \
+ /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/symtab.h \
+ /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/obstack.h \
+ /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/line-map.h \
+ /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/internal.h \
+ /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/symtab.h \
+ /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/cpp-id-data.h \
+ /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/cpplib.h \
  /usr/include/iconv.h \
- /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/mkdeps.h \
+ /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/mkdeps.h \
  localedir.h
 
 /usr/include/stdc-predef.h:
 
 config.h:
 
-/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/system.h:
+/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/system.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h:
 
@@ -132,6 +142,10 @@ config.h:
 
 /usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
@@ -166,6 +180,8 @@ config.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
 /usr/include/x86_64-linux-gnu/sys/sysmacros.h:
 
 /usr/include/x86_64-linux-gnu/bits/sysmacros.h:
@@ -196,6 +212,10 @@ config.h:
 
 /usr/include/strings.h:
 
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
+
 /usr/include/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
@@ -208,7 +228,11 @@ config.h:
 
 /usr/include/alloca.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/unistd.h:
 
@@ -221,6 +245,8 @@ config.h:
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h:
 
@@ -254,6 +280,8 @@ config.h:
 
 /usr/include/x86_64-linux-gnu/bits/stat.h:
 
+/usr/include/x86_64-linux-gnu/bits/fcntl2.h:
+
 /usr/include/locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
@@ -266,32 +294,32 @@ config.h:
 
 /usr/include/x86_64-linux-gnu/sys/stat.h:
 
-/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/filenames.h:
+/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/filenames.h:
 
-/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/libiberty.h:
+/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/libiberty.h:
 
-/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/ansidecl.h:
+/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/ansidecl.h:
 
-/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/safe-ctype.h:
+/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/safe-ctype.h:
 
-/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/cpplib.h:
+/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/cpplib.h:
 
-/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/symtab.h:
+/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/symtab.h:
 
-/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/obstack.h:
+/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/obstack.h:
 
-/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/line-map.h:
+/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/line-map.h:
 
-/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/internal.h:
+/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/internal.h:
 
-/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/symtab.h:
+/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/symtab.h:
 
-/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/cpp-id-data.h:
+/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/cpp-id-data.h:
 
-/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/cpplib.h:
+/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/cpplib.h:
 
 /usr/include/iconv.h:
 
-/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/mkdeps.h:
+/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/mkdeps.h:
 
 localedir.h:

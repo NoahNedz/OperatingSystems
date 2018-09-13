@@ -24,7 +24,7 @@
 # -------------------------------
 # Standard Autoconf-set variables
 # -------------------------------
-VPATH=/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161
+VPATH=/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161
 
 build_alias=x86_64-unknown-linux-gnu
 build=x86_64-unknown-linux-gnu
@@ -38,7 +38,7 @@ program_transform_name = s,^,mips-linux-,;
 prefix = /home/noah/cs161/tools
 exec_prefix = ${prefix}
 
-srcdir = /home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161
+srcdir = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161
 
 bindir = ${exec_prefix}/bin
 sbindir = ${exec_prefix}/sbin
@@ -74,7 +74,7 @@ LN_S = ln -s
 # -------------------------------------------------
 
 # The gcc driver likes to know the arguments it was configured with.
-TOPLEVEL_CONFIGURE_ARGUMENTS=/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/configure --target=mips-linux --nfp --disable-shared --disable-threads --disable-libmudflap --disable-libssp --prefix=/home/noah/cs161/tools
+TOPLEVEL_CONFIGURE_ARGUMENTS=/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/configure --target=mips-linux --nfp --disable-shared --disable-threads --disable-libmudflap --disable-libssp --prefix=/home/noah/cs161/tools
 
 tooldir = ${exec_prefix}/mips-linux
 build_tooldir = ${exec_prefix}/mips-linux
@@ -238,7 +238,7 @@ PWD_COMMAND = $${PWDCMD-pwd}
 # compilers to use to create programs which must be run in the build
 # environment.
 CC_FOR_BUILD = $(CC)
-CFLAGS_FOR_BUILD =  
+CFLAGS_FOR_BUILD = -g -O2 
 
 CXX_FOR_BUILD = $(CXX)
 
@@ -251,12 +251,12 @@ BUILD_PREFIX_1 = loser-
 # here so that they can be overridden by Makefile fragments.
 BOOT_CFLAGS= -g -O2
 
-BISON = /home/noah/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing bison
-YACC = /home/noah/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing bison -y
-FLEX = /home/noah/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing flex
-LEX = /home/noah/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing flex
+BISON = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing bison
+YACC = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing bison -y
+FLEX = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing flex
+LEX = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing flex
 M4 = m4
-MAKEINFO = /home/noah/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing makeinfo
+MAKEINFO = /home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing makeinfo
 EXPECT = expect
 RUNTEST = runtest
 
@@ -283,7 +283,7 @@ RANLIB = ranlib
 STRIP = strip
 WINDRES = windres
 
-CFLAGS =  
+CFLAGS = -g -O2 
 LDFLAGS = 
 LIBCFLAGS = $(CFLAGS)
 CXXFLAGS = -g -O2

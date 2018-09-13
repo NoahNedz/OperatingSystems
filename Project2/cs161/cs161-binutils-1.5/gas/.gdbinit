@@ -1,4 +1,4 @@
-dir /home/noah/cs161/cs161-binutils-1.5/./binutils-2.17/gas
+dir /home/noah/OperatingSystems/Project2/cs161/cs161-binutils-1.5/./binutils-2.17/gas
 dir .
 
 break as_warn

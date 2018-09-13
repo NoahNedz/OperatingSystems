@@ -206,9 +206,9 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L872: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1742 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1742 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4 && TARGET_FUSED_MADD) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 64;  /* *maddsf */
@@ -226,7 +226,7 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L18: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     {
       return 3;  /* addsf3 */
@@ -294,10 +294,10 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L948: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1775 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1775 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD
    && !HONOR_SIGNED_ZEROS (SFmode)) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 73;  /* *nmaddsf_fastmath */
@@ -324,9 +324,9 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L896: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1752 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1752 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4 && TARGET_FUSED_MADD) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 67;  /* *msubsf */
@@ -369,10 +369,10 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1001: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1799 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1799 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD
    && !HONOR_SIGNED_ZEROS (SFmode)) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 79;  /* *nmsubsf_fastmath */
@@ -381,7 +381,7 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L98: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     {
       return 16;  /* subsf3 */
@@ -408,18 +408,18 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L134: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 932 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 932 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_4300_MUL_FIX) && 
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 22;  /* *mulsf3 */
     }
  L146: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 945 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 945 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_4300_MUL_FIX) && 
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 24;  /* *mulsf3_r4300 */
@@ -489,10 +489,10 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L921: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1763 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1763 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD
    && HONOR_SIGNED_ZEROS (SFmode)) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 70;  /* *nmaddsf */
@@ -535,10 +535,10 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L975: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1787 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1787 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD
    && HONOR_SIGNED_ZEROS (SFmode)) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 76;  /* *nmsubsf */
@@ -547,7 +547,7 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1193: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     {
       return 108;  /* negsf2 */
@@ -579,9 +579,9 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1023: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1840 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1840 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_FIX_SB1 || flag_unsafe_math_optimizations) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 82;  /* *divsf3 */
@@ -615,9 +615,9 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1119: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1929 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1929 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4 && flag_unsafe_math_optimizations) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 95;  /* *rsqrtsfa */
@@ -626,9 +626,9 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1041: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1858 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1858 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4 && flag_unsafe_math_optimizations) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 85;  /* *recipsf3 */
@@ -671,9 +671,9 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1140: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1947 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1947 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4 && flag_unsafe_math_optimizations) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 98;  /* *rsqrtsfb */
@@ -682,9 +682,9 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1102: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1911 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1911 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_MIPS1) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 92;  /* sqrtsf2 */
@@ -702,7 +702,7 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1159: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     {
       return 101;  /* abssf2 */
@@ -720,7 +720,7 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1305: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2172 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2172 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     {
       return 127;  /* truncdfsf2 */
@@ -750,7 +750,7 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1573: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2643 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2643 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     {
       return 176;  /* floatsisf2 */
@@ -767,7 +767,7 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1578: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2654 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2654 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_FLOAT64 && TARGET_DOUBLE_FLOAT))
     {
       return 177;  /* floatdisf2 */
@@ -812,11 +812,11 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1789: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 3478 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3478 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 215;  /* *lwxc1_si */
@@ -848,11 +848,11 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1810: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 3478 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3478 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 218;  /* *lwxc1_di */
@@ -917,9 +917,9 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2814: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 5324 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5324 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 369;  /* *movsf_on_si */
@@ -969,11 +969,11 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2832: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 5324 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5324 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 410 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 410 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)) && 
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 371;  /* *movsf_on_di */
@@ -1023,11 +1023,11 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2850: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 5324 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5324 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 410 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 410 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)) && 
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 373;  /* *movsf_on_cc */
@@ -1061,7 +1061,7 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2954: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 161 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 161 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     {
       return 388;  /* vec_extractv2sf */
@@ -1103,9 +1103,9 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3070: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 445 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 445 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 404;  /* mips_rsqrt1_s */
@@ -1123,9 +1123,9 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3103: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 464 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 464 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 410;  /* mips_recip1_s */
@@ -1164,9 +1164,9 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3086: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 455 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 455 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 407;  /* mips_rsqrt2_s */
@@ -1193,9 +1193,9 @@ recog_1 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3119: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 474 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 474 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 413;  /* mips_recip2_s */
@@ -1297,9 +1297,9 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L880: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1742 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1742 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4 && TARGET_FUSED_MADD) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)))
     {
       return 65;  /* *madddf */
@@ -1317,7 +1317,7 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L24: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     {
       return 4;  /* adddf3 */
@@ -1385,10 +1385,10 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L957: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1775 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1775 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD
    && !HONOR_SIGNED_ZEROS (DFmode)) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)))
     {
       return 74;  /* *nmadddf_fastmath */
@@ -1415,9 +1415,9 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L904: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1752 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1752 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4 && TARGET_FUSED_MADD) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)))
     {
       return 68;  /* *msubdf */
@@ -1460,10 +1460,10 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1009: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1799 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1799 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD
    && !HONOR_SIGNED_ZEROS (DFmode)) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)))
     {
       return 80;  /* *nmsubdf_fastmath */
@@ -1472,7 +1472,7 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L104: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     {
       return 17;  /* subdf3 */
@@ -1499,18 +1499,18 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L140: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 932 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 932 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_4300_MUL_FIX) && 
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)))
     {
       return 23;  /* *muldf3 */
     }
  L152: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 945 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 945 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_4300_MUL_FIX) && 
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)))
     {
       return 25;  /* *muldf3_r4300 */
@@ -1580,10 +1580,10 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L930: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1763 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1763 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD
    && HONOR_SIGNED_ZEROS (DFmode)) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)))
     {
       return 71;  /* *nmadddf */
@@ -1626,10 +1626,10 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L984: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1787 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1787 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD
    && HONOR_SIGNED_ZEROS (DFmode)) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)))
     {
       return 77;  /* *nmsubdf */
@@ -1638,7 +1638,7 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1198: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     {
       return 109;  /* negdf2 */
@@ -1670,7 +1670,7 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1029: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     {
       return 83;  /* *divdf3 */
@@ -1704,9 +1704,9 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1126: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1929 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1929 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4 && flag_unsafe_math_optimizations) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)))
     {
       return 96;  /* *rsqrtdfa */
@@ -1715,9 +1715,9 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1047: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1858 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1858 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4 && flag_unsafe_math_optimizations) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)))
     {
       return 86;  /* *recipdf3 */
@@ -1760,9 +1760,9 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1147: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1947 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1947 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4 && flag_unsafe_math_optimizations) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)))
     {
       return 99;  /* *rsqrtdfb */
@@ -1771,9 +1771,9 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1107: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1911 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1911 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_MIPS1) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)))
     {
       return 93;  /* sqrtdf2 */
@@ -1791,7 +1791,7 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1164: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     {
       return 102;  /* absdf2 */
@@ -1809,7 +1809,7 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1512: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2506 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2506 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     {
       return 167;  /* extendsfdf2 */
@@ -1839,7 +1839,7 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1563: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2621 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2621 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     {
       return 174;  /* floatsidf2 */
@@ -1856,7 +1856,7 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1568: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2632 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2632 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_FLOAT64 && TARGET_DOUBLE_FLOAT))
     {
       return 175;  /* floatdidf2 */
@@ -1901,11 +1901,11 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1796: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 3478 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3478 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)))
     {
       return 216;  /* *ldxc1_si */
@@ -1937,11 +1937,11 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1817: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 3478 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3478 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)))
     {
       return 219;  /* *ldxc1_di */
@@ -1985,7 +1985,7 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1943: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3893 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3893 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT && !TARGET_64BIT))
     {
       return 243;  /* load_df_low */
@@ -2003,9 +2003,9 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3075: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 445 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 445 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)))
     {
       return 405;  /* mips_rsqrt1_d */
@@ -2023,9 +2023,9 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3108: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 464 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 464 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)))
     {
       return 411;  /* mips_recip1_d */
@@ -2066,7 +2066,7 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1949: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3908 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3908 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT && !TARGET_64BIT))
     {
       return 244;  /* load_df_high */
@@ -2093,9 +2093,9 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3092: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 455 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 455 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)))
     {
       return 408;  /* mips_rsqrt2_d */
@@ -2122,9 +2122,9 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3125: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 474 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 474 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)))
     {
       return 414;  /* mips_recip2_d */
@@ -2189,9 +2189,9 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2823: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 5324 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5324 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)))
     {
       return 370;  /* *movdf_on_si */
@@ -2241,11 +2241,11 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2841: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 5324 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5324 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 410 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 410 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)) && 
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)))
     {
       return 372;  /* *movdf_on_di */
@@ -2295,11 +2295,11 @@ recog_2 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2859: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 5324 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5324 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 410 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 410 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)) && 
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)))
     {
       return 374;  /* *movdf_on_cc */
@@ -2401,9 +2401,9 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L888: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1742 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1742 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4 && TARGET_FUSED_MADD) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT)))
     {
       return 66;  /* *maddv2sf */
@@ -2421,7 +2421,7 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L30: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     {
       return 5;  /* addv2sf3 */
@@ -2489,10 +2489,10 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L966: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1775 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1775 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD
    && !HONOR_SIGNED_ZEROS (V2SFmode)) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT)))
     {
       return 75;  /* *nmaddv2sf_fastmath */
@@ -2519,9 +2519,9 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L912: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1752 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1752 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4 && TARGET_FUSED_MADD) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT)))
     {
       return 69;  /* *msubv2sf */
@@ -2564,10 +2564,10 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1017: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1799 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1799 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD
    && !HONOR_SIGNED_ZEROS (V2SFmode)) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT)))
     {
       return 81;  /* *nmsubv2sf_fastmath */
@@ -2576,7 +2576,7 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L110: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     {
       return 18;  /* subv2sf3 */
@@ -2603,7 +2603,7 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L158: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 955 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 955 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     {
       return 26;  /* mulv2sf3 */
@@ -2673,10 +2673,10 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L939: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1763 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1763 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD
    && HONOR_SIGNED_ZEROS (V2SFmode)) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT)))
     {
       return 72;  /* *nmaddv2sf */
@@ -2719,10 +2719,10 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L993: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1787 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1787 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_NMADD_NMSUB && TARGET_FUSED_MADD
    && HONOR_SIGNED_ZEROS (V2SFmode)) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT)))
     {
       return 78;  /* *nmsubv2sf */
@@ -2731,7 +2731,7 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1203: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     {
       return 110;  /* negv2sf2 */
@@ -2763,9 +2763,9 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1035: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1840 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1840 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SB1 && (!TARGET_FIX_SB1 || flag_unsafe_math_optimizations)) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT)))
     {
       return 84;  /* *divv2sf3 */
@@ -2799,9 +2799,9 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1133: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1929 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1929 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SB1 && flag_unsafe_math_optimizations) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT)))
     {
       return 97;  /* *rsqrtv2sfa */
@@ -2810,9 +2810,9 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1053: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1858 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1858 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SB1 && flag_unsafe_math_optimizations) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT)))
     {
       return 87;  /* *recipv2sf3 */
@@ -2855,9 +2855,9 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1154: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1947 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1947 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SB1 && flag_unsafe_math_optimizations) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT)))
     {
       return 100;  /* *rsqrtv2sfb */
@@ -2866,9 +2866,9 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1112: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1911 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1911 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SB1) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT)))
     {
       return 94;  /* sqrtv2sf2 */
@@ -2886,7 +2886,7 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1169: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     {
       return 103;  /* absv2sf2 */
@@ -2931,11 +2931,11 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1803: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 3478 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3478 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT)))
     {
       return 217;  /* *ldxc1_si */
@@ -2967,11 +2967,11 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1824: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 3478 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3478 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT)))
     {
       return 220;  /* *ldxc1_di */
@@ -3034,7 +3034,7 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2885: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 29 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 29 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     {
       return 380;  /* *movcc_v2sf_si */
@@ -3084,9 +3084,9 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2894: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 29 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 29 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_PAIRED_SINGLE_FLOAT) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 381;  /* *movcc_v2sf_di */
@@ -3148,7 +3148,7 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2901: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 42 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 42 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     {
       return 382;  /* mips_cond_move_tf_ps */
@@ -3184,7 +3184,7 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2961: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 232 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 232 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     {
       return 389;  /* mips_alnv_ps */
@@ -3227,7 +3227,7 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2967: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 243 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 243 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D))
     {
       return 390;  /* mips_addr_ps */
@@ -3254,7 +3254,7 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2983: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 274 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 274 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D))
     {
       return 393;  /* mips_mulr_ps */
@@ -3281,9 +3281,9 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3098: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 455 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 455 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT)))
     {
       return 409;  /* mips_rsqrt2_ps */
@@ -3310,9 +3310,9 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3131: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 474 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 474 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT)))
     {
       return 415;  /* mips_recip2_ps */
@@ -3346,7 +3346,7 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2972: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 253 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 253 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D))
     {
       return 391;  /* mips_cvt_pw_ps */
@@ -3364,7 +3364,7 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2977: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 263 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 263 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D))
     {
       return 392;  /* mips_cvt_ps_pw */
@@ -3382,9 +3382,9 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3080: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 445 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 445 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT)))
     {
       return 406;  /* mips_rsqrt1_ps */
@@ -3402,9 +3402,9 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3113: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 464 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 464 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT)))
     {
       return 412;  /* mips_recip1_ps */
@@ -3503,7 +3503,7 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XEXP (x1, 2);
   if (x2 == const_int_rtx[MAX_SAVED_CONST_INT + (2)]
       && 
-#line 120 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 120 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     {
       return 386;  /* mips_plu_ps */
@@ -3514,7 +3514,7 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XEXP (x1, 2);
   if (x2 == const_int_rtx[MAX_SAVED_CONST_INT + (2)]
       && 
-#line 104 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 104 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     {
       return 385;  /* mips_pll_ps */
@@ -3569,7 +3569,7 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XEXP (x1, 2);
   if (x2 == const_int_rtx[MAX_SAVED_CONST_INT + (2)]
       && 
-#line 90 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 90 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     {
       return 384;  /* mips_puu_ps */
@@ -3580,7 +3580,7 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XEXP (x1, 2);
   if (x2 == const_int_rtx[MAX_SAVED_CONST_INT + (2)]
       && 
-#line 76 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 76 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     {
       return 383;  /* mips_pul_ps */
@@ -3607,7 +3607,7 @@ recog_3 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2947: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 142 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 142 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     {
       return 387;  /* vec_initv2sf_internal */
@@ -3755,7 +3755,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L60: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 692 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 692 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 10;  /* *addsi3_sp2 */
@@ -3792,7 +3792,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
  L844: ATTRIBUTE_UNUSED_LABEL
   if (rtx_equal_p (x2, operands[0])
       && 
-#line 1710 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1710 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MAD)
       && pnum_clobbers != NULL)
     {
@@ -3803,7 +3803,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L279: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1156 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1156 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ((TARGET_MIPS3900
    || ISA_HAS_MADD_MSUB)
    && !TARGET_MIPS16)
@@ -3814,7 +3814,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
     }
  L300: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1218 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1218 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MACC)
       && pnum_clobbers != NULL)
     {
@@ -3836,7 +3836,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L72: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 704 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 704 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 12;  /* *addsi3_mips16 */
@@ -3888,7 +3888,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L321: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1240 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1240 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MSAC)
       && pnum_clobbers != NULL)
     {
@@ -3897,7 +3897,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
     }
  L344: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1261 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1261 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MACC && !ISA_HAS_MSAC)
       && pnum_clobbers != NULL)
     {
@@ -3906,7 +3906,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
     }
  L433: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1417 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1417 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MADD_MSUB)
       && pnum_clobbers != NULL)
     {
@@ -3935,7 +3935,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L175: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1028 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1028 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MULT3_SI)
       && pnum_clobbers != NULL)
     {
@@ -3944,7 +3944,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
     }
  L207: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1088 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1088 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_FIX_R4000)
       && pnum_clobbers != NULL)
     {
@@ -3953,7 +3953,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
     }
  L239: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1099 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1099 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_FIX_R4000)
       && pnum_clobbers != NULL)
     {
@@ -3998,7 +3998,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L452: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1472 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1472 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MULS)
       && pnum_clobbers != NULL)
     {
@@ -4108,7 +4108,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L4744: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1643 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1643 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_MULHI && !TARGET_FIX_R4000)
       && pnum_clobbers != NULL)
     {
@@ -4117,7 +4117,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
     }
  L4745: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1658 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1658 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MULHI)
       && pnum_clobbers != NULL)
     {
@@ -4164,7 +4164,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L4748: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1643 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1643 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_MULHI && !TARGET_FIX_R4000)
       && pnum_clobbers != NULL)
     {
@@ -4173,7 +4173,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
     }
  L4749: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1658 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1658 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MULHI)
       && pnum_clobbers != NULL)
     {
@@ -4236,7 +4236,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XEXP (x2, 1);
   if (x3 == const_int_rtx[MAX_SAVED_CONST_INT + (32)]
       && 
-#line 1676 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1676 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MULHI)
       && pnum_clobbers != NULL)
     {
@@ -4274,7 +4274,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XEXP (x2, 1);
   if (x3 == const_int_rtx[MAX_SAVED_CONST_INT + (32)]
       && 
-#line 1676 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1676 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MULHI)
       && pnum_clobbers != NULL)
     {
@@ -4287,7 +4287,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XEXP (x2, 1);
   if (x3 == const_int_rtx[MAX_SAVED_CONST_INT + (32)]
       && 
-#line 2240 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2240 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_MIPS16))
     {
       return 132;  /* *mips.md:2236 */
@@ -4314,7 +4314,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1327: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2231 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2231 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_MIPS16 && INTVAL (operands[2]) >= 32))
     {
       return 131;  /* *mips.md:2226 */
@@ -4332,7 +4332,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1174: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1990 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1990 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CLZ_CLO))
     {
       return 104;  /* clzsi2 */
@@ -4391,7 +4391,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1292: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2155 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2155 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 125;  /* *norsi3 */
@@ -4415,7 +4415,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1218: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2069 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2069 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 113;  /* *andsi3 */
@@ -4426,7 +4426,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1230: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2080 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2080 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 115;  /* *andsi3_mips16 */
@@ -4459,7 +4459,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1242: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2099 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2099 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 117;  /* *iorsi3 */
@@ -4470,7 +4470,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1254: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2110 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2110 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 119;  /* *iorsi3_mips16 */
@@ -4497,14 +4497,14 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1266: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2126 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2126 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 121;  /* *mips.md:2122 */
     }
  L1278: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2137 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2137 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 123;  /* *mips.md:2133 */
@@ -4548,7 +4548,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1339: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2253 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2253 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_MIPS16))
     {
       return 133;  /* *mips.md:2249 */
@@ -4557,21 +4557,21 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1458: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2451 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2451 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MIPS16E))
     {
       return 156;  /* *extendhisi2_mips16e */
     }
  L1478: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2462 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2462 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_SEB_SEH && !GENERATE_MIPS16E))
     {
       return 160;  /* *extendhisi2 */
     }
  L1498: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2482 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2482 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_SEB_SEH))
     {
       return 164;  /* *extendhisi2_seh */
@@ -4607,7 +4607,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3959: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1029 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 1029 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 499;  /* mips_lhx */
@@ -4635,7 +4635,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1345: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2268 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2268 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_MIPS16))
     {
       return 134;  /* *mips.md:2264 */
@@ -4644,21 +4644,21 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1448: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2451 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2451 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MIPS16E))
     {
       return 154;  /* *extendqisi2_mips16e */
     }
  L1468: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2462 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2462 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_SEB_SEH && !GENERATE_MIPS16E))
     {
       return 158;  /* *extendqisi2 */
     }
  L1488: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2482 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2482 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_SEB_SEH))
     {
       return 162;  /* *extendqisi2_seb */
@@ -4711,7 +4711,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1351: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2286 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2286 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_MIPS16))
     {
       return 135;  /* *mips.md:2282 */
@@ -4720,7 +4720,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1383: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2355 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2355 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 141;  /* *zero_extendhisi2 */
@@ -4731,7 +4731,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1403: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2365 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2365 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MIPS16E))
     {
       return 145;  /* *zero_extendhisi2_mips16e */
@@ -4742,7 +4742,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1423: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2373 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2373 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 149;  /* *zero_extendhisi2_mips16 */
@@ -4785,7 +4785,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1357: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2295 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2295 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_MIPS16))
     {
       return 136;  /* *mips.md:2291 */
@@ -4794,7 +4794,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1373: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2355 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2355 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 139;  /* *zero_extendqisi2 */
@@ -4805,7 +4805,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1393: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2365 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2365 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MIPS16E))
     {
       return 143;  /* *zero_extendqisi2_mips16e */
@@ -4816,7 +4816,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1413: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2373 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2373 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 147;  /* *zero_extendqisi2_mips16 */
@@ -4852,7 +4852,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3951: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1017 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 1017 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 498;  /* mips_lbux */
@@ -4882,14 +4882,14 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1517: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2534 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2534 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT && ISA_HAS_TRUNC_W))
     {
       return 168;  /* fix_truncdfsi2_insn */
     }
  L1530: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2545 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2545 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT && !ISA_HAS_TRUNC_W)
       && pnum_clobbers != NULL)
     {
@@ -4908,14 +4908,14 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1535: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2572 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2572 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && ISA_HAS_TRUNC_W))
     {
       return 170;  /* fix_truncsfsi2_insn */
     }
  L1548: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2583 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2583 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && !ISA_HAS_TRUNC_W)
       && pnum_clobbers != NULL)
     {
@@ -4953,7 +4953,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1585: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2886 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2886 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (mips_use_ins_ext_p (operands[1], operands[2], operands[3])))
     {
       return 178;  /* extzvsi */
@@ -5022,7 +5022,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1612: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2944 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2944 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16 && mips_mem_fits_mode_p (SImode, operands[1])))
     {
       return 182;  /* mov_lwl */
@@ -5049,7 +5049,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1718: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode))
     {
       return 200;  /* load_gotsi */
@@ -5076,14 +5076,14 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1920: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3864 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3864 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_MACCHI))
     {
       return 239;  /* *mfhilo_si */
     }
  L1932: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3874 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3874 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MACCHI))
     {
       return 241;  /* *mfhilo_si_macc */
@@ -5110,7 +5110,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3270: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 124 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 124 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 428;  /* mips_modsub */
@@ -5137,9 +5137,9 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3439: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 384 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 384 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP) && 
-#line 19 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 19 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)))
     {
       return 452;  /* mips_shra_r_w */
@@ -5166,7 +5166,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3779: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 753 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 753 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 482;  /* mips_cmpgu_eq_qb */
@@ -5193,7 +5193,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3785: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 763 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 763 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 483;  /* mips_cmpgu_lt_qb */
@@ -5220,7 +5220,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3791: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 773 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 773 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 484;  /* mips_cmpgu_le_qb */
@@ -5268,7 +5268,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1625: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2955 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2955 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16 && mips_mem_fits_mode_p (SImode, operands[1])))
     {
       return 184;  /* mov_lwr */
@@ -5299,9 +5299,9 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
       && GET_CODE (x2) == REG
       && XINT (x2, 0) == 79
       && (
-#line 5000 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5000 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_ABICALLS) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)))
     {
       return 347;  /* load_callsi */
@@ -5330,9 +5330,9 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XVECEXP (x1, 0, 0);
   if (x2 == const_int_rtx[MAX_SAVED_CONST_INT + (0)]
       && (
-#line 5419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (HAVE_AS_TLS && !TARGET_MIPS16) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)))
     {
       return 378;  /* tls_get_tp_si */
@@ -5350,7 +5350,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3275: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 134 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 134 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 429;  /* mips_raddu_w_qb */
@@ -5368,7 +5368,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3332: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 207 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 207 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 436;  /* mips_preceq_w_phl */
@@ -5386,7 +5386,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3337: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 216 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 216 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 437;  /* mips_preceq_w_phr */
@@ -5404,7 +5404,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3720: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 666 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 666 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 472;  /* mips_bitrev */
@@ -5448,7 +5448,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
       && GET_CODE (x2) == REG
       && XINT (x2, 0) == 182
       && 
-#line 679 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 679 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 473;  /* mips_insv */
@@ -5515,7 +5515,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
       && GET_CODE (x2) == REG
       && XINT (x2, 0) == 187
       && 
-#line 1004 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 1004 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 497;  /* mips_rddsp */
@@ -5544,9 +5544,9 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1677: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 3073 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3073 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)))
     {
       return 192;  /* *xgot_hisi */
@@ -5557,9 +5557,9 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1707: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 3120 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3120 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)))
     {
       return 198;  /* *got_pagesi */
@@ -5592,9 +5592,9 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1688: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 3089 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3089 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)))
     {
       return 194;  /* *xgot_losi */
@@ -5605,18 +5605,18 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1730: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 3155 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3155 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)))
     {
       return 202;  /* *lowsi */
     }
  L1742: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 3164 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3164 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)))
     {
       return 204;  /* *lowsi_mips16 */
@@ -5643,14 +5643,14 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1968: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4038 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4038 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 249;  /* *ashlsi3 */
     }
  L2025: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4068 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4068 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 258;  /* *ashlsi3_mips16 */
@@ -5677,14 +5677,14 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1974: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4038 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4038 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 250;  /* *ashrsi3 */
     }
  L2031: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4068 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4068 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 259;  /* *ashrsi3_mips16 */
@@ -5723,14 +5723,14 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1980: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4038 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4038 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 251;  /* *lshrsi3 */
     }
  L2037: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4068 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4068 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 260;  /* *lshrsi3_mips16 */
@@ -5750,7 +5750,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2061: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4171 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4171 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 264;  /* *mips.md:4167 */
@@ -5777,7 +5777,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2067: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4185 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4185 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_ROTR_SI))
     {
       return 265;  /* rotrsi3 */
@@ -5806,14 +5806,14 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L4793: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4434 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4434 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 279;  /* *seq_si */
     }
  L4794: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4443 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4443 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 281;  /* *seq_si_mips16 */
@@ -5833,7 +5833,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XEXP (x1, 1);
   if (x2 == const_int_rtx[MAX_SAVED_CONST_INT + (0)]
       && 
-#line 4462 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4462 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 283;  /* *sne_si */
@@ -5866,7 +5866,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2222: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4478 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4478 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 285;  /* *sgt_si */
@@ -5877,7 +5877,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2234: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4487 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4487 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 287;  /* *sgt_si_mips16 */
@@ -5897,7 +5897,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XEXP (x1, 1);
   if (x2 == const_int_rtx[MAX_SAVED_CONST_INT + (1)]
       && 
-#line 4503 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4503 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 289;  /* *sge_si */
@@ -5924,14 +5924,14 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2256: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4519 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4519 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 291;  /* *slt_si */
     }
  L2268: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4528 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4528 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 293;  /* *slt_si_mips16 */
@@ -5958,14 +5958,14 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2280: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4549 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4549 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 295;  /* *sle_si */
     }
  L2292: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4561 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4561 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 297;  /* *sle_si_mips16 */
@@ -5998,7 +5998,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2304: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4583 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4583 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 299;  /* *sgtu_si */
@@ -6009,7 +6009,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2316: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4592 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4592 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 301;  /* *sgtu_si_mips16 */
@@ -6029,7 +6029,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XEXP (x1, 1);
   if (x2 == const_int_rtx[MAX_SAVED_CONST_INT + (1)]
       && 
-#line 4608 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4608 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 303;  /* *sge_si */
@@ -6056,14 +6056,14 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2338: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4624 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4624 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 305;  /* *sltu_si */
     }
  L2350: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4633 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4633 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 307;  /* *sltu_si_mips16 */
@@ -6090,14 +6090,14 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2362: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4654 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4654 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 309;  /* *sleu_si */
     }
  L2374: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4666 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4666 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 311;  /* *sleu_si_mips16 */
@@ -6162,7 +6162,7 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2760: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 5309 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5309 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE))
     {
       return 363;  /* *movsi_on_si */
@@ -6212,9 +6212,9 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2778: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 5309 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5309 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 410 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 410 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 365;  /* *movsi_on_di */
@@ -6264,9 +6264,9 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2796: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 5309 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5309 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 410 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 410 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 367;  /* *movsi_on_cc */
@@ -6275,9 +6275,9 @@ recog_4 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1698: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 3103 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3103 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && !TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)))
     {
       return 196;  /* *got_dispsi */
@@ -6431,9 +6431,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L66: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 692 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 692 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 11;  /* *adddi3_sp2 */
@@ -6496,7 +6496,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L854: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1721 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1721 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ((TARGET_MAD || ISA_HAS_MACC)
    && !TARGET_64BIT))
     {
@@ -6540,7 +6540,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L864: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1721 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1721 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ((TARGET_MAD || ISA_HAS_MACC)
    && !TARGET_64BIT))
     {
@@ -6559,9 +6559,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L78: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 704 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 704 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 13;  /* *adddi3_mips16 */
@@ -6631,14 +6631,14 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L85: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 854 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 854 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_MIPS16))
     {
       return 14;  /* *addsi3_extended */
     }
  L92: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 868 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 868 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && TARGET_MIPS16))
     {
       return 15;  /* *addsi3_extended_mips16 */
@@ -6665,7 +6665,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L128: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 908 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 908 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     {
       return 21;  /* *subsi3_extended */
@@ -6692,7 +6692,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2005: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4054 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4054 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_MIPS16))
     {
       return 255;  /* *ashlsi3_extend */
@@ -6719,7 +6719,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2012: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4054 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4054 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_MIPS16))
     {
       return 256;  /* *ashrsi3_extend */
@@ -6746,7 +6746,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2019: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4054 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4054 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_MIPS16))
     {
       return 257;  /* *lshrsi3_extend */
@@ -6755,7 +6755,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1443: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2430 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2430 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     {
       return 153;  /* extendsidi2 */
@@ -6772,27 +6772,27 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1453: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2451 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2451 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MIPS16E) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 155;  /* *extendqidi2_mips16e */
     }
  L1473: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2462 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2462 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_SEB_SEH && !GENERATE_MIPS16E) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 159;  /* *extendqidi2 */
     }
  L1493: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2482 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2482 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_SEB_SEH) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 163;  /* *extendqidi2_seb */
@@ -6809,27 +6809,27 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1463: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2451 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2451 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MIPS16E) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 157;  /* *extendhidi2_mips16e */
     }
  L1483: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2462 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2462 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_SEB_SEH && !GENERATE_MIPS16E) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 161;  /* *extendhidi2 */
     }
  L1503: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2482 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2482 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_SEB_SEH) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 165;  /* *extendhidi2_seh */
@@ -6868,7 +6868,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L121: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     {
       return 20;  /* subdi3 */
@@ -6929,7 +6929,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L612: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1604 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1604 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT && ISA_HAS_MSAC))
     {
       return 51;  /* *msac_di */
@@ -6963,7 +6963,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L622: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1604 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1604 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT && ISA_HAS_MSAC))
     {
       return 52;  /* *msacu_di */
@@ -7024,14 +7024,14 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L460: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1507 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1507 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT && !TARGET_FIX_R4000))
     {
       return 41;  /* mulsidi3_32bit_internal */
     }
  L487: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1517 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1517 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT && TARGET_FIX_R4000)
       && pnum_clobbers != NULL)
     {
@@ -7040,7 +7040,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
     }
  L529: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1530 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1530 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_FIX_R4000)
       && pnum_clobbers != NULL)
     {
@@ -7076,14 +7076,14 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L468: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1507 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1507 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT && !TARGET_FIX_R4000))
     {
       return 42;  /* umulsidi3_32bit_internal */
     }
  L506: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1517 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1517 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT && TARGET_FIX_R4000)
       && pnum_clobbers != NULL)
     {
@@ -7092,7 +7092,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
     }
  L552: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1530 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1530 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_FIX_R4000)
       && pnum_clobbers != NULL)
     {
@@ -7112,7 +7112,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L192: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1052 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1052 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && GENERATE_MULT3_DI)
       && pnum_clobbers != NULL)
     {
@@ -7121,9 +7121,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
     }
  L222: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1088 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1088 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_FIX_R4000) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
       && pnum_clobbers != NULL)
     {
@@ -7132,9 +7132,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
     }
  L256: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1099 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1099 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_FIX_R4000) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
       && pnum_clobbers != NULL)
     {
@@ -7204,7 +7204,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L593: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1592 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1592 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT && ISA_HAS_MULS))
     {
       return 49;  /* *muls_di */
@@ -7238,7 +7238,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L602: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1592 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1592 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT && ISA_HAS_MULS))
     {
       return 50;  /* *mulsu_di */
@@ -7247,7 +7247,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1188: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2018 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2018 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_MIPS16))
     {
       return 107;  /* negdi2 */
@@ -7315,7 +7315,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XEXP (x2, 1);
   if (x3 == const_int_rtx[MAX_SAVED_CONST_INT + (64)]
       && 
-#line 1695 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1695 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_FIX_R4000
    && !(SIGN_EXTEND == ZERO_EXTEND && TARGET_FIX_VR4120))
       && pnum_clobbers != NULL)
@@ -7354,7 +7354,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XEXP (x2, 1);
   if (x3 == const_int_rtx[MAX_SAVED_CONST_INT + (64)]
       && 
-#line 1695 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1695 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_FIX_R4000
    && !(ZERO_EXTEND == ZERO_EXTEND && TARGET_FIX_VR4120))
       && pnum_clobbers != NULL)
@@ -7375,9 +7375,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1179: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1990 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1990 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CLZ_CLO) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 105;  /* clzdi2 */
@@ -7395,7 +7395,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1212: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     {
       return 112;  /* one_cmpldi2 */
@@ -7445,9 +7445,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1300: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2155 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2155 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 126;  /* *nordi3 */
@@ -7471,9 +7471,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1224: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2069 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2069 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 114;  /* *anddi3 */
@@ -7484,9 +7484,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1236: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2080 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2080 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 116;  /* *anddi3_mips16 */
@@ -7519,9 +7519,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1248: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2099 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2099 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 118;  /* *iordi3 */
@@ -7532,9 +7532,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1260: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2110 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2110 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 120;  /* *iordi3_mips16 */
@@ -7561,18 +7561,18 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1272: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2126 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2126 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 122;  /* *mips.md:2122 */
     }
  L1284: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2137 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2137 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 124;  /* *mips.md:2133 */
@@ -7604,7 +7604,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1368: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2321 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2321 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     {
       return 138;  /* zero_extendsidi2 */
@@ -7633,9 +7633,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1378: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2355 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2355 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 140;  /* *zero_extendqidi2 */
@@ -7646,9 +7646,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1398: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2365 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2365 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MIPS16E) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 144;  /* *zero_extendqidi2_mips16e */
@@ -7659,9 +7659,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1418: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2373 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2373 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 148;  /* *zero_extendqidi2_mips16 */
@@ -7690,9 +7690,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1388: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2355 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2355 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 142;  /* *zero_extendhidi2 */
@@ -7703,9 +7703,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1408: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2365 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2365 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MIPS16E) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 146;  /* *zero_extendhidi2_mips16e */
@@ -7716,9 +7716,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1428: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2373 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2373 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 150;  /* *zero_extendhidi2_mips16 */
@@ -7748,7 +7748,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1553: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2599 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2599 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_FLOAT64 && TARGET_DOUBLE_FLOAT))
     {
       return 172;  /* fix_truncdfdi2 */
@@ -7765,7 +7765,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1558: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2610 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2610 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_FLOAT64 && TARGET_DOUBLE_FLOAT))
     {
       return 173;  /* fix_truncsfdi2 */
@@ -7801,9 +7801,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1592: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2886 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2886 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (mips_use_ins_ext_p (operands[1], operands[2], operands[3])) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 179;  /* extzvdi */
@@ -7860,9 +7860,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1618: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2944 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2944 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16 && mips_mem_fits_mode_p (DImode, operands[1])) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 183;  /* mov_ldl */
@@ -7889,7 +7889,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1724: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode))
     {
       return 201;  /* load_gotdi */
@@ -7916,18 +7916,18 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1926: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 3864 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3864 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_MACCHI) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 240;  /* *mfhilo_di */
     }
  L1938: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 3874 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3874 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MACCHI) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 242;  /* *mfhilo_di_macc */
@@ -7954,7 +7954,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3889: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 942 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 942 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP && !TARGET_64BIT))
     {
       return 494;  /* mips_shilo */
@@ -8010,9 +8010,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1632: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2955 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2955 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16 && mips_mem_fits_mode_p (DImode, operands[1])) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 185;  /* mov_ldr */
@@ -8043,9 +8043,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
       && GET_CODE (x2) == REG
       && XINT (x2, 0) == 79
       && (
-#line 5000 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5000 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_ABICALLS) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)))
     {
       return 348;  /* load_calldi */
@@ -8081,7 +8081,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3577: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 479 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 479 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP && !TARGET_64BIT))
     {
       return 459;  /* mips_dpau_h_qbl */
@@ -8117,7 +8117,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3584: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 490 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 490 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP && !TARGET_64BIT))
     {
       return 460;  /* mips_dpau_h_qbr */
@@ -8153,7 +8153,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3591: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 502 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 502 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP && !TARGET_64BIT))
     {
       return 461;  /* mips_dpsu_h_qbl */
@@ -8189,7 +8189,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3598: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 513 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 513 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP && !TARGET_64BIT))
     {
       return 462;  /* mips_dpsu_h_qbr */
@@ -8205,9 +8205,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XVECEXP (x1, 0, 0);
   if (x2 == const_int_rtx[MAX_SAVED_CONST_INT + (0)]
       && (
-#line 5419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (HAVE_AS_TLS && !TARGET_MIPS16) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)))
     {
       return 379;  /* tls_get_tp_di */
@@ -8242,7 +8242,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1661: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2999 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2999 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && ABI_HAS_64BIT_SYMBOLS))
     {
       return 190;  /* *lea_high64 */
@@ -8253,9 +8253,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1682: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 3073 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3073 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)))
     {
       return 193;  /* *xgot_hidi */
@@ -8266,9 +8266,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1712: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 3120 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3120 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)))
     {
       return 199;  /* *got_pagedi */
@@ -8301,9 +8301,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1694: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 3089 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3089 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)))
     {
       return 195;  /* *xgot_lodi */
@@ -8314,18 +8314,18 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1736: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 3155 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3155 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)))
     {
       return 203;  /* *lowdi */
     }
  L1748: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 3164 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3164 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)))
     {
       return 205;  /* *lowdi_mips16 */
@@ -8352,16 +8352,16 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1986: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 4038 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4038 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 252;  /* *ashldi3 */
     }
  L2043: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4090 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4090 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && TARGET_MIPS16))
     {
       return 261;  /* *ashldi3_mips16 */
@@ -8388,16 +8388,16 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1992: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 4038 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4038 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 253;  /* *ashrdi3 */
     }
  L2049: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4110 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4110 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && TARGET_MIPS16))
     {
       return 262;  /* *ashrdi3_mips16 */
@@ -8424,16 +8424,16 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1998: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 4038 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4038 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 254;  /* *lshrdi3 */
     }
  L2055: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4129 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4129 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && TARGET_MIPS16))
     {
       return 263;  /* *lshrdi3_mips16 */
@@ -8460,9 +8460,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2073: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 4185 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4185 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_ROTR_DI) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 266;  /* rotrdi3 */
@@ -8491,18 +8491,18 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L4911: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 4434 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4434 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 280;  /* *seq_di */
     }
  L4912: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 4443 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4443 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 282;  /* *seq_di_mips16 */
@@ -8522,9 +8522,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XEXP (x1, 1);
   if (x2 == const_int_rtx[MAX_SAVED_CONST_INT + (0)]
       && (
-#line 4462 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4462 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 284;  /* *sne_di */
@@ -8557,9 +8557,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2228: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 4478 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4478 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 286;  /* *sgt_di */
@@ -8570,9 +8570,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2240: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 4487 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4487 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 288;  /* *sgt_di_mips16 */
@@ -8592,9 +8592,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XEXP (x1, 1);
   if (x2 == const_int_rtx[MAX_SAVED_CONST_INT + (1)]
       && (
-#line 4503 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4503 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 290;  /* *sge_di */
@@ -8621,18 +8621,18 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2262: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 4519 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4519 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 292;  /* *slt_di */
     }
  L2274: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 4528 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4528 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 294;  /* *slt_di_mips16 */
@@ -8659,18 +8659,18 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2286: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 4549 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4549 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 296;  /* *sle_di */
     }
  L2298: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 4561 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4561 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 298;  /* *sle_di_mips16 */
@@ -8703,9 +8703,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2310: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 4583 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4583 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 300;  /* *sgtu_di */
@@ -8716,9 +8716,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2322: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 4592 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4592 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 302;  /* *sgtu_di_mips16 */
@@ -8738,9 +8738,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XEXP (x1, 1);
   if (x2 == const_int_rtx[MAX_SAVED_CONST_INT + (1)]
       && (
-#line 4608 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4608 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 304;  /* *sge_di */
@@ -8767,18 +8767,18 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2344: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 4624 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4624 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 306;  /* *sltu_di */
     }
  L2356: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 4633 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4633 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 308;  /* *sltu_di_mips16 */
@@ -8805,18 +8805,18 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2368: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 4654 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4654 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 310;  /* *sleu_di */
     }
  L2380: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 4666 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4666 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 312;  /* *sleu_di_mips16 */
@@ -8881,9 +8881,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2769: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 5309 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5309 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 364;  /* *movdi_on_si */
@@ -8933,11 +8933,11 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2787: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 5309 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5309 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 410 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 410 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 366;  /* *movdi_on_di */
@@ -8987,11 +8987,11 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2805: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 5309 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5309 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_CONDMOVE) && 
-#line 410 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 410 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 368;  /* *movdi_on_cc */
@@ -9000,7 +9000,7 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1672: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3053 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3053 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && ABI_HAS_64BIT_SYMBOLS && cse_not_expected)
       && pnum_clobbers != NULL)
     {
@@ -9012,9 +9012,9 @@ recog_5 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1702: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 3103 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3103 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && !TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)))
     {
       return 197;  /* *got_dispdi */
@@ -9103,7 +9103,7 @@ recog_6 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2386: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     {
       return 313;  /* sunordered_sf */
@@ -9129,7 +9129,7 @@ recog_6 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2428: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     {
       return 320;  /* sunordered_df */
@@ -9168,7 +9168,7 @@ recog_6 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2392: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     {
       return 314;  /* suneq_sf */
@@ -9194,7 +9194,7 @@ recog_6 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2434: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     {
       return 321;  /* suneq_df */
@@ -9233,7 +9233,7 @@ recog_6 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2398: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     {
       return 315;  /* sunlt_sf */
@@ -9259,7 +9259,7 @@ recog_6 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2440: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     {
       return 322;  /* sunlt_df */
@@ -9298,7 +9298,7 @@ recog_6 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2404: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     {
       return 316;  /* sunle_sf */
@@ -9324,7 +9324,7 @@ recog_6 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2446: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     {
       return 323;  /* sunle_df */
@@ -9363,7 +9363,7 @@ recog_6 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2410: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     {
       return 317;  /* seq_sf */
@@ -9389,7 +9389,7 @@ recog_6 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2452: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     {
       return 324;  /* seq_df */
@@ -9428,7 +9428,7 @@ recog_6 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2416: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     {
       return 318;  /* slt_sf */
@@ -9454,7 +9454,7 @@ recog_6 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2458: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     {
       return 325;  /* slt_df */
@@ -9493,7 +9493,7 @@ recog_6 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2422: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     {
       return 319;  /* sle_sf */
@@ -9519,7 +9519,7 @@ recog_6 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2464: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     {
       return 326;  /* sle_df */
@@ -9558,7 +9558,7 @@ recog_6 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2470: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     {
       return 327;  /* sge_sf */
@@ -9584,7 +9584,7 @@ recog_6 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2494: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     {
       return 331;  /* sge_df */
@@ -9623,7 +9623,7 @@ recog_6 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2476: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     {
       return 328;  /* sgt_sf */
@@ -9649,7 +9649,7 @@ recog_6 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2500: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     {
       return 332;  /* sgt_df */
@@ -9688,7 +9688,7 @@ recog_6 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2482: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     {
       return 329;  /* sunge_sf */
@@ -9714,7 +9714,7 @@ recog_6 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2506: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     {
       return 333;  /* sunge_df */
@@ -9753,7 +9753,7 @@ recog_6 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2488: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     {
       return 330;  /* sungt_sf */
@@ -9779,7 +9779,7 @@ recog_6 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2512: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT))
     {
       return 334;  /* sungt_df */
@@ -9833,9 +9833,9 @@ recog_6 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2990: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 289 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 289 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D) && 
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 394;  /* mips_cabs_cond_s */
@@ -9870,9 +9870,9 @@ recog_6 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2997: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 289 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 289 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D) && 
-#line 424 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 424 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)))
     {
       return 395;  /* mips_cabs_cond_d */
@@ -9929,7 +9929,7 @@ recog_7 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2526: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode))
     {
       return 337;  /* indirect_jumpsi */
@@ -9947,7 +9947,7 @@ recog_7 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2530: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode))
     {
       return 338;  /* indirect_jumpdi */
@@ -10021,7 +10021,7 @@ recog_7 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XEXP (x1, 2);
   if (GET_CODE (x2) == PC
       && 
-#line 4257 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4257 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     {
       return 267;  /* branch_fp */
@@ -10041,7 +10041,7 @@ recog_7 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2092: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4277 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4277 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT))
     {
       return 268;  /* branch_fp_inverted */
@@ -10100,7 +10100,7 @@ recog_7 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XEXP (x1, 2);
   if (GET_CODE (x2) == PC
       && 
-#line 4299 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4299 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 269;  /* *branch_zerosi */
@@ -10122,7 +10122,7 @@ recog_7 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2120: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4319 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4319 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 271;  /* *branch_zerosi_inverted */
@@ -10185,7 +10185,7 @@ recog_7 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XEXP (x1, 2);
   if (GET_CODE (x2) == PC
       && 
-#line 4341 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4341 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 273;  /* *branch_equalitysi */
@@ -10209,7 +10209,7 @@ recog_7 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2158: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4361 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4361 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 275;  /* *branch_equalitysi_inverted */
@@ -10245,7 +10245,7 @@ recog_7 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2177: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4383 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4383 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 277;  /* *branch_equalitysi_mips16 */
@@ -10304,9 +10304,9 @@ recog_7 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XEXP (x1, 2);
   if (GET_CODE (x2) == PC
       && (
-#line 4299 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4299 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 270;  /* *branch_zerodi */
@@ -10328,9 +10328,9 @@ recog_7 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2130: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 4319 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4319 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 272;  /* *branch_zerodi_inverted */
@@ -10393,9 +10393,9 @@ recog_7 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XEXP (x1, 2);
   if (GET_CODE (x2) == PC
       && (
-#line 4341 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4341 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 274;  /* *branch_equalitydi */
@@ -10419,9 +10419,9 @@ recog_7 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2168: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 4361 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4361 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 276;  /* *branch_equalitydi_inverted */
@@ -10457,9 +10457,9 @@ recog_7 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2186: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 4383 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4383 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 278;  /* *branch_equalitydi_mips16 */
@@ -10514,7 +10514,7 @@ recog_7 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XEXP (x1, 2);
   if (GET_CODE (x2) == PC
       && 
-#line 396 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 396 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D))
     {
       return 400;  /* bc1any4t */
@@ -10536,7 +10536,7 @@ recog_7 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XEXP (x1, 2);
   if (GET_CODE (x2) == PC
       && 
-#line 408 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 408 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D))
     {
       return 401;  /* bc1any4f */
@@ -10591,7 +10591,7 @@ recog_7 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XEXP (x1, 2);
   if (GET_CODE (x2) == PC
       && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D))
     {
       return 402;  /* bc1any2t */
@@ -10613,7 +10613,7 @@ recog_7 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XEXP (x1, 2);
   if (GET_CODE (x2) == PC
       && 
-#line 432 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 432 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D))
     {
       return 403;  /* bc1any2f */
@@ -10657,7 +10657,7 @@ recog_7 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XEXP (x1, 2);
   if (GET_CODE (x2) == PC
       && 
-#line 1054 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 1054 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 501;  /* mips_bposge */
@@ -10671,14 +10671,14 @@ recog_7 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2517: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4714 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4714 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 335;  /* jump */
     }
  L2522: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4748 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4748 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 336;  /* *mips.md:4745 */
@@ -10811,11 +10811,11 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1831: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 3487 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3487 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 221;  /* *swxc1_si */
@@ -10858,11 +10858,11 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1852: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 3487 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3487 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)) && 
-#line 418 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 418 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT)))
     {
       return 224;  /* *swxc1_di */
@@ -10896,7 +10896,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1886: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3696 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3696 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT
    && (register_operand (operands[0], SFmode)
        || reg_or_0_operand (operands[1], SFmode))))
@@ -10905,7 +10905,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
     }
  L1890: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3707 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3707 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SOFT_FLOAT && !TARGET_MIPS16
    && (register_operand (operands[0], SFmode)
        || reg_or_0_operand (operands[1], SFmode))))
@@ -10914,7 +10914,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
     }
  L1894: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3718 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3718 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16
    && (register_operand (operands[0], SFmode)
        || register_operand (operands[1], SFmode))))
@@ -10988,11 +10988,11 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1838: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 3487 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3487 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)))
     {
       return 222;  /* *sdxc1_si */
@@ -11035,11 +11035,11 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1859: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 3487 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3487 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)) && 
-#line 419 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 419 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT)))
     {
       return 225;  /* *sdxc1_di */
@@ -11073,7 +11073,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1898: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3741 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3741 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT && TARGET_64BIT
    && (register_operand (operands[0], DFmode)
        || reg_or_0_operand (operands[1], DFmode))))
@@ -11082,7 +11082,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
     }
  L1902: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3752 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3752 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT && !TARGET_64BIT
    && (register_operand (operands[0], DFmode)
        || reg_or_0_operand (operands[1], DFmode))))
@@ -11091,7 +11091,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
     }
  L1906: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3763 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3763 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ((TARGET_SOFT_FLOAT || TARGET_SINGLE_FLOAT) && !TARGET_MIPS16
    && (register_operand (operands[0], DFmode)
        || reg_or_0_operand (operands[1], DFmode))))
@@ -11100,7 +11100,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
     }
  L1910: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3774 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3774 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16
    && (register_operand (operands[0], DFmode)
        || register_operand (operands[1], DFmode))))
@@ -11174,11 +11174,11 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1845: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 3487 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3487 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT)))
     {
       return 223;  /* *sdxc1_si */
@@ -11221,11 +11221,11 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1866: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 3487 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3487 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_FP4) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)) && 
-#line 420 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 420 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT)))
     {
       return 226;  /* *sdxc1_di */
@@ -11259,7 +11259,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1914: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3833 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3833 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_PAIRED_SINGLE_FLOAT
    && TARGET_64BIT
    && (register_operand (operands[0], V2SFmode)
@@ -11351,7 +11351,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1599: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2922 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2922 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (mips_use_ins_ext_p (operands[0], operands[1], operands[2])))
     {
       return 180;  /* insvsi */
@@ -11373,7 +11373,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
       && GET_CODE (x1) == REG
       && XINT (x1, 0) == 31
       && 
-#line 3192 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3192 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 206;  /* *movsi_ra */
@@ -11400,7 +11400,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XVECEXP (x1, 0, 0);
   if (x2 == const_int_rtx[MAX_SAVED_CONST_INT + (0)]
       && 
-#line 4962 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4962 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_ABICALLS && TARGET_OLDABI))
     {
       return 346;  /* exception_receiver */
@@ -11438,7 +11438,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L36: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 665 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 665 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 6;  /* *addsi3 */
@@ -11475,7 +11475,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L48: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 680 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 680 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 8;  /* *addsi3_sp1 */
@@ -11533,7 +11533,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1310: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2194 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2194 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     {
       return 128;  /* truncdisi2 */
@@ -11558,7 +11558,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1954: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3922 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3922 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT && !TARGET_64BIT))
     {
       return 245;  /* store_df_high */
@@ -11568,7 +11568,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1774: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3318 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3318 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16
    && (register_operand (operands[0], SImode)
        || reg_or_0_operand (operands[1], SImode))))
@@ -11577,7 +11577,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
     }
  L1778: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3329 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3329 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16
    && (register_operand (operands[0], SImode)
        || register_operand (operands[1], SImode))))
@@ -11625,7 +11625,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3966: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1039 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 1039 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 500;  /* mips_lwx */
@@ -11709,9 +11709,9 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1606: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2922 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2922 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (mips_use_ins_ext_p (operands[0], operands[1], operands[2])) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 181;  /* insvdi */
@@ -11733,9 +11733,9 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
       && GET_CODE (x1) == REG
       && XINT (x1, 0) == 31
       && (
-#line 3192 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3192 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 207;  /* *movdi_ra */
@@ -11773,9 +11773,9 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L42: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 665 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 665 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 7;  /* *adddi3 */
@@ -11812,9 +11812,9 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L54: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 680 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 680 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 9;  /* *adddi3_sp1 */
@@ -11848,7 +11848,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1758: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3200 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3200 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT && !TARGET_MIPS16
    && (register_operand (operands[0], DImode)
        || reg_or_0_operand (operands[1], DImode))))
@@ -11857,7 +11857,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
     }
  L1762: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3211 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3211 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT && TARGET_MIPS16
    && (register_operand (operands[0], DImode)
        || register_operand (operands[1], DImode))))
@@ -11866,7 +11866,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
     }
  L1766: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3222 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3222 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_MIPS16
    && (register_operand (operands[0], DImode)
        || reg_or_0_operand (operands[1], DImode))))
@@ -11875,7 +11875,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
     }
  L1770: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3233 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3233 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && TARGET_MIPS16
    && (register_operand (operands[0], DImode)
        || register_operand (operands[1], DImode))))
@@ -11924,7 +11924,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1315: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2205 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2205 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     {
       return 129;  /* truncdihi2 */
@@ -11934,7 +11934,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1870: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3511 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3511 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16
    && (register_operand (operands[0], HImode)
        || reg_or_0_operand (operands[1], HImode))))
@@ -11943,7 +11943,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
     }
  L1874: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3530 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3530 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16
    && (register_operand (operands[0], HImode)
        || register_operand (operands[1], HImode))))
@@ -12009,7 +12009,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1363: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2304 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2304 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_MIPS16))
     {
       return 137;  /* *mips.md:2300 */
@@ -12019,7 +12019,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1433: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2394 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2394 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16))
     {
       return 151;  /* *zero_extendqihi2 */
@@ -12030,7 +12030,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1438: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2404 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2404 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 152;  /* *zero_extendqihi2_mips16 */
@@ -12081,7 +12081,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1320: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2216 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2216 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     {
       return 130;  /* truncdiqi2 */
@@ -12091,7 +12091,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1878: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3618 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3618 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16
    && (register_operand (operands[0], QImode)
        || reg_or_0_operand (operands[1], QImode))))
@@ -12100,7 +12100,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
     }
  L1882: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3637 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3637 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16
    && (register_operand (operands[0], QImode)
        || register_operand (operands[1], QImode))))
@@ -12178,7 +12178,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1638: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2965 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2965 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16 && mips_mem_fits_mode_p (SImode, operands[0])))
     {
       return 186;  /* mov_swl */
@@ -12199,9 +12199,9 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1644: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2965 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2965 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16 && mips_mem_fits_mode_p (DImode, operands[0])) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 187;  /* mov_sdl */
@@ -12245,7 +12245,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XVECEXP (x1, 0, 2);
   if (rtx_equal_p (x2, operands[0])
       && 
-#line 2976 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2976 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16 && mips_mem_fits_mode_p (SImode, operands[0])))
     {
       return 188;  /* mov_swr */
@@ -12267,9 +12267,9 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
   x2 = XVECEXP (x1, 0, 2);
   if (rtx_equal_p (x2, operands[0])
       && (
-#line 2976 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2976 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_MIPS16 && mips_mem_fits_mode_p (DImode, operands[0])) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 189;  /* mov_sdr */
@@ -12303,7 +12303,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1782: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3421 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3421 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_8CC && TARGET_HARD_FLOAT))
     {
       return 214;  /* movcc */
@@ -12417,7 +12417,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3006: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 307 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 307 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     {
       return 396;  /* mips_c_cond_4s */
@@ -12477,7 +12477,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3015: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 336 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 336 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D))
     {
       return 397;  /* mips_cabs_cond_4s */
@@ -12557,7 +12557,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3022: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 368 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 368 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_PAIRED_SINGLE_FLOAT))
     {
       return 398;  /* mips_c_cond_ps */
@@ -12597,7 +12597,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3029: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 379 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 379 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D))
     {
       return 399;  /* mips_cabs_cond_ps */
@@ -12676,7 +12676,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3299: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 158 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 158 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 432;  /* mips_precrq_qb_ph */
@@ -12706,7 +12706,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3427: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 347 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 347 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 450;  /* mips_shrl_qb */
@@ -12732,7 +12732,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3732: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 689 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 689 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 474;  /* mips_repl_qb */
@@ -12772,9 +12772,9 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
       && GET_CODE (x2) == REG
       && XINT (x2, 0) == 186
       && (
-#line 785 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 785 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP) && 
-#line 16 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 16 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)))
     {
       return 486;  /* mips_pick_qb */
@@ -12857,7 +12857,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3305: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 168 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 168 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 433;  /* mips_precrq_ph_w */
@@ -12887,7 +12887,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3433: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 366 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 366 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 451;  /* mips_shra_ph */
@@ -12917,9 +12917,9 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3445: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 384 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 384 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP) && 
-#line 20 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 20 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)))
     {
       return 453;  /* mips_shra_r_ph */
@@ -12949,7 +12949,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3809: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 796 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 796 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 487;  /* mips_packrl_ph */
@@ -12996,7 +12996,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3342: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 226 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 226 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 438;  /* mips_precequ_ph_qbl */
@@ -13016,7 +13016,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3347: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 235 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 235 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 439;  /* mips_precequ_ph_qbr */
@@ -13036,7 +13036,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3352: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 244 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 244 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 440;  /* mips_precequ_ph_qbla */
@@ -13056,7 +13056,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3357: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 253 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 253 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 441;  /* mips_precequ_ph_qbra */
@@ -13076,7 +13076,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3362: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 263 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 263 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 442;  /* mips_preceu_ph_qbl */
@@ -13096,7 +13096,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3367: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 272 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 272 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 443;  /* mips_preceu_ph_qbr */
@@ -13116,7 +13116,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3372: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 281 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 281 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 444;  /* mips_preceu_ph_qbla */
@@ -13136,7 +13136,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3377: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 290 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 290 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 445;  /* mips_preceu_ph_qbra */
@@ -13156,7 +13156,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3737: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 706 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 706 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 475;  /* mips_repl_ph */
@@ -13196,9 +13196,9 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
       && GET_CODE (x2) == REG
       && XINT (x2, 0) == 186
       && (
-#line 785 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 785 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP) && 
-#line 15 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 15 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)))
     {
       return 485;  /* mips_pick_ph */
@@ -13285,9 +13285,9 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
       && GET_CODE (x2) == REG
       && XINT (x2, 0) == 186
       && (
-#line 721 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 721 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP) && 
-#line 15 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 15 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)))
     {
       return 476;  /* mips_cmp_eq_ph */
@@ -13320,9 +13320,9 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
       && GET_CODE (x2) == REG
       && XINT (x2, 0) == 186
       && (
-#line 721 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 721 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP) && 
-#line 16 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 16 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)))
     {
       return 477;  /* mips_cmpu_eq_qb */
@@ -13369,9 +13369,9 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
       && GET_CODE (x2) == REG
       && XINT (x2, 0) == 186
       && (
-#line 732 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 732 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP) && 
-#line 15 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 15 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)))
     {
       return 478;  /* mips_cmp_lt_ph */
@@ -13404,9 +13404,9 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
       && GET_CODE (x2) == REG
       && XINT (x2, 0) == 186
       && (
-#line 732 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 732 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP) && 
-#line 16 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 16 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)))
     {
       return 479;  /* mips_cmpu_lt_qb */
@@ -13453,9 +13453,9 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
       && GET_CODE (x2) == REG
       && XINT (x2, 0) == 186
       && (
-#line 743 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 743 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP) && 
-#line 15 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 15 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)))
     {
       return 480;  /* mips_cmp_le_ph */
@@ -13488,9 +13488,9 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
       && GET_CODE (x2) == REG
       && XINT (x2, 0) == 186
       && (
-#line 743 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 743 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP) && 
-#line 16 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 16 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)))
     {
       return 481;  /* mips_cmpu_le_qb */
@@ -13530,7 +13530,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2599: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 5054 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5054 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SIBCALLS && SIBLING_CALL_P (insn)))
     {
       return 350;  /* sibcall_value_internal */
@@ -13543,7 +13543,7 @@ recog_8 (rtx x0 ATTRIBUTE_UNUSED,
     }
  L2672: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 5185 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5185 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SPLIT_CALLS)
       && pnum_clobbers != NULL)
     {
@@ -13641,14 +13641,14 @@ recog_9 (rtx x0 ATTRIBUTE_UNUSED,
 
  L169: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1028 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1028 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MULT3_SI))
     {
       return 27;  /* mulsi3_mult3 */
     }
  L233: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1099 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1099 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_FIX_R4000))
     {
       return 31;  /* mulsi3_r4000 */
@@ -13736,7 +13736,7 @@ recog_9 (rtx x0 ATTRIBUTE_UNUSED,
 
  L292: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1218 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1218 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MACC))
     {
       return 34;  /* *macc */
@@ -13810,7 +13810,7 @@ recog_9 (rtx x0 ATTRIBUTE_UNUSED,
 
  L362: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1289 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1289 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MACC && reload_completed))
     {
       return 37;  /* *macc2 */
@@ -13901,7 +13901,7 @@ recog_9 (rtx x0 ATTRIBUTE_UNUSED,
 
  L313: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1240 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1240 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MSAC))
     {
       return 35;  /* *msac */
@@ -14000,7 +14000,7 @@ recog_9 (rtx x0 ATTRIBUTE_UNUSED,
 
  L395: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1304 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1304 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MSAC && reload_completed))
     {
       return 38;  /* *msac2 */
@@ -14064,7 +14064,7 @@ recog_9 (rtx x0 ATTRIBUTE_UNUSED,
 
  L445: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1472 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1472 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MULS))
     {
       return 40;  /* *muls */
@@ -14177,7 +14177,7 @@ recog_9 (rtx x0 ATTRIBUTE_UNUSED,
 
  L686: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1658 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1658 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MULHI))
     {
       return 55;  /* smulsi3_highpart_mulhi_internal */
@@ -14247,7 +14247,7 @@ recog_9 (rtx x0 ATTRIBUTE_UNUSED,
 
  L712: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1658 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1658 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MULHI))
     {
       return 56;  /* umulsi3_highpart_mulhi_internal */
@@ -14342,7 +14342,7 @@ recog_9 (rtx x0 ATTRIBUTE_UNUSED,
 
  L739: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1676 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1676 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MULHI))
     {
       return 57;  /* *smulsi3_highpart_neg_mulhi_internal */
@@ -14412,7 +14412,7 @@ recog_9 (rtx x0 ATTRIBUTE_UNUSED,
 
  L767: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1676 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1676 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MULHI))
     {
       return 58;  /* *umulsi3_highpart_neg_mulhi_internal */
@@ -14513,7 +14513,7 @@ recog_9 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3534: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 453 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 453 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 457;  /* mips_muleq_s_w_phl */
@@ -14590,7 +14590,7 @@ recog_9 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3559: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 467 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 467 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 458;  /* mips_muleq_s_w_phr */
@@ -14704,7 +14704,7 @@ recog_9 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && 
-#line 923 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 923 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP && !TARGET_64BIT))
     {
       return 493;  /* mips_extpdp */
@@ -14823,7 +14823,7 @@ recog_10 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && 
-#line 10 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 10 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 418;  /* mips_addq_s_w */
@@ -14881,9 +14881,9 @@ recog_10 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && (
-#line 84 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 84 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP) && 
-#line 10 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 10 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)))
     {
       return 423;  /* mips_subq_s_w */
@@ -14941,7 +14941,7 @@ recog_10 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && 
-#line 98 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 98 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 426;  /* mips_addsc */
@@ -14999,9 +14999,9 @@ recog_10 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && (
-#line 327 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 327 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP) && 
-#line 19 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 19 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)))
     {
       return 448;  /* mips_shll_s_w */
@@ -15059,7 +15059,7 @@ recog_10 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && 
-#line 453 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 453 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)
       && pnum_clobbers != NULL)
     {
@@ -15119,7 +15119,7 @@ recog_10 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && 
-#line 467 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 467 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)
       && pnum_clobbers != NULL)
     {
@@ -15179,7 +15179,7 @@ recog_10 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && 
-#line 811 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 811 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP && !TARGET_64BIT))
     {
       return 488;  /* mips_extr_w */
@@ -15237,7 +15237,7 @@ recog_10 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && 
-#line 832 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 832 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP && !TARGET_64BIT))
     {
       return 489;  /* mips_extr_r_w */
@@ -15295,7 +15295,7 @@ recog_10 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && 
-#line 853 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 853 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP && !TARGET_64BIT))
     {
       return 490;  /* mips_extr_rs_w */
@@ -15353,7 +15353,7 @@ recog_10 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && 
-#line 875 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 875 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP && !TARGET_64BIT))
     {
       return 491;  /* mips_extr_s_h */
@@ -15431,7 +15431,7 @@ recog_10 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && 
-#line 113 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 113 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 427;  /* mips_addwc */
@@ -15497,7 +15497,7 @@ recog_10 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && 
-#line 898 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 898 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP && !TARGET_64BIT))
     {
       return 492;  /* mips_extp */
@@ -15545,9 +15545,9 @@ recog_10 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 0);
   if (rtx_equal_p (x3, operands[1])
       && (
-#line 147 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 147 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP) && 
-#line 19 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 19 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)))
     {
       return 430;  /* mips_absq_s_w */
@@ -15672,7 +15672,7 @@ recog_11 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 2);
   if (rtx_equal_p (x3, operands[3])
       && 
-#line 529 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 529 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP && !TARGET_64BIT))
     {
       return 463;  /* mips_dpaq_s_w_ph */
@@ -15745,7 +15745,7 @@ recog_11 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 2);
   if (rtx_equal_p (x3, operands[3])
       && 
-#line 545 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 545 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP && !TARGET_64BIT))
     {
       return 464;  /* mips_dpsq_s_w_ph */
@@ -15818,7 +15818,7 @@ recog_11 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 2);
   if (rtx_equal_p (x3, operands[3])
       && 
-#line 561 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 561 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP && !TARGET_64BIT))
     {
       return 465;  /* mips_mulsaq_s_w_ph */
@@ -15891,7 +15891,7 @@ recog_11 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 2);
   if (rtx_equal_p (x3, operands[3])
       && 
-#line 577 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 577 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP && !TARGET_64BIT))
     {
       return 466;  /* mips_dpaq_sa_l_w */
@@ -15964,7 +15964,7 @@ recog_11 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 2);
   if (rtx_equal_p (x3, operands[3])
       && 
-#line 593 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 593 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP && !TARGET_64BIT))
     {
       return 467;  /* mips_dpsq_sa_l_w */
@@ -16037,7 +16037,7 @@ recog_11 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 2);
   if (rtx_equal_p (x3, operands[3])
       && 
-#line 609 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 609 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP && !TARGET_64BIT))
     {
       return 468;  /* mips_maq_s_w_phl */
@@ -16110,7 +16110,7 @@ recog_11 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 2);
   if (rtx_equal_p (x3, operands[3])
       && 
-#line 624 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 624 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP && !TARGET_64BIT))
     {
       return 469;  /* mips_maq_s_w_phr */
@@ -16183,7 +16183,7 @@ recog_11 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 2);
   if (rtx_equal_p (x3, operands[3])
       && 
-#line 640 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 640 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP && !TARGET_64BIT))
     {
       return 470;  /* mips_maq_sa_w_phl */
@@ -16256,7 +16256,7 @@ recog_11 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 2);
   if (rtx_equal_p (x3, operands[3])
       && 
-#line 655 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 655 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP && !TARGET_64BIT))
     {
       return 471;  /* mips_maq_sa_w_phr */
@@ -16330,7 +16330,7 @@ recog_11 (rtx x0 ATTRIBUTE_UNUSED,
       && GET_CODE (x3) == REG
       && XINT (x3, 0) == 182
       && 
-#line 966 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 966 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP && !TARGET_64BIT))
     {
       return 495;  /* mips_mthlip */
@@ -16461,7 +16461,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
 
  L201: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1088 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1088 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_FIX_R4000))
     {
       return 29;  /* mulsi3_internal */
@@ -16569,7 +16569,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XEXP (x2, 1);
   if (rtx_equal_p (x3, operands[0])
       && 
-#line 1289 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1289 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MACC && reload_completed)
       && pnum_clobbers != NULL)
     {
@@ -16593,7 +16593,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
 
  L837: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1710 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1710 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MAD))
     {
       return 61;  /* madsi */
@@ -16694,7 +16694,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x4 = XEXP (x3, 1);
   if (rtx_equal_p (x4, operands[2])
       && 
-#line 1304 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1304 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MSAC && reload_completed)
       && pnum_clobbers != NULL)
     {
@@ -16797,7 +16797,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
 
  L636: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1643 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1643 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_MULHI && !TARGET_FIX_R4000))
     {
       return 53;  /* smulsi3_highpart_internal */
@@ -16862,7 +16862,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
 
  L660: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1643 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1643 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_MULHI && !TARGET_FIX_R4000))
     {
       return 54;  /* umulsi3_highpart_internal */
@@ -16931,7 +16931,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XEXP (x2, 1);
   if (rtx_equal_p (x3, operands[2])
       && 
-#line 1881 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1881 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_FIX_VR4120))
     {
       return 88;  /* divmodsi4 */
@@ -17050,7 +17050,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1525: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2545 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2545 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT && !ISA_HAS_TRUNC_W))
     {
       return 169;  /* fix_truncdfsi2_macro */
@@ -17089,7 +17089,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1543: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2583 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2583 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_HARD_FLOAT && !ISA_HAS_TRUNC_W))
     {
       return 171;  /* fix_truncsfsi2_macro */
@@ -17231,7 +17231,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
 
  L479: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1517 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1517 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT && TARGET_FIX_R4000))
     {
       return 43;  /* mulsidi3_32bit_r4000 */
@@ -17289,7 +17289,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
 
  L498: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1517 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1517 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_64BIT && TARGET_FIX_R4000))
     {
       return 44;  /* umulsidi3_32bit_r4000 */
@@ -17329,9 +17329,9 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
 
  L216: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1088 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1088 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_FIX_R4000) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 30;  /* muldi3_internal */
@@ -17456,7 +17456,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XEXP (x2, 1);
   if (x3 == const_int_rtx[MAX_SAVED_CONST_INT + (32)]
       && 
-#line 1580 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1580 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_FIX_R4000))
     {
       return 47;  /* *mulsidi3_64bit_parts */
@@ -17494,7 +17494,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XEXP (x2, 1);
   if (x3 == const_int_rtx[MAX_SAVED_CONST_INT + (32)]
       && 
-#line 1580 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1580 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_FIX_R4000))
     {
       return 48;  /* *umulsidi3_64bit_parts */
@@ -17595,7 +17595,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
 
  L792: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1695 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1695 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_FIX_R4000
    && !(SIGN_EXTEND == ZERO_EXTEND && TARGET_FIX_VR4120)))
     {
@@ -17661,7 +17661,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
 
  L816: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1695 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1695 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_FIX_R4000
    && !(ZERO_EXTEND == ZERO_EXTEND && TARGET_FIX_VR4120)))
     {
@@ -17731,9 +17731,9 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XEXP (x2, 1);
   if (rtx_equal_p (x3, operands[2])
       && (
-#line 1881 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1881 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!TARGET_FIX_VR4120) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 89;  /* divmoddi4 */
@@ -17802,7 +17802,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XEXP (x2, 1);
   if (rtx_equal_p (x3, operands[2])
       && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     {
       return 91;  /* udivmoddi4 */
@@ -17839,7 +17839,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
 
  L1668: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3053 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3053 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && ABI_HAS_64BIT_SYMBOLS && cse_not_expected))
     {
       return 191;  /* *lea64 */
@@ -17939,7 +17939,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && 
-#line 15 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 15 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 416;  /* addv2hi3 */
@@ -18047,7 +18047,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && 
-#line 11 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 11 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 419;  /* mips_addq_s_ph */
@@ -18117,9 +18117,9 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && (
-#line 84 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 84 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP) && 
-#line 11 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 11 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)))
     {
       return 424;  /* mips_subq_s_ph */
@@ -18189,7 +18189,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && 
-#line 182 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 182 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 434;  /* mips_precrq_rs_ph_w */
@@ -18259,9 +18259,9 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && (
-#line 305 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 305 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP) && 
-#line 15 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 15 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)))
     {
       return 446;  /* mips_shll_ph */
@@ -18331,9 +18331,9 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && (
-#line 327 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 327 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP) && 
-#line 20 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 20 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)))
     {
       return 449;  /* mips_shll_s_ph */
@@ -18403,7 +18403,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && 
-#line 409 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 409 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)
       && pnum_clobbers != NULL)
     {
@@ -18475,7 +18475,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && 
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)
       && pnum_clobbers != NULL)
     {
@@ -18547,7 +18547,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && 
-#line 438 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 438 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)
       && pnum_clobbers != NULL)
     {
@@ -18607,9 +18607,9 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 0);
   if (rtx_equal_p (x3, operands[1])
       && (
-#line 147 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 147 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP) && 
-#line 20 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 20 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)))
     {
       return 431;  /* mips_absq_s_ph */
@@ -18679,9 +18679,9 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && (
-#line 71 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 71 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP) && 
-#line 15 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 15 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)))
     {
       return 421;  /* subv2hi3 */
@@ -18781,7 +18781,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && 
-#line 16 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 16 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 417;  /* addv4qi3 */
@@ -18874,7 +18874,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && 
-#line 12 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 12 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 420;  /* mips_addu_s_qb */
@@ -18944,9 +18944,9 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && (
-#line 84 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 84 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP) && 
-#line 12 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 12 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)))
     {
       return 425;  /* mips_subu_s_qb */
@@ -19016,7 +19016,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && 
-#line 197 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 197 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 435;  /* mips_precrqu_s_qb_ph */
@@ -19086,9 +19086,9 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && (
-#line 305 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 305 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP) && 
-#line 16 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 16 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)))
     {
       return 447;  /* mips_shll_qb */
@@ -19158,9 +19158,9 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[2])
       && (
-#line 71 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 71 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP) && 
-#line 16 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 16 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP)))
     {
       return 422;  /* subv4qi3 */
@@ -19209,7 +19209,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2538: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode))
     {
       return 339;  /* tablejumpsi */
@@ -19243,7 +19243,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2546: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode))
     {
       return 340;  /* tablejumpdi */
@@ -19322,7 +19322,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XEXP (x2, 1);
   if (rtx_equal_p (x3, operands[2])
       && 
-#line 5067 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5067 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SIBCALLS && SIBLING_CALL_P (insn)))
     {
       return 351;  /* sibcall_value_multiple_internal */
@@ -19337,7 +19337,7 @@ recog_12 (rtx x0 ATTRIBUTE_UNUSED,
  L2730: ATTRIBUTE_UNUSED_LABEL
   if (rtx_equal_p (x3, operands[2])
       && 
-#line 5221 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5221 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SPLIT_CALLS)
       && pnum_clobbers != NULL)
     {
@@ -19521,16 +19521,16 @@ recog_13 (rtx x0 ATTRIBUTE_UNUSED,
 
  L186: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1052 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1052 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && GENERATE_MULT3_DI))
     {
       return 28;  /* muldi3_mult3 */
     }
  L250: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1099 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1099 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_FIX_R4000) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 32;  /* muldi3_r4000 */
@@ -19667,7 +19667,7 @@ recog_13 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3459: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 409 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 409 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 454;  /* mips_muleu_s_ph_qbl */
@@ -19762,7 +19762,7 @@ recog_13 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3484: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 423 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 423 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 455;  /* mips_muleu_s_ph_qbr */
@@ -19857,7 +19857,7 @@ recog_13 (rtx x0 ATTRIBUTE_UNUSED,
 
  L3509: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 438 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 438 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 456;  /* mips_mulq_rs_ph */
@@ -19926,7 +19926,7 @@ recog_13 (rtx x0 ATTRIBUTE_UNUSED,
       && GET_CODE (x2) == REG
       && XINT (x2, 0) == 28
       && 
-#line 5185 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5185 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SPLIT_CALLS))
     {
       return 355;  /* call_value_split */
@@ -20030,7 +20030,7 @@ recog_13 (rtx x0 ATTRIBUTE_UNUSED,
       && GET_CODE (x2) == REG
       && XINT (x2, 0) == 28
       && 
-#line 5143 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5143 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SPLIT_CALLS))
     {
       return 353;  /* call_split */
@@ -20116,7 +20116,7 @@ recog_13 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2559: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4940 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4940 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (! TARGET_64BIT))
     {
       return 344;  /* eh_set_lr_si */
@@ -20148,7 +20148,7 @@ recog_13 (rtx x0 ATTRIBUTE_UNUSED,
 
  L2568: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4946 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4946 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT))
     {
       return 345;  /* eh_set_lr_di */
@@ -20342,7 +20342,7 @@ recog_13 (rtx x0 ATTRIBUTE_UNUSED,
 
  L271: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1156 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1156 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ((TARGET_MIPS3900
    || ISA_HAS_MADD_MSUB)
    && !TARGET_MIPS16))
@@ -20450,14 +20450,14 @@ recog_13 (rtx x0 ATTRIBUTE_UNUSED,
 
  L336: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1261 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1261 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MACC && !ISA_HAS_MSAC))
     {
       return 36;  /* *msac_using_macc */
     }
  L425: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1417 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1417 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MADD_MSUB))
     {
       return 39;  /* *mul_sub_si */
@@ -20589,7 +20589,7 @@ recog_13 (rtx x0 ATTRIBUTE_UNUSED,
 
  L521: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1530 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1530 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_FIX_R4000))
     {
       return 45;  /* *mulsidi3_64bit */
@@ -20685,7 +20685,7 @@ recog_13 (rtx x0 ATTRIBUTE_UNUSED,
 
  L544: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1530 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1530 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_FIX_R4000))
     {
       return 46;  /* *umulsidi3_64bit */
@@ -20787,7 +20787,7 @@ recog_13 (rtx x0 ATTRIBUTE_UNUSED,
       && GET_CODE (x2) == REG
       && XINT (x2, 0) == 28
       && 
-#line 5221 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5221 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SPLIT_CALLS))
     {
       return 357;  /* call_value_multiple_split */
@@ -21008,7 +21008,7 @@ recog_13 (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[1])
       && 
-#line 988 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 988 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 (TARGET_DSP))
     {
       return 496;  /* mips_wrdsp */
@@ -21105,7 +21105,7 @@ recog (rtx x0 ATTRIBUTE_UNUSED,
   x1 = XEXP (x0, 1);
   if (x1 == const_int_rtx[MAX_SAVED_CONST_INT + (0)]
       && 
-#line 634 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 634 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_COND_TRAP))
     {
       return 1;  /* *conditional_trapsi */
@@ -21143,9 +21143,9 @@ recog (rtx x0 ATTRIBUTE_UNUSED,
   x1 = XEXP (x0, 1);
   if (x1 == const_int_rtx[MAX_SAVED_CONST_INT + (0)]
       && (
-#line 634 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 634 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_COND_TRAP) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return 2;  /* *conditional_trapdi */
@@ -21207,7 +21207,7 @@ recog (rtx x0 ATTRIBUTE_UNUSED,
 
  L1958: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3936 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3936 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_ABICALLS && TARGET_NEWABI))
     {
       return 246;  /* loadgp */
@@ -21234,7 +21234,7 @@ recog (rtx x0 ATTRIBUTE_UNUSED,
 
  L2863: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 5369 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5369 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 375;  /* consttable_int */
@@ -21291,7 +21291,7 @@ recog (rtx x0 ATTRIBUTE_UNUSED,
 
  L2866: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 5380 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5380 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16))
     {
       return 376;  /* consttable_float */
@@ -21309,7 +21309,7 @@ recog (rtx x0 ATTRIBUTE_UNUSED,
 
  L4445: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4902 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4902 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (mips_can_use_return_insn ()))
     {
       return 342;  /* return */
@@ -21345,7 +21345,7 @@ recog (rtx x0 ATTRIBUTE_UNUSED,
 
  L2562: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4940 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4940 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (! TARGET_64BIT)
       && pnum_clobbers != NULL)
     {
@@ -21364,7 +21364,7 @@ recog (rtx x0 ATTRIBUTE_UNUSED,
 
  L2571: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4946 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4946 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)
       && pnum_clobbers != NULL)
     {
@@ -21396,7 +21396,7 @@ recog (rtx x0 ATTRIBUTE_UNUSED,
 
  L2592: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 5032 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5032 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SIBCALLS && SIBLING_CALL_P (insn)))
     {
       return 349;  /* sibcall_internal */
@@ -21409,7 +21409,7 @@ recog (rtx x0 ATTRIBUTE_UNUSED,
     }
  L2638: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 5143 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5143 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_SPLIT_CALLS)
       && pnum_clobbers != NULL)
     {
@@ -21459,7 +21459,7 @@ recog (rtx x0 ATTRIBUTE_UNUSED,
 
  L2735: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 5261 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5261 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_PREFETCH && TARGET_EXPLICIT_RELOCS))
     {
       return 358;  /* prefetch */
@@ -21510,9 +21510,9 @@ recog (rtx x0 ATTRIBUTE_UNUSED,
 
  L2742: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 5273 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5273 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_PREFETCHX && TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)))
     {
       return 359;  /* *prefetch_indexed_si */
@@ -21562,9 +21562,9 @@ recog (rtx x0 ATTRIBUTE_UNUSED,
 
  L2749: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 5273 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5273 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_PREFETCHX && TARGET_HARD_FLOAT && TARGET_DOUBLE_FLOAT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)))
     {
       return 360;  /* *prefetch_indexed_di */
@@ -21656,9 +21656,9 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
   x2 = XVECEXP (x1, 0, 0);
   if (x2 == const_int_rtx[MAX_SAVED_CONST_INT + (0)]
       && (
-#line 4962 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4962 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_ABICALLS && TARGET_OLDABI) && 
-#line 4964 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4964 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed)))
     {
       return gen_split_652 (insn, operands);
@@ -21737,7 +21737,7 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L3981: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 731 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 731 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
    && M16_REG_P (REGNO (operands[0]))
@@ -21764,7 +21764,7 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L3987: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 760 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 760 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
    && M16_REG_P (REGNO (operands[0]))
@@ -21816,9 +21816,9 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4190: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2253 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2253 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_MIPS16) && 
-#line 2255 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2255 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed)))
     {
       return gen_split_539 (insn, operands);
@@ -21828,9 +21828,9 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4221: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2462 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2462 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_SEB_SEH && !GENERATE_MIPS16E) && 
-#line 2466 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2466 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed && REG_P (operands[1]))))
     {
       return gen_split_554 (insn, operands);
@@ -21859,9 +21859,9 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4196: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2268 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2268 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_MIPS16) && 
-#line 2270 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2270 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed)))
     {
       return gen_split_540 (insn, operands);
@@ -21871,9 +21871,9 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4211: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2462 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2462 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_SEB_SEH && !GENERATE_MIPS16E) && 
-#line 2466 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2466 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed && REG_P (operands[1]))))
     {
       return gen_split_552 (insn, operands);
@@ -21903,11 +21903,11 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4254: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 3073 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3073 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)) && 
-#line 3075 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3075 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed)))
     {
       return gen_split_569 (insn, operands);
@@ -21918,11 +21918,11 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4284: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 3120 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3120 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)) && 
-#line 3122 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3122 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed)))
     {
       return gen_split_575 (insn, operands);
@@ -21950,11 +21950,11 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4265: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 3089 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3089 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)) && 
-#line 3091 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3091 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed)))
     {
       return gen_split_571 (insn, operands);
@@ -21986,7 +21986,7 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4303: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3357 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3357 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
    && M16_REG_P (REGNO (operands[0]))
@@ -22024,7 +22024,7 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4342: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4150 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4150 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && GET_CODE (operands[2]) == CONST_INT
    && INTVAL (operands[2]) > 8
@@ -22055,7 +22055,7 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4348: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4150 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4150 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && GET_CODE (operands[2]) == CONST_INT
    && INTVAL (operands[2]) > 8
@@ -22098,7 +22098,7 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4354: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4150 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4150 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && GET_CODE (operands[2]) == CONST_INT
    && INTVAL (operands[2]) > 8
@@ -22121,11 +22121,11 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4275: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 3103 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3103 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && !TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == SImode)) && 
-#line 3105 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3105 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed)))
     {
       return gen_split_573 (insn, operands);
@@ -22135,7 +22135,7 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4307: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3398 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3398 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
    && M16_REG_P (REGNO (operands[0]))
@@ -22232,7 +22232,7 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L3993: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 792 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 792 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && TARGET_64BIT && reload_completed && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
    && M16_REG_P (REGNO (operands[0]))
@@ -22260,7 +22260,7 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L3999: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 821 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 821 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && TARGET_64BIT && reload_completed && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
    && M16_REG_P (REGNO (operands[0]))
@@ -22327,9 +22327,9 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4006: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 868 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 868 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && TARGET_MIPS16) && 
-#line 870 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 870 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed)))
     {
       return gen_split_509 (insn, operands);
@@ -22339,9 +22339,9 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4206: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2430 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2430 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT) && 
-#line 2434 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2434 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed && register_operand (operands[1], VOIDmode))))
     {
       return gen_split_547 (insn, operands);
@@ -22360,11 +22360,11 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4216: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 2462 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2462 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_SEB_SEH && !GENERATE_MIPS16E) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)) && 
-#line 2466 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2466 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed && REG_P (operands[1]))))
     {
       return gen_split_553 (insn, operands);
@@ -22383,11 +22383,11 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4226: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 2462 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2462 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (!ISA_HAS_SEB_SEH && !GENERATE_MIPS16E) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)) && 
-#line 2466 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2466 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed && REG_P (operands[1]))))
     {
       return gen_split_555 (insn, operands);
@@ -22407,9 +22407,9 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4201: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2321 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2321 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT) && 
-#line 2325 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2325 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed && REG_P (operands[1]))))
     {
       return gen_split_541 (insn, operands);
@@ -22447,9 +22447,9 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4236: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 2999 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2999 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && ABI_HAS_64BIT_SYMBOLS) && 
-#line 3001 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3001 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( flow2_completed)))
     {
       return gen_split_566 (insn, operands);
@@ -22460,11 +22460,11 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4259: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 3073 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3073 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)) && 
-#line 3075 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3075 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed)))
     {
       return gen_split_570 (insn, operands);
@@ -22475,11 +22475,11 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4289: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 3120 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3120 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)) && 
-#line 3122 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3122 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed)))
     {
       return gen_split_576 (insn, operands);
@@ -22509,11 +22509,11 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4271: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 3089 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3089 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)) && 
-#line 3091 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3091 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed)))
     {
       return gen_split_572 (insn, operands);
@@ -22548,7 +22548,7 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4296: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3262 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3262 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && TARGET_MIPS16 && reload_completed
    && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
@@ -22589,12 +22589,12 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4360: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 4150 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4150 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && GET_CODE (operands[2]) == CONST_INT
    && INTVAL (operands[2]) > 8
    && INTVAL (operands[2]) <= 16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return gen_split_607 (insn, operands);
@@ -22624,12 +22624,12 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4366: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 4150 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4150 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && GET_CODE (operands[2]) == CONST_INT
    && INTVAL (operands[2]) > 8
    && INTVAL (operands[2]) <= 16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return gen_split_608 (insn, operands);
@@ -22659,12 +22659,12 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4372: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 4150 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4150 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && GET_CODE (operands[2]) == CONST_INT
    && INTVAL (operands[2]) > 8
    && INTVAL (operands[2]) <= 16) && 
-#line 402 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 402 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT)))
     {
       return gen_split_609 (insn, operands);
@@ -22674,11 +22674,11 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4279: ATTRIBUTE_UNUSED_LABEL
   if (((
-#line 3103 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3103 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && !TARGET_XGOT) && 
-#line 406 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 406 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (Pmode == DImode)) && 
-#line 3105 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3105 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed)))
     {
       return gen_split_574 (insn, operands);
@@ -22698,7 +22698,7 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4325: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3785 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3785 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && !TARGET_64BIT
    && mips_split_64bit_move_p (operands[0], operands[1])))
     {
@@ -22747,7 +22747,7 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4231: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 2496 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2496 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed))
     {
       return gen_split_556 (insn, operands);
@@ -22782,7 +22782,7 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4314: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3565 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3565 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
    && M16_REG_P (REGNO (operands[0]))
@@ -22843,7 +22843,7 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4321: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3660 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3660 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && !TARGET_DEBUG_D_MODE
    && REG_P (operands[0])
    && M16_REG_P (REGNO (operands[0]))
@@ -22878,7 +22878,7 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4329: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3796 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3796 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && !TARGET_64BIT
    && mips_split_64bit_move_p (operands[0], operands[1])))
     {
@@ -22898,7 +22898,7 @@ split_1 (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4333: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 3809 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3809 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_MIPS16 && reload_completed && INTVAL (operands[1]) < 0))
     {
       return gen_split_592 (insn, operands);
@@ -23090,7 +23090,7 @@ split_insns (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4051: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1180 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1180 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && !TARGET_DEBUG_D_MODE
    && GP_REG_P (true_regnum (operands[0]))
    && GP_REG_P (true_regnum (operands[3]))))
@@ -23099,7 +23099,7 @@ split_insns (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
     }
  L4066: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1199 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1199 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && !TARGET_DEBUG_D_MODE
    && GP_REG_P (true_regnum (operands[0]))
    && true_regnum (operands[3]) == LO_REGNUM))
@@ -23189,16 +23189,16 @@ split_insns (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4081: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1261 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1261 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MACC && !ISA_HAS_MSAC) && 
-#line 1263 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1263 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed)))
     {
       return gen_split_518 (insn, operands);
     }
  L4139: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1435 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1435 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && !TARGET_DEBUG_D_MODE
    && GP_REG_P (true_regnum (operands[0]))
    && GP_REG_P (true_regnum (operands[1]))))
@@ -23207,7 +23207,7 @@ split_insns (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
     }
  L4154: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 1454 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1454 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && !TARGET_DEBUG_D_MODE
    && GP_REG_P (true_regnum (operands[0]))
    && true_regnum (operands[1]) == LO_REGNUM))
@@ -23321,9 +23321,9 @@ split_insns (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4169: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1530 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1530 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_FIX_R4000) && 
-#line 1532 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1532 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed)))
     {
       return gen_split_526 (insn, operands);
@@ -23402,9 +23402,9 @@ split_insns (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4184: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 1530 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1530 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_64BIT && !TARGET_FIX_R4000) && 
-#line 1532 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1532 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed)))
     {
       return gen_split_527 (insn, operands);
@@ -23472,9 +23472,9 @@ split_insns (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4249: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 3053 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3053 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && ABI_HAS_64BIT_SYMBOLS && cse_not_expected) && 
-#line 3055 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3055 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 ( reload_completed)))
     {
       return gen_split_568 (insn, operands);
@@ -23522,7 +23522,7 @@ split_insns (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
       && GET_CODE (x2) == REG
       && XINT (x2, 0) == 31
       && 
-#line 5167 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5167 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && TARGET_SPLIT_CALLS && (operands[3] = insn)))
     {
       return gen_split_658 (insn, operands);
@@ -23561,7 +23561,7 @@ split_insns (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4383: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 4952 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4952 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && !TARGET_DEBUG_D_MODE))
     {
       return gen_split_651 (insn, operands);
@@ -23601,7 +23601,7 @@ split_insns (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
       && GET_CODE (x2) == REG
       && XINT (x2, 0) == 31
       && 
-#line 5127 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5127 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && TARGET_SPLIT_CALLS && (operands[2] = insn)))
     {
       return gen_split_656 (insn, operands);
@@ -23702,7 +23702,7 @@ split_insns (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
       && GET_CODE (x2) == REG
       && XINT (x2, 0) == 31
       && 
-#line 5200 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5200 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed && TARGET_SPLIT_CALLS && (operands[4] = insn)))
     {
       return gen_split_659 (insn, operands);
@@ -23731,7 +23731,7 @@ split_insns (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4420: ATTRIBUTE_UNUSED_LABEL
   if (
-#line 5401 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5401 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (reload_completed))
     {
       return gen_split_665 (insn, operands);
@@ -23822,9 +23822,9 @@ split_insns (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4429: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 307 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 307 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_PAIRED_SINGLE_FLOAT) && 
-#line 309 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 309 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 ( reload_completed)))
     {
       return gen_split_672 (insn, operands);
@@ -23878,9 +23878,9 @@ split_insns (rtx x0 ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 
  L4438: ATTRIBUTE_UNUSED_LABEL
   if ((
-#line 336 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 336 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 (TARGET_MIPS3D) && 
-#line 338 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 338 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 ( reload_completed)))
     {
       return gen_split_673 (insn, operands);
@@ -24051,7 +24051,7 @@ peephole2_insns (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[3])
       && 
-#line 1075 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1075 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MULT3_SI && peep2_reg_dead_p (2, operands[0])))
     {
       *_pmatch_len = 1;
@@ -24221,7 +24221,7 @@ peephole2_insns (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[3])
       && 
-#line 1122 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1122 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (ISA_HAS_MACC && !GENERATE_MULT3_SI))
     {
       *_pmatch_len = 1;
@@ -24306,7 +24306,7 @@ peephole2_insns (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XEXP (x2, 0);
   if (rtx_equal_p (x3, operands[1])
       && 
-#line 1357 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1357 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MULT3_SI
    && true_regnum (operands[1]) == LO_REGNUM
    && peep2_reg_dead_p (2, operands[1])
@@ -24434,7 +24434,7 @@ peephole2_insns (rtx x0 ATTRIBUTE_UNUSED,
   x3 = XVECEXP (x2, 0, 1);
   if (rtx_equal_p (x3, operands[4])
       && 
-#line 1396 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1396 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (GENERATE_MULT3_SI && peep2_reg_dead_p (3, operands[1])))
     {
       *_pmatch_len = 2;
@@ -24473,7 +24473,7 @@ peephole2_insns (rtx x0 ATTRIBUTE_UNUSED,
   tem = peep2_next_insn (0);
   x1 = PATTERN (tem);
   if (
-#line 3025 "/home/noah/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3025 "/home/noah/OperatingSystems/Project2/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 (TARGET_EXPLICIT_RELOCS && ABI_HAS_64BIT_SYMBOLS))
     {
       *_pmatch_len = 0;
