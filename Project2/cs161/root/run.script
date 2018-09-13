@@ -1,0 +1,52 @@
+Script started on 2018-09-12 18:53:20-0500
+]0;noah@Kubutnu-Desktop: ~/cs161/root[01;32mnoah@Kubutnu-Desktop[00m:[01;34m~/cs161/root[00m$ ./
+bin/               hub161-1.14        kernel-ASST0       stat161            sys161-1.14        trace161-1.14
+hostbin/           hub161-1.14.old    lib/               stat161-1.14       sys161-1.14.old    trace161-1.14.old
+hostinclude/       hub161.old         man/               stat161-1.14.old   sys161.old         trace161.old
+hostlib/           include/           sbin/              stat161.old        testbin/           
+hub161             kernel             .sockets/          sys161             trace161           
+]0;noah@Kubutnu-Desktop: ~/cs161/root[01;32mnoah@Kubutnu-Desktop[00m:[01;34m~/cs161/root[00m$ ./s
+sbin/             stat161-1.14      stat161.old       sys161-1.14       sys161.old        
+stat161           stat161-1.14.old  sys161            sys161-1.14.old   
+]0;noah@Kubutnu-Desktop: ~/cs161/root[01;32mnoah@Kubutnu-Desktop[00m:[01;34m~/cs161/root[00m$ ./s
+sbin/             stat161-1.14      stat161.old       sys161-1.14       sys161.old        
+stat161           stat161-1.14.old  sys161            sys161-1.14.old   
+]0;noah@Kubutnu-Desktop: ~/cs161/root[01;32mnoah@Kubutnu-Desktop[00m:[01;34m~/cs161/root[00m$ ./sys161 kernal
+sys161: Cannot open boot image kernal: No such file or directory
+]0;noah@Kubutnu-Desktop: ~/cs161/root[01;32mnoah@Kubutnu-Desktop[00m:[01;34m~/cs161/root[00m$ ./sys161 kernal[K[Kel
+sys161: System/161 release 1.14, compiled Sep  5 2018 19:39:21
+
+OS/161 base system version 1.10
+Copyright (c) 2000, 2001, 2002, 2003
+   President and Fellows of Harvard College.  All rights reserved.
+
+Put-your-group-name-here's system version 0 (ASST0 #1)
+
+Cpu is MIPS r2000/r3000
+1872k physical memory available
+Device probe...
+lamebus0 (system main bus)
+emu0 at lamebus0
+ltrace0 at lamebus0
+ltimer0 at lamebus0
+hardclock on ltimer0 (100 hz)
+beep0 at ltimer0
+rtclock0 at ltimer0
+lrandom0 at lamebus0
+random0 at lrandom0
+lser0 at lamebus0
+con0 at lser0
+pseudorand0 (virtual)
+
+OS/161 kernel [? for menu]: p /sbijn  n/poweroff
+Operation took 0.000162800 seconds
+OS/161 kernel [? for menu]: Shutting down.
+The system is halted.
+sys161: 548442163 cycles (5713422k, 18u, 542728723i)
+sys161: 2832 irqs 6 exns 0r/0w disk 22r/666w console 8r/0w/3m emufs 0r/0w net
+sys161: Elapsed real time: 21.935140 seconds (25.0029 mhz)
+sys161: Elapsed virtual time: 21.937686520 seconds (25 mhz)
+]0;noah@Kubutnu-Desktop: ~/cs161/root[01;32mnoah@Kubutnu-Desktop[00m:[01;34m~/cs161/root[00m$ exit
+exit
+
+Script done on 2018-09-12 18:54:16-0500

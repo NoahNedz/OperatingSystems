@@ -1,0 +1,36 @@
+Script started on 2018-09-12 19:28:42-0500
+]0;noah@Kubutnu-Desktop: ~/cs161/root[01;32mnoah@Kubutnu-Desktop[00m:[01;34m~/cs161/root[00m$ ./sys161 kernel[Kl
+sys161: System/161 release 1.14, compiled Sep  5 2018 19:39:21
+
+OS/161 base system version 1.10
+Copyright (c) 2000, 2001, 2002, 2003
+   President and Fellows of Harvard College.  All rights reserved.
+
+Hello World
+Noah Niedzwiecki nmn0005@auburn.edu  0 (ASST0 #2)
+
+Cpu is MIPS r2000/r3000
+1872k physical memory available
+Device probe...
+lamebus0 (system main bus)
+emu0 at lamebus0
+ltrace0 at lamebus0
+ltimer0 at lamebus0
+hardclock on ltimer0 (100 hz)
+beep0 at ltimer0
+rtclock0 at ltimer0
+lrandom0 at lamebus0
+random0 at lrandom0
+lser0 at lamebus0
+con0 at lser0
+pseudorand0 (virtual)
+
+OS/161 kernel [? for menu]: 
+]0;noah@Kubutnu-Desktop: ~/cs161/root[01;32mnoah@Kubutnu-Desktop[00m:[01;34m~/cs161/root[00m$ ./sys161 kernel[K[K[K[K[K[K-w kernel
+sys161: System/161 release 1.14, compiled Sep  5 2018 19:39:21
+sys161: Waiting for debugger connection...
+
+]0;noah@Kubutnu-Desktop: ~/cs161/root[01;32mnoah@Kubutnu-Desktop[00m:[01;34m~/cs161/root[00m$ exit
+exit
+
+Script done on 2018-09-12 19:29:30-0500
